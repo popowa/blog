@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="@ayakomuro" />
+    <meta name="robots" content="index, follow"/>
+
+    <meta property="og:title" content="CloudAutomatorとDatadogを連携して障害時にメンテナンスサーバーへ自動で変更する"/>
+    <meta property="og:url" content="/cloudAutomator-n-datadog.html"/>
+    <meta property="og:site_name" content="popowa"/>
+    <meta property="og:type" content="article"/>
+
+    <link rel="canonical" href="/cloudAutomator-n-datadog.html" />
+
+    <title>CloudAutomatorとDatadogを連携して障害時にメンテナンスサーバーへ自動で変更する | popowa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">
+        stLight.options({
+            publisher: "",
+            doNotHash: false,
+            doNotCopy: false,
+            hashAddressBar: false
+        });
+    </script>
+</head>
+
+<body id="index">
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <header id="banner" >
+                <h1>
+                    <a href="/">popowa </a>
+                </h1>
+                <nav class="navbar">
+                    <div class="navbar-inner">
+                        <ul class="nav">
+                            <li class="active"><a href="/category/tech.html">tech</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header><!-- /#banner -->
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <div class="row-fluid">
+<div class="span10 offset1">
+  <section>
+    <article>
+      <header>
+        <h1 class="entry-title">
+          <a href="/cloudAutomator-n-datadog.html" rel="bookmark"
+             title="Permalink to CloudAutomatorとDatadogを連携して障害時にメンテナンスサーバーへ自動で変更する">CloudAutomatorとDatadogを連携して障害時にメンテナンスサーバーへ自動で変更する</a></h1>
+      </header>
+      <div class="entry-content">
+<footer class="post-info">
+    <address class="vcard author">
+        by <a class="url fn" href="/author/ayakomuro.html">ayakomuro</a>
+    </address>
+
+    in <a href="/category/tech.html">tech</a>
+
+    on 2017-12-02
+
+        |
+        tags:         <a href="/tag/cloudautomator.html">cloudAutomator</a>
+        <a href="/tag/datadog.html">datadog</a>
+
+
+
+    
+</footer><!-- /.post-info -->
+
+        <p>この記事はCloud Automator Advent Calendar 2017の4日目の記事です。
+ せっかくなのでPelican + S3 + Githubでブログも移行してみました。残りのコンテンツは後ほどがががっとあげようと思います。</p>
+<p>さてみんな大好きCloudAutomator とDatadogですが、私が一番好きな機能はそれぞれ</p>
+<ul>
+<li>CloudAutomator : Route53の値を変更する</li>
+<li>Datadog:インテグレーション機能が多い</li>
+</ul>
+<p>という所です。
+そこで今回は私が好きなサービス二つを掛け合わせます。</p>
+<h2>今回やる構成</h2>
+<h2>CloudAutomatorでジョブを作成する</h2>
+<p>CloudAutomatorにはトリガーにHTTPがあります。</p>
+<p><a href="https://cloudautomator.com/blog/2014/08/13/http-trigger-release/">Cloud Automator | HTTPトリガーをリリースしました</a></p>
+<p>これを使えばHTTPを叩く事でジョブを実行出来るのです。作り方は上記のリンクをみていただくと分かるので、
+ここでは割愛します。CloudAutomatorはジョブ作るの簡単すぎるので、あんまり書く事ないんですよね・・w</p>
+<p>作成したジョブのこのデータを取得します。</p>
+<div class="highlight"><pre><span></span>$ curl https://manager.cloudautomator.com/trigger/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <span class="se">\</span>
+&gt;   -X POST <span class="se">\</span>
+&gt;   -H <span class="s2">&quot;Authorization: CAAuth xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;</span> <span class="se">\</span>
+&gt;   -H <span class="s2">&quot;Content-Length: 0&quot;</span>
+</pre></div>
+
+
+<p>ここの</p>
+<ul>
+<li>httpsから始まるURL</li>
+<li>Authorizationの値</li>
+<li>Content-Lengthの数字</li>
+</ul>
+<p>をメモっておきます。後でDatadogを開いた時にコピペでもいいかもしれません。
+CloudAutomatorのAPI登録はRoute53のFullアクセス権限のみアタッチしたIAMユーザーで大丈夫です。</p>
+<h2>DatadogでWebhook機能としてCloudAutomatorを登録する</h2>
+<p><img alt="Webhookインテグレーション" src="/images/20171204-02.png"></p>
+<p>まずDatadogでWebhook機能をONにします。
+<a href="https://docs.datadoghq.com/integrations/webhooks/">Datadog-Webhooks Integration</a></p>
+<p>WebhooksのConfigurationから設定をします。
+<img alt="Webhookインテグレーション" src="/images/20171204-03.png"></p>
+<p>その際に先ほどメモをしたCloudAutomatorのジョブの情報を入れます。
+<img alt="Webhookインテグレーション" src="/images/20171204-04.png"></p>
+<div class="highlight"><pre><span></span><span class="p">{</span><span class="nt">&quot;Authorization&quot;</span> <span class="p">:</span> <span class="s2">&quot;CAAuth xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,</span>
+<span class="s2">&quot;</span><span class="err">Content-Length&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+</pre></div>
+
+
+<p>設定を保存します。
+その後<a href="https://app.datadoghq.com/monitors#/create">モニター作成</a>を選び、障害時の挙動についての設定を行います。</p>
+<p>今回はcode.popowa.comにDatadogエージェントを入れて監視しているのですが、2分間データが来なかった場合に自動でURLを切り替える挙動を想定したラーとにします。
+ちょうどNotify your teamの箇所でWebhookで作った設定が名前ごとに表示されるので、対象ものを選択し
+入れ込みます。</p>
+<p><img alt="Webhookインテグレーション" src="/images/20171204-05.png"></p>
+<p>注意事項としてはCloud AutomatorのRoute53の値変更は同じタイプ(AもしくはCNAME)でしか変更出来ないという事です。
+元々Aレコード値を、Failover時にCNAMEに変えることは出来ない &gt;&lt;</p>
+<h2>検証する</h2>
+<p>検証用のURL: <a href="http://dev.code.popowa.com">http://dev.code.popowa.com</a></p>
+<p><img alt="正常時" src="/images/20171204-06.png"></p>
+<p>Datadogエージェントを止めます。<a href="https://help.datadoghq.com/hc/en-us/articles/203764515-Start-Stop-Restart-the-Datadog-Agent">Start/Stop/Restart the Datadog Agent – Datadog</a></p>
+<div class="highlight"><pre><span></span>aya@codepopowa:~$ sudo /etc/init.d/datadog-agent stop
+<span class="o">[</span> ok <span class="o">]</span> Stopping Datadog Agent <span class="o">(</span>stopping supervisord<span class="o">)</span>: datadog-agent.
+</pre></div>
+
+
+<p>2分後にWebhookが動くはずなので待ちます。
+....
+アラートが来た！</p>
+<p><img alt="アラート" src="/images/20171204-07.png"></p>
+<p>切り替わりました！
+<img alt="Failover時" src="/images/20171204-08.png"></p>
+<p>Cloud Automatorのイベントログにも追加されていました。</p>
+<p><img alt="Failover時" src="/images/20171204-09.png"></p>
+<p>やったね！今回はCloud Automator + Datadogでの自動切り替えでしたが、Datadogは色々な連携が出来るので、Cloud Automatorでフェイルオーバーしていると時にPageDutyなどで通知などもいいかもしれません。</p>
+<p><a href="http://blog.serverworks.co.jp/tech/2015/10/29/pagerduty-cloudautomator-2/">Cloud Automator と PagerDuty を組み合わせた便利な使い方 – サーバーワークスエンジニアブログ</a></p>
+<h2>まとめ</h2>
+<p>Cloud Automator を使って簡単にフェールオーバー設定が出来ました。
+もちろん環境に問題がないのが一番ですが、やはり障害時の備えは安く、お手軽にしておきたいですよね〜。
+ぜひCloud Automatorを活用して運用の軽減ご検討ください👍</p>
+
+      </div><!-- /.entry-content -->
+
+    </article>
+  </section>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer">
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <address>
+                    <p>
+                        This blog is proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                    </p>
+                    <p>
+                        <a href="http://github.com/jsliang/pelican-fresh/">Fresh</a> is a responsive theme designed by <a href="http://jsliang.com/">jsliang</a> and <a href="https://github.com/jsliang/pelican-fresh/graphs/contributors">contributors</a>.
+                        Special thanks to <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a> and <a href="http://getbootstrap.com/">Twitter Bootstrap</a>.
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
