@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = '@ayakomuro'
+AUTHOR = 'ayakomuro'
 SITENAME = 'popowa'
-SITEURL = ''
+SITEURL = 'http://blog.popowa.com'
 
 PATH = 'content'
 
@@ -20,14 +20,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Twitter', 'https://twitter.com/ayakomuro'),
+#         ('popowa', 'http://www.popowa.com'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
+         ('popowa', 'http://www.popowa.com'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -36,3 +34,8 @@ DEFAULT_PAGINATION = 10
 
 THEME = "pelican-fresh-master"
 STATIC_PATHS = ['images']
+GOOGLE_ANALYTICS = "UA-845207-15"
+TWITTER_USERNAME="ayakomuro"
+GOOGLE_CUSTOM_SEARCH = '014316853335343165598:-bgzniyqm3y'
+HIDE_CATEGORIES_FROM_MENU = True
+SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"

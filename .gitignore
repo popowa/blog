@@ -1,8 +1,8 @@
 convert-xml/
-migration/
+migration-old/
 draft/
-
-
+content-xml-original
+output/
 
 
 # Byte-compiled / optimized / DLL files
