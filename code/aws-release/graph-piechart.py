@@ -17,7 +17,7 @@ words = ""
 labels = []
 counts = []
 product_dics = {}
-
+product_noupdate = []
 soup_products = BeautifulSoup(products,"html.parser")
 soup_releases = BeautifulSoup(releases,"html.parser")
 for title in soup_releases.find_all('h3'):
@@ -32,8 +32,11 @@ for k, v in words_dics_sort:
     if v > 1:
         labels.append(k)
         counts.append(v)
+#    else:
+#        product_noupdate.append(k)
 
 x = np.array(counts)
 plt.figure(figsize=(15,15))
 plt.pie(x, labels=labels)
 plt.savefig('awsrelease-piechart.png')
+#print(product_noupdate)
