@@ -19,13 +19,3 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
-
-GOOGLE_ANALYTICS = "UA-845207-15"
-TWITTER_USERNAME="ayakomuro"
-GOOGLE_CUSTOM_SEARCH = '014316853335343165598:-bgzniyqm3y'
-HIDE_CATEGORIES_FROM_MENU = True
-SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"
-
-PLUGINS = [
-    'pelican_gist'
-]
