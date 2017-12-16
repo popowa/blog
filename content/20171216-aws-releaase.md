@@ -1,5 +1,5 @@
 Title: 2017年のAWSリリース一覧
-Date: 2017-12-16 12:00
+Date: 2017-12-16 10:45
 Tags: AWS
 Slug: 2017/12/2017-aws-release
 Authors: ayakomuro
