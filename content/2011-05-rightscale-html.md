@@ -5,55 +5,41 @@ Tags:  RightScale, ツール紹介
 Slug:2011/05/rightscale
 Status: published
 
-![](http://cloudstockimg.s3.amazonaws.com/wp-content/uploads/2011/05/RightScale.jpg "RightScale"){.alignnone
 
-.size-full .wp-image-609 width="155" height="18"}  
-  
 RightScaleを使うにあたっての参考ページ（リンク集）  
-  
-[]  
-  
-\>\> [Stock::RightScaleページはこちら](http://www.popowa.com/eco-system/management/rightscale "RightScale")  
-  
-RightScaleアカウントの作り方  
 
+
+RightScaleアカウントの作り方  
 -   RightScale
     チュートリアル:[RightScale無料アカウントへの登録方法](http://support.rightscale.com/jp/Tutorials/1-Sign-up_for_RightScale/Sign-up_for_a_Free_RightScale_Account)
 -   RightScale
     チュートリアル: [RightScaleへのサインアップ](http://support.rightscale.com/jp/Tutorials/1-Sign-up_for_RightScale)
 -   CMSCom:
      [RightScaleでPlone４をAWSに単体deploy（その１）](http://www.cmscom.jp/staff-blog/umgsnz)
--   [](http://www.cmscom.jp/staff-blog/umgsnz)Serverworks:
-     [RightScaleを試してみました。](http://blog.serverworks.co.jp/tech/2010/07/21/evaluate-rightscale/ "RightScaleを試してみました。 のパーマリンク")
+-   [RightScaleを試してみました](http://blog.serverworks.co.jp/tech/2010/07/21/evaluate-rightscale/)
 
-  
+
 AWSアカウントの作り方  
 
 -   【参考資料】 AWS アカウント登録方法[Amazon EC2
     を利用する際のアカウント登録方法](http://jaws-ug.jp/documents/j5f69c)
--   AWS: [はじめてのアマゾンクラウド①\[Amazon Web
-    Services(AWS)のアカウントを開設する\]](http://www.slideshare.net/kentamagawa/3aws)
+-   AWS: [はじめてのアマゾンクラウド①　Amazon Web　Services(AWS)のアカウントを開設する](http://www.slideshare.net/kentamagawa/3aws)
 -   incharge.jp [利用方法（AWSアカウント作成からEC2登録まで）](http://www.incharge.jp/howtiuse)
--   RightScale チュートリアル: [Amazon Web Services
-    (AWS)への登録](http://support.rightscale.com/jp/Tutorials/3-Upgrade_Your_Account/1-Sign-up_for_Amazon_Web_Services_(AWS))
+-   RightScale チュートリアル: [Amazon Web Services　(AWS)への登録](http://support.rightscale.com/jp/Tutorials/3-Upgrade_Your_Account/1-Sign-up_for_Amazon_Web_Services_(AWS))
 
-  
+
 Rackspaceアカウントの作り方  
 
--   Popowa: [\[インフラ\]RackspaceでのAccount
-    Activation](http://d.hatena.ne.jp/popowa/20110121)
--   Dive into the Tech World!: [RackSpace
-    Cloudを使ってみた](http://d.hatena.ne.jp/shiba_yu36/20100705/1278340713)
--   oko\_changのインフラ日誌: [Rackspace
-    Cloud導入記その2(サインアップ)](http://okochang.blogspot.com/2010/07/rakckspace-cloud2.html)
+-   Popowa: [インフラ]RackspaceでのAccount　Activation](http://d.hatena.ne.jp/popowa/20110121)
+-   Dive into the Tech World!: [RackSpace　Cloudを使ってみた](http://d.hatena.ne.jp/shiba_yu36/20100705/1278340713)
+-   oko_changのインフラ日誌: [Rackspace　Cloud導入記その2(サインアップ)](http://okochang.blogspot.com/2010/07/rakckspace-cloud2.html)
 
-  
+
 Eucalyptus Public Cloudアカウントの作り方  
 
--   Eucalyptus: [RightScale Platform と
-    Eucalyptus](http://oss.infoscience.co.jp/eucalyptus/wiki/RightScale/)
+-   Eucalyptus: [RightScale Platform とEucalyptus](http://oss.infoscience.co.jp/eucalyptus/wiki/RightScale/)
 
-  
+
 RightScaleの使い方  
 
 -   RightScale
@@ -63,16 +49,9 @@ RightScaleの使い方
 -   RightScale
     チュートリアル(英語): [Tutorials](http://support.rightscale.com/03-Tutorials)
 
-  
-   
-  
+
 その他  
 
--   TecTec Cloud:
+- TecTec Cloud:
     [RightScaleに衝撃を受けた](http://www.ttcloud.net/rs/20110308/956)
-
-  
-   
-  
-[ETech07 - AmazonEC2を無料で試せる
-RightScale](http://www.tatamilab.jp/rnd/archives/000400.html)
+- [ETech07 - AmazonEC2を無料で試せるRightScale](http://www.tatamilab.jp/rnd/archives/000400.html)

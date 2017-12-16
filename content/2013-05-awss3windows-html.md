@@ -1,4 +1,4 @@
-Title: 
+Title: [追記] AWSのS3をWindowsで使う
 Date: 2013-05-27 23:09
 Authors: ayakomuro
 Tags:  S3
@@ -13,9 +13,7 @@ AWSのS3をWindowsで使う+時々WindowsでS3をエクスプローラーみた�
 -   [popowa: AWSのS3をWindowsで使う -
     2014年版 ](http://blog.popowa.com/2014/10/awss3windows-2014.html)
 
-アプリ
-------
-
+# アプリ
 ### [S3 Browser](http://s3browser.com/)
 
 -   個人で使う場合は無償版
@@ -45,9 +43,6 @@ AWSのS3をWindowsで使う+時々WindowsでS3をエクスプローラーみた�
     Proは同期ができる。](http://debiancdn.wordpress.com/2011/10/17/windows%E7%94%A8s3%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%EF%BC%8Ccloudberry-pro%E3%81%AF%E5%90%8C%E6%9C%9F%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%80%82/)
 
 ### [DragonDisk](http://www.dragondisk.com/)
-
-
-
 
 
 無償版のみ
@@ -152,26 +147,16 @@ Windows以外のプラットフォーム対応アプリもある
 
 ### [SyncBack](http://www.2brightsparks.com/syncback/syncback-hub.html)
 
-
-
 -   無償版、有償版と機能別に分かれている
 -   SyncBack proしかS3に対応してない模様
-    -\> [比較表](http://www.2brightsparks.com/syncback/compare.html)
-
-
+    - [比較表](http://www.2brightsparks.com/syncback/compare.html)
 
 ### [Bucket Explorer](http://www.bucketexplorer.com/)
-
-
 
 -   15日、もしくは30日の無償版、その後有償版で７０ドル程度
 -   コマンドラインも提供されている
 
 ### [TyphoonBackup](http://www.typhoonbackup.com/)
-
-
-
-
 
 -   制限付きの無償版、機能別有償版あり
 -   ストレージは先方負担（容量が必要であればアップグレードが必要）
@@ -184,24 +169,8 @@ Windows以外のプラットフォーム対応アプリもある
 
 ### [S3Safe](http://www.lumensystems.com/s3safe.aspx)
 
-
-
-
-
--   無料
-
-
-
-
-
-
-
-
-
-コマンドライン
-
-
-
+- 無料
+- コマンドライン
 -   [Standalone Windows .EXE command line utility for Amazon S3 &
     EC2](http://s3.codeplex.com/)
 -   [s3sync, s3cmd](http://s3tools.org/s3tools)
