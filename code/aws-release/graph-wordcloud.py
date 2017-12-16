@@ -10,6 +10,7 @@ releases = open(path.join(dirname,release_file), 'r').read()
 
 words = ""
 soup_releases = BeautifulSoup(releases,"html.parser")
+#print(len(soup_releases.find_all('h3')))
 for title in soup_releases.find_all('h3'):
     words += ' ' + title.text
 
