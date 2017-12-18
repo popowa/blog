@@ -1,9 +1,8 @@
 convert-xml/
 migration-old/
 draft/
-content-xml-original
 output/
-
+blog-output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
