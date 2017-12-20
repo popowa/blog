@@ -4,7 +4,7 @@ Category: misc
 Tags: actor
 Slug: 2017/12/introduce-Avraham-Aviv-Alush
 Authors: ayakomuro
-Summary: 日本語では全然情報がないAvraham Aviv Alushについて調べた結果を暑く語ります。
+Summary: 日本語では全然情報がないAvraham Aviv Alushについて調べた結果を熱く語ります。
 
 Amazon Prime Videoの"Beauty and the Backer"「パン職人と美女」で
 知ったアヴラハム・アヴィヴ・アラッシュについて最近はまっているのですが、
