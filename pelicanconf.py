@@ -25,8 +25,11 @@ AUTHOR_FEED_RSS = None
 #         ('popowa', 'http://www.popowa.com'),)
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
-         ('popowa', 'http://www.popowa.com'),)
+#SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
+#         ('popowa', 'http://www.popowa.com'),)
+
+MENUITEMS = ( ('Profile', 'http://www.popowa.com'),
+            ('Twitter', 'https://twitter.com/ayakomuro'))
 
 DEFAULT_PAGINATION = 10
 
@@ -39,4 +42,5 @@ GOOGLE_ANALYTICS = "UA-845207-15"
 TWITTER_USERNAME="ayakomuro"
 GOOGLE_CUSTOM_SEARCH = '014316853335343165598:-bgzniyqm3y'
 HIDE_CATEGORIES_FROM_MENU = True
+TAG_CLOUD_STEPS = False
 SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"
