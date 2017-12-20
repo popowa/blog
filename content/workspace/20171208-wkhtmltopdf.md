@@ -21,7 +21,8 @@ pdfkit.from_file('201708.htm', '201708.pdf')
 
 上記を実行すると
 
-`Dec 18 08:05:15  wkhtmltopdf[45102] <Error>: CGContextSetFillColor: invalid context 0x0.If you want to see the backtrace, please set CG_CONTEXT_SHOW_BACKTRACE environmental variable.`
+`Dec 18 08:05:15  wkhtmltopdf[45102] <Error>: CGContextSetFillColor: invalid context 0x0.
+If you want to see the backtrace, please set CG_CONTEXT_SHOW_BACKTRACE environmental variable.`
 
 
 が大量に出力されて出力されたPDFファイルが1000ページぐらいになる
@@ -44,7 +45,8 @@ pdfkit.from_file('201708.htm', '201708.pdf')
 - [Kozea/WeasyPrint: WeasyPrint converts web documents (HTML with CSS, SVG, …) to PDF.](https://github.com/Kozea/WeasyPrint)
 - [WeasyPrint — WeasyPrint 0.41 documentation](http://weasyprint.readthedocs.io/en/latest/index.html)
 
-```sh:
+```
+#!sh
 pip install weasyprint
 brew install cairo pango gdk-pixbuf libffi
 ```

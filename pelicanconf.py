@@ -7,6 +7,7 @@ SITENAME = 'popowa'
 SITEURL = 'http://blog.popowa.com'
 
 PATH = 'content'
+ARTICLE_PATHS = ['blog', 'workspace']
 
 TIMEZONE = 'Asia/Tokyo'
 
