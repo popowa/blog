@@ -28,8 +28,9 @@ AUTHOR_FEED_RSS = None
 #SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
 #         ('popowa', 'http://www.popowa.com'),)
 
-MENUITEMS = ( ('Profile', 'http://www.popowa.com'),
-            ('Twitter', 'https://twitter.com/ayakomuro'))
+MENUITEMS = ( ('About Aya', 'http://www.popowa.com'),
+            ('Twitter', 'https://twitter.com/ayakomuro'),
+            ('Github', 'https://github.com/popowa'))
 
 DEFAULT_PAGINATION = 10
 
@@ -44,3 +45,5 @@ GOOGLE_CUSTOM_SEARCH = '014316853335343165598:-bgzniyqm3y'
 HIDE_CATEGORIES_FROM_MENU = True
 TAG_CLOUD_STEPS = False
 SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"
+
+PLUGIN_PATHS = ['pelican-plugins']
