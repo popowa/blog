@@ -8,7 +8,7 @@ Status: published
 前はMODxを使って構築をしていたのですが、色々自由すぎて作り込むのが大変なので、MODxからWordPressにデータを移行してみました。  
 
 []  
-MODxのTableは色々あるのですが、メインなTableはmodx\_site\_contentです。  
+MODxのTableは色々あるのですが、メインなTableはmodx_site_contentです。  
 そして今回は、MODx側で色々作り込んでいたので、以下の点をクリアしないといけません。
 
 気をつける事
@@ -20,48 +20,48 @@ MODxのTableは色々あるのですが、メインなTableはmodx\_site\_conten
 
 MODx側Table
 
--   modx\_site\_content =\> メインコンテンツ
--   modx\_site\_templates =\> テンプレート
--   modx\_site\_tmplvars =\> テンプレート変数
--   modx\_site\_tmplvar\_contentvalues　=\> 実際のテンプレート変数の値
--   modx\_site\_tmplvar\_templates
-    =\>テンプレートとテンプレート変数を紐付ける
+-   modx_site_content => メインコンテンツ
+-   modx_site_templates => テンプレート
+-   modx_site_tmplvars => テンプレート変数
+-   modx_site_tmplvar_contentvalues　=> 実際のテンプレート変数の値
+-   modx_site_tmplvar_templates
+    =>テンプレートとテンプレート変数を紐付ける
 
 関係性
 
-1.  modx\_site\_content.template = modx\_site\_templates.id  
+1.  modx_site_content.template = modx_site_templates.id  
    コンテンツとテンプレートの紐付け
-2.  modx\_site\_tmplvar\_templates.templateid = modx\_site\_templates.id
-3.  modx\_site\_tmplvar\_templates.tmplvarid = modx\_site\_tmplvars.id  
+2.  modx_site_tmplvar_templates.templateid = modx_site_templates.id
+3.  modx_site_tmplvar_templates.tmplvarid = modx_site_tmplvars.id  
    テンプレート変数とテンプレートの紐付け（２と３）
-4.  modx\_site\_tmplvar\_contentvalues.tmplvarid =
-    modx\_site\_tmplvars.id
-5.  modx\_site\_tmplvar\_contentvalues.contentid =
-    modx\_site\_content.id  
+4.  modx_site_tmplvar_contentvalues.tmplvarid =
+    modx_site_tmplvars.id
+5.  modx_site_tmplvar_contentvalues.contentid =
+    modx_site_content.id  
    実際の変数値とコンテンツの紐付け(4と5)
 
 になっており、
-modx\_site\_tmplvar\_templatesと、modx\_site\_tmplvar\_contentvaluesがassociative
+modx_site_tmplvar_templatesと、modx_site_tmplvar_contentvaluesがassociative
 entityになっております。
 
 Wordpress側Table
 
--   wp\_posts =\> コンテンツ
--   wp\_term\_taxonomy　=\> カテゴリ
--   wp\_term\_relationships　=\> カテゴリとコンテンツを紐付ける
+-   wp_posts => コンテンツ
+-   wp_term_taxonomy　=> カテゴリ
+-   wp_term_relationships　=> カテゴリとコンテンツを紐付ける
 
 関係性
 
-1.  wp\_posts.id = wp\_term\_taxonomy.object\_id
-2.  wp\_term.id = wp\_term\_taxonomy.term\_id
-3.  wp\_term\_relationships.term\_taxonomy\_id = wp\_term\_taxonomy.id
+1.  wp_posts.id = wp_term_taxonomy.object_id
+2.  wp_term.id = wp_term_taxonomy.term_id
+3.  wp_term_relationships.term_taxonomy_id = wp_term_taxonomy.id
 
-になっており、 wp\_term\_relationshipsがassociative
+になっており、 wp_term_relationshipsがassociative
 entityになっております。
 
 このMODxからコンテンツをWordpressに移行するのをなるべくSQL上で簡潔させたく、色々調べたら結構出来る事が分かったのでやってみました。
 
-    /* Procedure作成 
+    /* Procedure作成
      * ここではWordpressのコンテンツとカテゴリを紐付けるProcudureを作成します。
      * wp_term_relationshipsに追加するカテゴリは既に作成されていてidが1である事を想定してます。
     */
@@ -81,14 +81,14 @@ entityになっております。
     END//
     DELIMITER ;
 
-    /* Procedure作成 
+    /* Procedure作成
      * WPのtitleはURLエンコードされて入っているので、URLENCODEしてくれるProcedureを作成します。
      *
     */
     DELIMITER //
     CREATE FUNCTION urlencode (s VARCHAR(4096)) RETURNS VARCHAR(4096)
-    DETERMINISTIC 
-    CONTAINS SQL 
+    DETERMINISTIC
+    CONTAINS SQL
     BEGIN
            DECLARE c VARCHAR(4096) DEFAULT '';
            DECLARE pointer INT DEFAULT 1;
@@ -102,8 +102,8 @@ entityになっております。
               SET c = MID(s,pointer,1);
               IF c = ' ' THEN
                  SET c = '+';
-              ELSEIF NOT (ASCII(c) BETWEEN 48 AND 57 OR 
-                    ASCII(c) BETWEEN 65 AND 90 OR 
+              ELSEIF NOT (ASCII(c) BETWEEN 48 AND 57 OR
+                    ASCII(c) BETWEEN 65 AND 90 OR
                     ASCII(c) BETWEEN 97 AND 122) THEN
                  SET c = concat("%",LPAD(CONV(ASCII(c),10,16),2,0));
               END IF;
@@ -132,24 +132,24 @@ entityになっております。
      post_modified,
      post_modified_gmt
     )
-    SELECT 
+    SELECT
      '1',
-     FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date, 
+     FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date,
      FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date,
      concat(c.content, u.value),
      c.pagetitle,
      urlencode(c.pagetitle),
-     FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date, 
+     FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date,
      FROM_UNIXTIME(c.publishedon,'%Y-%m-%d %H:%i:%S') as post_date
     FROM
-     modx_site_content as c 
+     modx_site_content as c
     LEFT JOIN
      modx_site_tmplvar_contentvalues as u
     ON c.id = u.contentid
     WHERE
-     c.type="document" AND 
-     c.context_key="MyBlog" AND 
-     c.published=1 AND 
+     c.type="document" AND
+     c.context_key="MyBlog" AND
+     c.published=1 AND
      c.parent=5;
 
     / * WPに挿入しましたが、WP側の記事のカテゴリと紐付けていないので、紐付ける為にも

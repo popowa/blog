@@ -1,4 +1,4 @@
-Title: 
+Title: Ustなしday
 Date: 2011-08-05 19:25
 Authors: ayakomuro
 Tags:  今週の気になったニュース
@@ -6,8 +6,8 @@ Slug:2011/08/ustday
 Status: published
 
 
-Ustなしday+今日は会議の為ust出来なかったので、話そうと思って用意していた記事だけアップします。  
-  
+今日は会議の為ust出来なかったので、話そうと思って用意していた記事だけアップします。  
+
 []  
 
 -   [＜CNET
