@@ -47,3 +47,4 @@ TAG_CLOUD_STEPS = False
 SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"
 
 PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['pelican-toc']

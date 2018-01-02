@@ -1,15 +1,15 @@
-Title: 
+Title:
 Date: 2011-05-29 15:58
 Authors: ayakomuro
 Tags:  RightScale, RightScale解体新書
 Slug:2011/05/rightscale-rightscale_30
-Status: published
+Status: draft
 
 
 〜RightScaleアカウントを作ってみよう〜+基盤になるクラウドのアカウントが出来た所で、次はRightScaleアカウントを作ってみたいと思います。  
-  
+
 []RightScaleには無償版があるので、通常登録する場合は無償版になります。有償版にしたい場合はRightScaleに連絡（フォームで連絡）してアップグレードしてもらう必要があります。  
-  
+
 無償版であれば、クレジットカードを用意する必要はありません。  
 
 1.  <http://www.rightscale.com/> にアクセスします。
@@ -29,5 +29,5 @@ Status: published
     .size-medium .wp-image-960 width="300"
     height="61"}](http://cloudstockimg.s3.amazonaws.com/wp-content/uploads/2011/05/re4.png)
 
-  
+
  
