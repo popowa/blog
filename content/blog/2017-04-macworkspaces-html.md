@@ -12,21 +12,15 @@ Status: published
 
 Mac Book Air (英語キーボード）
 
-[![](https://3.bp.blogspot.com/-lnhqtQrcPY8/WMX1DbYRAXI/AAAAAAAAfpU/UI6z4oa_8gMpRMiq411YeS6b85GCM19mQCLcB/s320/macbook-air-gallery2-2014_GEO_JP.jpeg){width="320"
-height="189"}](https://3.bp.blogspot.com/-lnhqtQrcPY8/WMX1DbYRAXI/AAAAAAAAfpU/UI6z4oa_8gMpRMiq411YeS6b85GCM19mQCLcB/s1600/macbook-air-gallery2-2014_GEO_JP.jpeg)
+![画像](https://3.bp.blogspot.com/-lnhqtQrcPY8/WMX1DbYRAXI/AAAAAAAAfpU/UI6z4oa_8gMpRMiq411YeS6b85GCM19mQCLcB/s320/macbook-air-gallery2-2014_GEO_JP.jpeg)
 
 外付けキーボード（英語）
 
-[![](https://1.bp.blogspot.com/-nmiLrAfvX1A/WOL0e9ae_LI/AAAAAAAAgZo/SVDVuW3GWogROTqgXCdTIxoVYIomlqrmACLcB/s320/us.jpg){width="320"
-height="87"}](https://1.bp.blogspot.com/-nmiLrAfvX1A/WOL0e9ae_LI/AAAAAAAAgZo/SVDVuW3GWogROTqgXCdTIxoVYIomlqrmACLcB/s1600/us.jpg)
-
+![画像](https://1.bp.blogspot.com/-nmiLrAfvX1A/WOL0e9ae_LI/AAAAAAAAgZo/SVDVuW3GWogROTqgXCdTIxoVYIomlqrmACLcB/s320/us.jpg)
 MagicMouse(オフィス） and/or Touchpad（家）
 
-[![](https://3.bp.blogspot.com/-sayGIPn1uvs/WOL0qPBDZoI/AAAAAAAAgZs/xh5vgBCwfsAKMCwsQOLgh6075KloZm5LwCLcB/s200/apple-magic-mouse.jpg){width="200"
-height="112"}](https://3.bp.blogspot.com/-sayGIPn1uvs/WOL0qPBDZoI/AAAAAAAAgZs/xh5vgBCwfsAKMCwsQOLgh6075KloZm5LwCLcB/s1600/apple-magic-mouse.jpg)[![](https://2.bp.blogspot.com/-ypv8QzqjsZ0/WOL03NDNrpI/AAAAAAAAgZw/UqNtAkjtFToKjuWUR6Ddcysblq4_JWiGQCLcB/s200/41mi36PRTTL._SL1210_.jpg){width="200"
-height="75"}](https://2.bp.blogspot.com/-ypv8QzqjsZ0/WOL03NDNrpI/AAAAAAAAgZw/UqNtAkjtFToKjuWUR6Ddcysblq4_JWiGQCLcB/s1600/41mi36PRTTL._SL1210_.jpg)
-
-[]  
+![画像](https://3.bp.blogspot.com/-sayGIPn1uvs/WOL0qPBDZoI/AAAAAAAAgZs/xh5vgBCwfsAKMCwsQOLgh6075KloZm5LwCLcB/s200/apple-magic-mouse.jpg)
+![画像](https://2.bp.blogspot.com/-ypv8QzqjsZ0/WOL03NDNrpI/AAAAAAAAgZw/UqNtAkjtFToKjuWUR6Ddcysblq4_JWiGQCLcB/s200/41mi36PRTTL._SL1210_.jpg)
 
 #### 用意したAWS WorkSpaces
 
@@ -102,32 +96,15 @@ Windows Updateがちゃんと行えるかどうか
 テンキーが使えない
 
 -   Macのクライアントをアップデートしたら直った
--   [AWS Developer Forums: Workspaces IOS X Keyboard Issue
-    \... ](https://forums.aws.amazon.com/thread.jspa?threadID=149523)
+-   [AWS Developer Forums: Workspaces IOS X Keyboard Issue... ](https://forums.aws.amazon.com/thread.jspa?threadID=149523)
 
 
 
 BOXが使えない
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -   会社の決まりでなぜかBOX Tools Installerを入れなければいけない。
 -   そのまま実行しても入らないので管理者で実行する、でインストールを行う
-
 
 
 ### 解決した課題 - Windows OS特有の問題（Macユーザー故に知らない）
@@ -279,9 +256,3 @@ DatadogでWorkSpacesを監視する ](http://blog.popowa.com/2017/03/datadogwor
 
 -   WorkSpacesで仕事出来るが、端末を選ぶ
 -   MacユーザーはWorkSpacesに慣れる前に、まずWindowsに慣れなければいけない
-
-
-
-
-
-

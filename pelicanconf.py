@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'ayakomuro'
 SITENAME = 'popowa'
 SITEURL = 'http://blog.popowa.com'
+#SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 ARTICLE_PATHS = ['blog', 'workspace']
@@ -28,7 +29,8 @@ AUTHOR_FEED_RSS = None
 #SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
 #         ('popowa', 'http://www.popowa.com'),)
 
-MENUITEMS = ( ('About Aya', 'http://www.popowa.com'),
+MENUITEMS = (('TOP', 'http://blog.popowa.com'),
+            ('About Aya', 'http://www.popowa.com'),
             ('Twitter', 'https://twitter.com/ayakomuro'),
             ('Github', 'https://github.com/popowa'))
 
@@ -43,8 +45,8 @@ GOOGLE_ANALYTICS = "UA-845207-15"
 TWITTER_USERNAME="ayakomuro"
 GOOGLE_CUSTOM_SEARCH = '014316853335343165598:-bgzniyqm3y'
 HIDE_CATEGORIES_FROM_MENU = True
-TAG_CLOUD_STEPS = False
+TAG_CLOUD_STEPS = True
 SHARETHIS_PUB_KEY = "5a2ce781d0739000123acd73"
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pelican-toc']
+PLUGINS = ['pelican-toc', 'tag_cloud']

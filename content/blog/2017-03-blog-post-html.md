@@ -10,10 +10,8 @@ Status: published
 
 三連休だからどこか行こうかと思いつつも、遊び始めたラズパイ続きしたいし、ジャンパーワイヤー買いに[カホパーツセンター](http://www.kahoparts.co.jp/)にも行きたいなー、大きなお風呂にも入りたい・・・など考えている時に、福岡のホテルに泊まればいいじゃない！となって、子供と二人で家からバスで15分、10階に大浴場が付いているホテルに泊まってきました。
 
-[![](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mOqb_4TzK74de8lqrjNRPQmKiEqkSoWFgCLcB/s320/IMG_20170319_174855%2B%25282017-03-20T01_09_29.019%2529.jpg){width="320"
-height="230"}](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mOqb_4TzK74de8lqrjNRPQmKiEqkSoWFgCLcB/s1600/IMG_20170319_174855%2B%25282017-03-20T01_09_29.019%2529.jpg)
+![写真](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mOqb_4TzK74de8lqrjNRPQmKiEqkSoWFgCLcB/s320/IMG_20170319_174855%2B%25282017-03-20T01_09_29.019%2529.jpg)
 
-[]  
 今回泊まったホテルは南天神にある[カンデオホテルズ福岡天神 ](https://www.candeohotels.com/tenjin/)。  
 こんな場所にホテルあるなんて知りませんでした。
 
@@ -29,17 +27,7 @@ height="230"}](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mO
 として選んでみました。
 
 
-
-
-
-
-
-
-
 ホテルの評価も良さげです。
-
-
-
 
 
 -   [カンデオホテルズ 福岡天神【 2017年の口コミ・価格比較・宿泊予約
@@ -53,23 +41,12 @@ height="230"}](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mO
 泊まってみての子供の感想
 
 
-
-
-
-
-
 -   ベッドがあるので楽しい（家は布団）
 -   大きな大浴場があるのがよい
 -   露天風呂があるのも楽しい。カラスが飛んでいるのが見えた
 
 
-
 泊まってみての私の感想
-
-
-
-
-
 
 
 値段も悪くない
@@ -87,11 +64,3 @@ height="230"}](https://3.bp.blogspot.com/-izX0HzAKYkM/WM8r9gZagtI/AAAAAAAAfsE/mO
 
 
 旅行には（1）気合い入れて遠出するモードの時と、（2）何もしないけど日常から離れたいモードの時があって、（2）の時は福岡でも十分に楽しめるなぁ〜と思いました。
-
-
-
-
-
-
-
-

@@ -1,0 +1,1444 @@
+Title: AWSの2019年リリース一覧を見てみる（2019月12月1日時点）
+Date: 2019-12-01 16:00
+Authors: ayakomuro
+Category: tech
+Tags:  AWS
+Slug: 2019-aws-release
+Status: published
+Summary: 2019年にリリースされたAWSサービス(2019/12/1時点)
+
+詳細は[こちら](https://blog.popowa.com/2019-aws.html)を見て貰うとしてなんとまぁ……全部で……
+1429行あるようです。リリース以外にもパートナーの案内とかあるので全部ではないようですが……いやはや👀💥
+元記事は[こちら](https://aws.amazon.com/jp/about-aws/whats-new/2019/)ですが、最後の方が1月ではないのに4〜5月の記事がありますね、なんでだろう
+
+
+- 投稿日: Nov 26, 2019 : Amazon Relational Database Service (RDS) Data API Client Library が Java をサポート (プレビュー)
+- 投稿日: Nov 25, 2019 : Amazon RDS for SQL Server からのログファイルを Amazon CloudWatch へ発行可能に
+- 投稿日: Nov 25, 2019 : Amazon EC2 Auto Scaling、Application Auto Scaling、そして AWS Auto Scaling が AWS PrivateLink のサポートを開始
+- 投稿日: Nov 25, 2019 : AWS X-Ray は Amazon ColudWatch Synthetic Canaries のサポートを立ち上げます。
+- 投稿日: Nov 22, 2019 : Amazon Route 53 が、プライベートホストゾーンの重複する名前空間をサポート開始
+- 投稿日: Nov 22, 2019 : Jira Service Desk 用の AWS Service Catalog コネクタでクラウドプロビジョニングを簡素化
+- 投稿日: Nov 22, 2019 : Amazon Redshift Spectrum が 5 つの追加の AWS リージョンで提供開始
+- 投稿日: Nov 22, 2019 : Amazon QuickSight が、データ、ダッシュボード、SPICE、アクセス許可の API サポートを追加
+- 投稿日: Nov 22, 2019 : Amazon Aurora MySQL 5.7 は、サポートされる機能のリストを拡張して、パフォーマンスと管理性を改善
+- 投稿日: Nov 22, 2019 : Amazon EC2 で、顧客が EC2 インスタンスタイプを簡単に発見して比較可能に
+- 投稿日: Nov 22, 2019 : Amazon QuickSight がテーマ、条件付きのフォーマットなどを開始
+- 投稿日: Nov 15, 2019 : Elastic Fabric Adapter が Intel® MPI ライブラリとの互換性をサポート開始
+- 投稿日: Nov 15, 2019 : AWS Managed Services (AMS) が SUSE Linux Enterprise Server 12 SP4 をサポート開始
+- 投稿日: Nov 15, 2019 : Amazon DynamoDB のアダプティブキャパシティーは、頻繁にアクセスされるアイテムを自動的に分離することで、アンバランスなワークロードをより適切に処理が可能に
+- 投稿日: Nov 15, 2019 : AWS App Mesh が、いくつかのリソースのデフォルト上限を引き上げる
+- 投稿日: Nov 15, 2019 :  AWS Elemental MediaConvert でドルビービジョンおよびドルビーアトモスエンコーディングのサポートが利用可能になりました
+- 投稿日: Nov 15, 2019 : Amazon EMR を使用して Amazon S3 でレコードレベルの挿入、更新、削除をサポート
+- 投稿日: Nov 15, 2019 : AWS AppSync が、GraphQL サブスクリプションの Pure WebSockets サポートにより、リアルタイムの機能強化を追加
+- 投稿日: Nov 15, 2019 : パラメータストアが強化された検索エクスペリエンスを発表
+- 投稿日: Nov 15, 2019 : Amazon GuardDuty が Amazon S3 バケットへの調査結果のエクスポートをサポート
+- 投稿日: Nov 15, 2019 : Amazon WorkSpaces に WorkSpaces Directory API を導入
+- 投稿日: Nov 15, 2019 : Amazon Redshift でデータウェアハウスの管理とモニタリングを改善するコンソールリフレッシュを発表
+- 投稿日: Nov 15, 2019 : Amazon SNS にデッドレターキュー (DLQ) のサポートを追加
+- 投稿日: Nov 15, 2019 : Amazon Redshift がインスタンス間で復元を開始
+- 投稿日: Nov 14, 2019 : Amazon Elastic Container Service で複数の GitHub Actions が公開
+- 投稿日: Nov 14, 2019 : AWS Systems Manager を使った運営計画の自動化
+- 投稿日: Nov 14, 2019 : Amazon WorkSpaces が、中国 (寧夏) リージョンで利用可能に
+- 投稿日: Nov 14, 2019 : Amazon SES が FIPS 140-2 準拠エンドポイントのサポートを開始
+- 投稿日: Nov 14, 2019 : Amazon Connect がユーザー管理 API 用にタグサポートを開始
+- 投稿日: Nov 14, 2019 : AWS CodePipeline で実行中のアクション間での変数受け渡しが可能に
+- 投稿日: Nov 13, 2019 : AWS Launch Wizard for SQL Server を使用して、SQL Server Always On ソリューションを簡単にデプロイする
+- 投稿日: Nov 13, 2019 : Amazon DynamoDB のバックアップからのテーブルの復元時、テーブル設定が構成可能に
+- 投稿日: Nov 13, 2019 : AWS Data Exchange の紹介
+- 投稿日: Nov 13, 2019 : AWS Firewall Manager が、新たに 5 つの AWS リージョンで利用可能に
+- 投稿日: Nov 13, 2019 : Amazon ElastiCache が T3-Standard キャッシュノードのサポートを開始
+- 投稿日: Nov 13, 2019 : Performance Insights で Amazon RDS for SQL Server のカウンターメトリクスをサポート
+- 投稿日: Nov 13, 2019 : Amazon DynamoDB Accelerator (DAX) が、NWCD の運営で中国 (寧夏) リージョンで利用可能に
+- 投稿日: Nov 13, 2019 : AWS Fargate が、南米 (サンパウロ) リージョンで利用可能に
+- 投稿日: Nov 13, 2019 : Data Lifecycle Manager が、ライフサイクルポリシーへのタグ追加のサポートを開始
+- 投稿日: Nov 13, 2019 : Amazon Virtual Private Cloud の Bring Your Own IP を新たに 5 つのリージョンでサポート開始
+- 投稿日: Nov 13, 2019 : Amazon Transcribe が、音声のテキスト変換に 8 つの言語を追加
+- 投稿日: Nov 13, 2019 : AWS GovCloud (米国) 内にある 各 Amazon DynamoDB テーブルで、20 個のグローバルセカンダリインデックスと 100 個の射影インデックス属性が作成できるようになりました
+- 投稿日: Nov 13, 2019 : Amazon CloudSearch が 必須 HTTPS とミニマム TLS バージョンのオプションを提供
+- 投稿日: Nov 13, 2019 : AWS CloudFormation でリソースのインポートが可能に
+- 投稿日: Nov 13, 2019 : Amazon CloudWatch Metric Math の追加機能について
+- 投稿日: Nov 13, 2019 : Amazon Chime Voice Connector は、米国西部 (オレゴン) AWS リージョンと冗長コールルーティングを追加
+- 投稿日: Nov 13, 2019 : AWS Cost Explorer が時間とリソースレベルの詳細度に対応開始
+- 投稿日: Nov 13, 2019 : AWS IoT Device Management がクエリエクスペリエンスを強化する新たなフリートレベルメトリクスをリリース
+- 投稿日: Nov 12, 2019 : Amazon EC2 AMD インスタンスがアジアパシフィック (ムンバイ) AWS リージョンで利用可能に
+- 投稿日: Nov 12, 2019 : Amazon DynamoDB 用 NoSQL Workbench が、DynamoDB ローカルのサポートを追加
+- 投稿日: Nov 12, 2019 : Amazon RDS for Oracle Z1d インスタンスを利用できるリージョンが新たに追加
+- 投稿日: Nov 12, 2019 : .NET Core を含む Amazon Linux 2 AMI が .NET Core 3.0 に更新
+- 投稿日: Nov 12, 2019 : AWS Systems Manager Distributor で、ソフトウェアパッケージのインプレース更新が可能になります。
+- 投稿日: Nov 12, 2019 : 中東 (バーレーン) で Amazon Athena を提供開始
+- 投稿日: Nov 12, 2019 : Amazon QuickSight にダッシュボードの操作性や UI ベースの取り込み履歴その他に関するアクションが追加
+- 投稿日: Nov 11, 2019 : AWS Config が AWS Key Management Service および Amazon Elasticsearch Service のサポートを追加
+- 投稿日: Nov 11, 2019 : JavaScript 用 Amazon Encryption SDK の一般公開を開始
+- 投稿日: Nov 11, 2019 : AWS CloudFormation が Amazon API Gateway、AWS CodePipeline、AWS Amplify、Amazon ES、AWS App Mesh などを更新
+- 投稿日: Nov 11, 2019 : AWS Single Sign-on で AWS CLI v2 プレビューを使用して、開発者の生産性を向上する
+- 投稿日: Nov 11, 2019 : Amazon RDS for SQL Server が、R5 および T3 インスタンスタイプをサポート開始
+- 投稿日: Nov 11, 2019 : AWS Lake Formation がアジアパシフィック (シドニー)、アジアパシフィック (シンガポール)、アジアパシフィック (ムンバイ) の AWS リージョンで利用可能に
+- 投稿日: Nov 11, 2019 : Amazon DynamoDB Accelerator (DAX) が、欧州 (ロンドン) と欧州 (パリ) リージョンで利用可能に
+- 投稿日: Nov 8, 2019 : Amazon Athena が AWS 欧州 (パリ) リージョンでご利用いただけるようになりました
+- 投稿日: Nov 8, 2019 : Amazon EC2 が Microsoft SQL Server 2019 のサポートを開始
+- 投稿日: Nov 8, 2019 : Amazon CloudWatch でクロスアカウント、クロスリージョンダッシュボードの利用が可能に
+- 投稿日: Nov 8, 2019 : AWS Batch が G3、G3s、および G4 インスタンスファミリーでの GPU スケジューリングをサポートするようになりました
+- 投稿日: Nov 8, 2019 : Amazon Athena が AWS 米国西部 (北カリフォルニア) リージョンでご利用いただけるようになりました
+- 投稿日: Nov 8, 2019 : Amazon RDS for PostgreSQL がカスタマー開始のスナップショットアップグレードをサポート
+- 投稿日: Nov 8, 2019 : AWS Global Accelerator 対応リージョンに 2 つのリージョンが追加されました
+- 投稿日: Nov 7, 2019 : AWS での Deloitte TrueVoice のクイックスタート
+- 投稿日: Nov 7, 2019 : AWS App Mesh が HTTP2 および gRPC サービスをサポート開始
+- 投稿日: Nov 7, 2019 : Amazon QuickSight がモバイルで利用可能に、クロスソース結合などを開始
+- 投稿日: Nov 7, 2019 : 中東 (バーレーン) AWS リージョンで Amazon Kinesis Data Firehose が利用可能に
+- 投稿日: Nov 7, 2019 : AWS が Kubernetes でのスポットインスタンスノードの自動ドレイニングをサポート
+- 投稿日: Nov 7, 2019 : AWS CodeCommit、AWS CodeBuild、AWS CodeDeploy、AWS CodePipeline の通知機能のご紹介
+- 投稿日: Nov 7, 2019 : Amazon RDS for Oracle で Oracle Database 19c のサポートを提供開始
+- 投稿日: Nov 7, 2019 : Amazon Redshift が、テーブルソートキーの動的な変更をサポート開始
+- 投稿日: Nov 7, 2019 : Amazon SageMaker 用 AWS Step Functions Data Science SDK のご紹介
+- 投稿日: Nov 7, 2019 : AWS GovCloud (米国) で Network Load Balancer の TLS ターミネーションサポートを開始
+- 投稿日: Nov 7, 2019 : Amazon Pinpoint がジャーニーを追加 — 完全に自動化されたカスタマーエンゲージメントワークフロー
+- 投稿日: Nov 7, 2019 : AWS GovCloud (米国) リージョンで AWS Artifact が利用可能に
+- 投稿日: Nov 6, 2019 : Amazon Transcribe がアジアパシフィック (香港) リージョンおよび中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Nov 6, 2019 : Savings Plans のご紹介
+- 投稿日: Nov 6, 2019 : Amazon Comprehend が 6 言語を新しく追加
+- 投稿日: Nov 6, 2019 : AWS IoT Device Defender、AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Nov 6, 2019 : Amazon EMR が永続的な Spark History Server へのワンクリックアクセスを発表
+- 投稿日: Nov 6, 2019 : AWS CodeBuild で AWS Secrets Manager のサポートが追加
+- 投稿日: Nov 6, 2019 : Amazon Elastic File System の低頻度アクセスが 7 日間のライフサイクル管理ポリシーをサポートするようになりました
+- 投稿日: Nov 6, 2019 : AWS Certificate Manager プライベート認証機関が南米 (サンパウロ) リージョンで利用可能に
+- 投稿日: Nov 6, 2019 : PostgreSQL 12.0 が Amazon RDS データベースプレビュー環境で利用可能に
+- 投稿日: Nov 6, 2019 : ワンクリックセットアップを使用して、AWS Systems Manager エージェントを自動的に更新できます
+- 投稿日: Nov 5, 2019 : Amazon EC2 X1e インスタンスがアジアパシフィック (ムンバイ) AWS リージョンで利用可能に
+- 投稿日: Nov 5, 2019 : NVIDIA T4 Tensor Core GPU を備えた Amazon EC2 G4 インスタンスは 2 つの追加リージョンで利用可能です
+- 投稿日: Nov 5, 2019 : Amazon EC2 C5d インスタンスの新しいインスタンスサイズの概要
+- 投稿日: Nov 4, 2019 : AWS サービスクォータを使用して Amazon API Gateway の制限を管理する
+- 投稿日: Nov 4, 2019 : 中東 (バーレーン) AWS リージョンのお客様も、EC2 の休止機能を利用できるようになりました
+- 投稿日: Nov 4, 2019 : AWS RoboMaker で条件付き無線 (OTA) デプロイのサポートが可能に
+- 投稿日: Nov 4, 2019 : SageMaker XGBoost アルゴリズムの新しいバージョンが利用可能に
+- 投稿日: Nov 4, 2019 : Amazon AppStream 2.0 が、アプリケーションのオンボーディングポータルを構築するためのセルフガイドワークショップを開始
+- 投稿日: Nov 4, 2019 : 新機能により、従業員の AWS 認定完了の可視性を実現
+- 投稿日: Nov 1, 2019 : Amazon S3 インベントリが、オブジェクトの Intelligent-Tiering アクセス層をレポートできるようになりました
+- 投稿日: Nov 1, 2019 : Amazon AppStream 2.0 に、ウェブサイト内にストリーミングセッションを埋め込むためのサポートを追加
+- 投稿日: Oct 31, 2019 : Amazon DocumentDB (MongoDB 互換) が欧州 (パリ) リージョンで利用可能に
+- 投稿日: Oct 31, 2019 : AWS Service Catalog がプロビジョニングされた製品所有権の転送を可能に
+- 投稿日: Oct 31, 2019 : AWS Client VPN が、アジアパシフィック (ソウル)、カナダ (中部)、欧州 (ストックホルム)、北米 (北カリフォルニア) リージョンで利用可能に
+- 投稿日: Oct 31, 2019 : Amplify CLI が Amazon Cognito ユーザープールグループを作成し、グループに対するきめ細かいアクセス権を設定し、ユーザーのマネジメント機能をアプリケーションに追加することを可能に
+- 投稿日: Oct 31, 2019 : AWS IoT Device Tester v1.5.0 for Amazon FreeRTOS が Amazon FreeRTOS 201910.00 に対応
+- 投稿日: Oct 31, 2019 : AWS Secrets Manager は機密およびリソースポリシーに対して大きなサイズと GetSecretValue API の高い要求レートに対する大規模なサイズをサポートするようになりました。
+- 投稿日: Oct 31, 2019 : Ubuntu 18.04、Elastic Fabric Adapter (EFA) サポート、PyTorch 1.2、MXNet 1.5.0 を備えた新しい AWS Deep Learning AMI
+- 投稿日: Oct 31, 2019 : AWS Lambda コンソールから自動デプロイパイプラインを使用してサーバーレスアプリケーションを作成する
+- 投稿日: Oct 30, 2019 : AWS App Mesh が欧州 (パリ) リージョンで提供開始
+- 投稿日: Oct 30, 2019 : Amazon Chime が、Dolby Voice Room での室内体験をサポート
+- 投稿日: Oct 30, 2019 : Amazon Neptune が中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Oct 30, 2019 : AWS for WordPress プラグインが利用可能になり、新しい Amazon CloudFront ワークフローに追加されました
+- 投稿日: Oct 30, 2019 : Amazon Neptune がカナダ (中部) リージョンで使用可能に
+- 投稿日: Oct 30, 2019 : Amazon FreeRTOS のセキュアエレメント
+- 投稿日: Oct 30, 2019 : AWS CodeCommit、AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Oct 30, 2019 : Amazon ElastiCache が Redis 認証トークンの変更をサポートすることを発表
+- 投稿日: Oct 30, 2019 : Amazon EMR が EMR Notebooks で Git ベースのリポジトリと JupyterLab のサポートを発表
+- 投稿日: Oct 30, 2019 : AWS CodeStar で CloudFormation によるツールチェーンセットアップが自動化
+- 投稿日: Oct 30, 2019 : Amazon SES はさらに 3 つの AWS リージョンで利用可能になります
+- 投稿日: Oct 30, 2019 : 新しい Quick Start が AWS での BIM 360 インテグレーションをデプロイ
+- 投稿日: Oct 29, 2019 : AWS Global Accelerator で EC2 インスタンスエンドポイントのサポートを開始
+- 投稿日: Oct 29, 2019 : AWS Snowball Edge が最大 10 TB のボリュームサイズのサポートを開始
+- 投稿日: Oct 29, 2019 : AWS Certificate Manager (ACM) プライベート認証機関 (CA) が、インポートした CA 証明書に名前の制約を適用
+- 投稿日: Oct 29, 2019 : Amazon QuickSight がソウルリージョン、ダッシュボード、その他をサポート
+- 投稿日: Oct 29, 2019 : AWS Elastic Beanstalk が PHP 7.3 および.NET Core 3.0 のサポートを追加
+- 投稿日: Oct 29, 2019 : Amazon RDS for PostgreSQL で Kerberos と Microsoft Active Directory を使用したユーザー認証のサポートを開始
+- 投稿日: Oct 28, 2019 : AWS Serverless Application Repository が香港 (ap-east-1) とバーレーン (me-south-1) リージョンで使用可能になりました
+- 投稿日: Oct 28, 2019 : Amazon ElastiCache が Amazon EC2 上の Redis からのオンラインデータ移行をサポートするようになりました
+- 投稿日: Oct 28, 2019 : Amazon RDS for Oracle は Oracle Enterprise Manager Cloud Control に対して EMCTL コマンドを呼び出すためのサポートを追加します
+- 投稿日: Oct 28, 2019 : SageMaker のリージョンがバーレーンに拡大
+- 投稿日: Oct 28, 2019 : Amazon ECR のイメージスキャンの通知
+- 投稿日: Oct 25, 2019 : authenticator アプリを使うマルチファクター認証により AWS Single Sign-On のセキュリティを高める
+- 投稿日: Oct 25, 2019 : Amazon Elastic Container Service パターンが AWS Cloud Development Kit で広く使えるようになります。
+- 投稿日: Oct 25, 2019 : Amazon SageMaker Neo が新たに中東（バーレーン）で利用可能に
+- 投稿日: Oct 25, 2019 : Amazon Elastic Inference はより大きな GPS メモリーを持つ新しい Accelerator を導入します
+- 投稿日: Oct 24, 2019 : Amazon Linux 2 、および Amazon GameLift 用の新しいインスタンスタイプを提供開始
+- 投稿日: Oct 24, 2019 : Amazon FreeRTOS が AWS 中東 (バーレーン) と AWS アジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Oct 24, 2019 : Amazon EC2 z1d インスタンスの利用可能なリージョンが増えました
+- 投稿日: Oct 24, 2019 : Amazon CloudFront が 新たな Edge ロケーションとして、コロンビア、チリ、アルゼンチンでの 200 ロケーションを追加し、南米での料金を 56% 削減
+- 投稿日: Oct 24, 2019 : AWS Managed Services (AMS) がマネージドランディングゾーンを提供
+- 投稿日: Oct 24, 2019 : Amazon Connect は追加の API を開始してコンタクトセンターのリソースをリストします
+- 投稿日: Oct 24, 2019 : AWS Batch が新しい割り当て方法を導入
+- 投稿日: Oct 24, 2019 : Amazon Chime Voice Connector がリアルタイムのオーディオストリーミングを追加
+- 投稿日: Oct 24, 2019 : AWS Directory Service for Microsoft Active Directory と AD Connector が AWS アジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Oct 24, 2019 : Machine to Cloud 接続フレームワークが SLMP をサポート
+- 投稿日: Oct 23, 2019 : AWS Backup が新たに 6 つのリージョンで利用可能に
+- 投稿日: Oct 23, 2019 : Amazon DocumentDB (MongoDB 互換) に変更ストリームのサポートを追加
+- 投稿日: Oct 23, 2019 : Amazon Aurora が Aurora ストレージに対するコスト割り当てをサポート
+- 投稿日: Oct 23, 2019 : AWS Managed Services はさらに 29 の AWS のサービスのサポートを追加
+- 投稿日: Oct 23, 2019 : NVIDIA T4 Tensor Core GPU を備えた Amazon EC2 G4 インスタンスは 6 つの追加リージョンで利用可能です
+- 投稿日: Oct 23, 2019 : AWS Managed Services (AMS) は移行を加速するために開発者モードを追加
+- 投稿日: Oct 23, 2019 : AWS Secrets Manager が AWS 中東 (バーレーン) リージョンでご利用いただけるようになりました
+- 投稿日: Oct 23, 2019 : AWS Greengrass 用 AWS IOT Device Tester v 2.1.0 が利用可能になりました
+- 投稿日: Oct 23, 2019 : Amazon Polly がニューラル読み上げテクノロジーで 2 つの新しい音声を起動
+- 投稿日: Oct 22, 2019 : Amazon API Gateway が、ワイルドカードカスタムドメイン名をサポートするようになりました
+- 投稿日: Oct 22, 2019 : Amazon Managed Blockchain が、ピアノードの Amazon CloudWatch メトリクスをサポートするようになりました
+- 投稿日: Oct 22, 2019 : 新しい教室コース: Amazon SageMaker を使用した実践的なデータサイエンス
+- 投稿日: Oct 22, 2019 : AWS Glue が、Spark ETL ジョブのジョブブックマークを巻き戻す機能を提供するようになりました
+- 投稿日: Oct 22, 2019 : AWS Amplify Console がフルスタックのサーバーレスアプリケーション用プルリクエストプレビュー機能を公開
+- 投稿日: Oct 22, 2019 : Amazon EFS が、AWS PrivateLink のサポートを開始
+- 投稿日: Oct 22, 2019 : AWS OpsWorks for Chef Automate がカスタムドメインのサポートを開始
+- 投稿日: Oct 21, 2019 : Amazon CloudFront、ベルギーに最初のエッジロケーションを発表
+- 投稿日: Oct 21, 2019 : AWS マネージドサービス (AMS) が ServiceNow 統合を簡素化
+- 投稿日: Oct 18, 2019 : AWS CloudHSM が AWS 南米 (サンパウロ) リージョンで利用可能になりました
+- 投稿日: Oct 18, 2019 : AWS IoT Things Graph が AWS CloudWatch を使用したワークフローモニタリングを提供開始
+- 投稿日: Oct 18, 2019 : Amazon SNS がメッセージ属性としてモバイルプッシュ通知ヘッダーを新たにサポート開始
+- 投稿日: Oct 18, 2019 : Amazon CloudWatch がアラーム状態変更イベントを Amazon EventBridge に送信可能に
+- 投稿日: Oct 17, 2019 : Amazon Lex、PCI DSS コンプライアンスを達成
+- 投稿日: Oct 17, 2019 : Amazon EFS は、EC2 Launch Instance ウィザードに組み込まれました
+- 投稿日: Oct 17, 2019 : Amazon CloudWatch 異常検出は、すべての商用 AWS リージョンで使用可能になりました
+- 投稿日: Oct 17, 2019 : Amazon EC2 の休止機能が Windows で利用可能に
+- 投稿日: Oct 17, 2019 : Amazon FSx for Windows File Server により、管理者は非アクティブなユーザーによりロックされたファイルのアクティビティを復元できるようになりました
+- 投稿日: Oct 17, 2019 : Amazon DocumentDB (MongoDB 互換) がアジアパシフィック (ムンバイ) リージョンで利用可能に
+- 投稿日: Oct 17, 2019 : AWS IoT Greengrass がデプロイ通知を提供
+- 投稿日: Oct 16, 2019 : Amazon Chime はプラグインまたは拡張機能なしで Mozilla Firefox と Google Chrome から画面共有をサポート
+- 投稿日: Oct 16, 2019 : Amazon RDS on VMware が一般提供されました
+- 投稿日: Oct 16, 2019 : AWS CodePipeline がパイプライン実行履歴に実行の可視化を追加
+- 投稿日: Oct 16, 2019 : Amazon EKS サンパウロリージョンで一般提供
+- 投稿日: Oct 16, 2019 : Amazon Neptune が SPARQL 1.1 フェデレーションクエリをサポートするようになりました
+- 投稿日: Oct 16, 2019 : Amazon Neptune がグラフデータの変更を取り込む Streams をサポートするようになりました
+- 投稿日: Oct 16, 2019 : Amazon GuardDuty に 3 個の新たな脅威検出が追加
+- 投稿日: Oct 16, 2019 : Amazon API Gateway が Amazon Kinesis Data Firehose へのアクセスログ記録をサポート開始
+- 投稿日: Oct 16, 2019 : Amazon DocumentDB (MongoDB 互換) に、 $lookup を含む Aggregation Pipeline 機能が追加されました
+- 投稿日: Oct 16, 2019 : AWS Deep Learning Containers が PyTorch をサポートするようになりました
+- 投稿日: Oct 16, 2019 : Amazon EMR が Spark 2.4.4、Flink 1.8.1 のサポートと複数のマスターノードを再構成する機能を追加
+- 投稿日: Oct 16, 2019 :  2 つの AZ にわたって Amazon MSK クラスターを拡大し、新しいクラスターをデプロイできるようになりました
+- 投稿日: Oct 16, 2019 : AWS Certificate Manager プライベート認証機関が中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Oct 16, 2019 : Amazon Textract がアジアパシフィック (シンガポール) リージョンで使用可能に
+- 投稿日: Oct 16, 2019 : AWS IoT Device Defender の提供範囲が拡大
+- 投稿日: Oct 16, 2019 : AWS RoboMaker がベータリリースで Robot Operating System 2 (ROS2) のサポートを導入
+- 投稿日: Oct 16, 2019 : Amazon AppStream 2.0 は、2 台のモニターで 4K Ultra HD 解像度、また 4 台のモニターで 2K 解像度のサポートを追加します
+- 投稿日: Oct 16, 2019 : 新しいクイックスタートは AWS で TIBCO JasperReports Server をデプロイ
+- 投稿日: Oct 16, 2019 : Coursera についての新しいデジタルコース - AWS の基礎: クラウドへの移行
+- 投稿日: Oct 15, 2019 : 新しい EC2 インスタンスタイプを南米 (サンパウロ) で提供開始
+- 投稿日: Oct 15, 2019 : PSoC 62 プロトタイピングキットが Amazon FreeRTOS で利用可能に
+- 投稿日: Oct 14, 2019 : AWS リソースグループおよびタグエディター、AWS GovCloud (米国) リージョンで利用可能に
+- 投稿日: Oct 14, 2019 : AWS CodePipeline で、AWS CodeBuild のビルドジョブにおける環境変数の設定が可能に
+- 投稿日: Oct 14, 2019 : AWS Elemental MediaLive、欧州 (ロンドン)、欧州 (パリ)、米国東部 (オハイオ) の各リージョンで利用可能に
+- 投稿日: Oct 14, 2019 : Amazon Redshift でリージョン間でのスナップショット転送のパフォーマンスを強化
+- 投稿日: Oct 14, 2019 : Amazon QuickSight がデータソースの共有、テーブルの行列の入れ替え、フィルタリング、分析といった新しい機能を発表
+- 投稿日: Oct 14, 2019 : Amazon DocumentDB (MongoDB 互換) がアジアパシフィック (シンガポール) リージョンで利用可能に
+- 投稿日: Oct 10, 2019 : Amazon Route 53 リゾルバーのハイブリッドクラウド向けエンドポイントが AWS GovCloud (米国) リージョンで利用可能に
+- 投稿日: Oct 10, 2019 : Amazon Textract が HIPAA 対応サービスに
+- 投稿日: Oct 10, 2019 : AWS Glue で JDBC 接続時にカスタム証明書が使用可能に
+- 投稿日: Oct 10, 2019 : AWS Firewall Manager が Amazon VPC セキュリティグループの管理をサポート
+- 投稿日: Oct 10, 2019 : AWS Chatbot が AWS Config からの通知をサポート
+- 投稿日: Oct 10, 2019 : Amazon AppStream 2.0 が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Oct 10, 2019 : AWS コンソールモバイルアプリケーションが、iOS 向けフェデレーテッドログインをリリース
+- 投稿日: Oct 10, 2019 : Amazon ECS で ECS イメージの SHA 追跡のサポートを開始
+- 投稿日: Oct 10, 2019 : Amazon SageMaker Ground Truth にデータラベルの検証と調整の組み込みワークフローが追加
+- 投稿日: Oct 10, 2019 : Amazon API Gateway、中東 (BAH) リージョンで REST API と Amazon Virtual Private Cloud 間の安全な接続をサポート
+- 投稿日: Oct 10, 2019 : Amazon SQS FIFO キューが AWS 中東 (バーレーン) で利用可能に
+- 投稿日: Oct 10, 2019 : Amazon Textract が HIPAA 対応サービスに
+- 投稿日: Oct 10, 2019 : Amazon Inspector が Windows 2016 にCIS ベンチマークのサポートを追加
+- 投稿日: Oct 10, 2019 : Amazon Lex でセッション API のチェックポイントのサポートを追加
+- 投稿日: Oct 10, 2019 : Amazon RDS でバックアップストレージの請求明細の確認が可能に
+- 投稿日: Oct 9, 2019 : AWS Secrets Manager が AWS GovCloud (米国東部) リージョンとアジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Oct 9, 2019 : Amazon ECS に G4 インスタンスタイプのサポートを追加
+- 投稿日: Oct 9, 2019 : AWS Elemental MediaConvert で高速トランスコーディング、DASH、AVC 動画品質の新しい機能を発表
+- 投稿日: Oct 9, 2019 : Audi、MIT、Allen Institute for Cell Science、フィンランド気象研究所などの新しい AWS パブリックデータセットが利用可能に
+- 投稿日: Oct 9, 2019 : 100 Gbps のネットワーク帯域幅を備えた Amazon EC2 M5n、M5dn、R5n、R5dn インスタンスを発表
+- 投稿日: Oct 9, 2019 : AWS サーバーレスアプリケーションモデルの機能サポートで Amazon API Gateway などを更新
+- 投稿日: Oct 9, 2019 : Amazon ElastiCache で Memcached および Redis キャッシュクラスターのセルフサービスアップデートの提供を開始
+- 投稿日: Oct 9, 2019 : Amazon EC2 A1 ベアメタルインスタンスの公開を発表
+- 投稿日: Oct 9, 2019 : AWS IoT Events、ロンドン、シンガポール、ソウルの各 AWS リージョンで提供開始
+- 投稿日: Oct 9, 2019 : Amazon MSK が、サンパウロ、香港、北カリフォルニア、カナダを含む 17 の AWS リージョンで利用可能に
+- 投稿日: Oct 9, 2019 : Amazon Kinesis Data Firehose で Amazon Elasticsearch Service 7.x クラスターへのデータストリーム配信をサポート
+- 投稿日: Oct 9, 2019 : Axomo on AWS の新しいクイックスタートデプロイ
+- 投稿日: Oct 8, 2019 : SageMaker ノートブックが比較 (diffing) のサポートを開始
+- 投稿日: Oct 8, 2019 : Amazon Redshift が最適化されたストレージと高クエリパフォーマンス向けの新しい圧縮エンコーディングである AZ64 をリリース
+- 投稿日: Oct 8, 2019 : Application Load Balancer および Network Load Balancer に、より厳格なプロトコルと暗号を使用した Forward Secrecy 向けの新しいセキュリティポリシーを追加
+- 投稿日: Oct 8, 2019 : Amazon Kinesis Data Firehose が Amazon Elasticsearch Service にクロスアカウント配信を追加
+- 投稿日: Oct 8, 2019 : Amazon Athena がインターフェイス VPC エンドポイントの提供を開始
+- 投稿日: Oct 8, 2019 : Amazon EC2 High Memory インスタンスで最大 24 TB のメモリが利用可能に、SAP HANA のような大規模インメモリデータベース用途向け
+- 投稿日: Oct 8, 2019 : Amazon RDS for PostgreSQL がマイナーバージョン 11.5、10.10、9.6.15、9.5.19、9.4.24 のサポートを追加し、トランスポータブルデータベース機能を追加
+- 投稿日: Oct 8, 2019 : Amazon EKS が Windows ノードのサポートを開始
+- 投稿日: Oct 8, 2019 : AWS クラウドスキルの急速な向上に役立つ新しいコースが開講
+- 投稿日: Oct 8, 2019 : AWS Snowball Edge がエアギャップ環境の Snowball Edge デバイス向けのオフラインソフトウェア更新のサポートを開始
+- 投稿日: Oct 8, 2019 : AWS IoT Core にルールの SQL を使用して DynamoDB からデータを取得する機能を追加
+- 投稿日: Oct 8, 2019 : お客様により良いサポートを提供できるよう新しい APN パートナーを指導するための新しいトレーニングコース
+- 投稿日: Oct 7, 2019 : Amazon Cognito で CloudFormation のサポートを強化
+- 投稿日: Oct 7, 2019 : AWS Direct Connect が Resiliency ツールキットを発表し、AWS への接続の回復性を強化した接続の注文を容易に
+- 投稿日: Oct 7, 2019 : Amazon EventBridge で AWS CloudFormation のサポートを開始
+- 投稿日: Oct 7, 2019 : Amazon AppStream 2.0 が FIPS 140-2 準拠エンドポイントのサポートを開始
+- 投稿日: Oct 7, 2019 : AWS マネージドサービスコンソールで、変更タイプの検索機能を向上させるために、検索と使用に基づくフィルタリングのサポートを開始
+- 投稿日: Oct 7, 2019 : Amazon VPC トラフィックミラーリングで AWS CloudFormation のサポートを開始
+- 投稿日: Oct 7, 2019 : Amazon Pinpoint がメッセージテンプレートのサポートを追加
+- 投稿日: Oct 4, 2019 : AWS Backup で SNS 通知が強化されジョブステータスでのフィルタリングが可能に
+- 投稿日: Oct 4, 2019 : Amazon SageMaker ml.p3dn.24xlarge インスタンスの導入で、ml.p3.16xlarge インスタンスの最大 4 倍のネットワーク帯域幅を活用し分散型機械学習向けに最適化
+- 投稿日: Oct 4, 2019 : Amazon EventBridge、AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Oct 4, 2019 : EC2 RI の購入をキューに入れる
+- 投稿日: Oct 4, 2019 : AWS Direct Connect では、詳細なコスト配分のサポートと、Direct Connect ゲートウェイの関連付けの支払人 ID 制限の解除を発表します。
+- 投稿日: Oct 4, 2019 : 新しいクイックスタートで Amazon Managed Blockchain をデプロイする
+- 投稿日: Oct 3, 2019 : Amazon Elasticsearch Service のオプションにより HTTPS の必須化が可能に
+- 投稿日: Oct 3, 2019 : AWS Step Functions、Amazon SageMaker サービス統合を拡張
+- 投稿日: Oct 3, 2019 : Amazon Translate で新たに 7 つの言語 (ギリシャ語、ルーマニア語、ハンガリー語、ウクライナ語、ベトナム語、タイ語、ウルドゥー語) のサポートを追加
+- 投稿日: Oct 3, 2019 : AWS DataSync が欧州 (ロンドン、パリ) およびカナダ (中部) リージョンで使用可能に
+- 投稿日: Oct 3, 2019 : 新しいクイックスタートで AWS に Solodev DCX Enterprise Edition for Docker をデプロイ
+- 投稿日: Oct 3, 2019 : Amazon Lex がフォールバックインテントのサポートを発表
+- 投稿日: Oct 3, 2019 : AWS Security Hub、AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Oct 2, 2019 : Amazon Elastic Container Service は Visual Studio Code の IntelliSense をサポート
+- 投稿日: Oct 2, 2019 : Amazon MQ が FIPS 140-2 検証済みエンドポイントを米国の商用リージョンでサポート
+- 投稿日: Oct 2, 2019 : Amazon Lightsail で自動スナップショットが利用可能に
+- 投稿日: Oct 2, 2019 : 新しい AWS 産業ソフトウェアコンサルティングパートナー
+- 投稿日: Oct 2, 2019 : AWS Certificate Manager プライベート認証機関の 9 つの新しい証明書テンプレートを追加
+- 投稿日: Oct 2, 2019 : パフォーマンスが強化され使いやすさが向上した AWS Thinkbox Deadline 10.1 最新リリースの発表
+- 投稿日: Oct 2, 2019 : Amplify CLI では既存の Amplify プロジェクトの開始方法を簡素化し、拡張された CLI 機能の新しいコマンドを追加
+- 投稿日: Oct 1, 2019 : AWS Amplify コンソール、Cypress でエンドツーエンドのブラウザベーステストの提供を開始
+- 投稿日: Oct 1, 2019 : DynamoDBMapper が Amazon DynamoDB トランザクション API コールのオプティミスティックロックのサポートを開始
+- 投稿日: Oct 1, 2019 : Amazon RDS for Oracle で Kerberos と Microsoft Active Directory を使用したユーザー認証のサポートを開始
+- 投稿日: Oct 1, 2019 : アジアパシフィック (ソウル) リージョンで AWS IoT Things Graph が利用可能に
+- 投稿日: Oct 1, 2019 : 新しいクイックスタートで Boomi Molecule を AWS にデプロイ
+- 投稿日: Oct 1, 2019 : Amazon Textract のテキスト抽出精度がさらに向上、抽出対象ドキュメントの種類も増加
+- 投稿日: Oct 1, 2019 : AWS Elemental MediaPackage に正確なセグメントの Live-to-VOD アセットを作成する機能が追加
+- 投稿日: Oct 1, 2019 : Amazon SageMaker で、リアルタイム推論用の G4 および R5 インスタンスのサポートを開始
+- 投稿日: Sep 30, 2019 : AWS Direct Connect の AWS Transit Gateway サポートがアジアパシフィック (シドニー) リージョンで利用可能に
+- 投稿日: Sep 30, 2019 : AWS IQ の発表
+- 投稿日: Sep 30, 2019 : Amazon MQ でメッセージブローカーの垂直スケーリングをサポート
+- 投稿日: Sep 30, 2019 : Amazon EKS で G4 インスタンスのサポートが開始
+- 投稿日: Sep 30, 2019 : AWS Client VPN が Active Directory 用の多要素認証をサポート
+- 投稿日: Sep 30, 2019 : Amazon EC2 AMD インスタンス利用可能リージョンが増加
+- 投稿日: Sep 30, 2019 : AWS Fargate が欧州 (ストックホルム)、欧州 (パリ)、中東 (バーレーン) のリージョンで利用可能に
+- 投稿日: Sep 30, 2019 : PrivateLink Endpoint Policies が利用開始、Amazon ECR アクセスのより高度なコントロールが可能に
+- 投稿日: Sep 27, 2019 : Amazon ECS が ECS サービスを実行しているスポットインスタンスの自動ドレインをサポート
+- 投稿日: Sep 27, 2019 : 新しいクイックスタートを使用して JFrog Artifactory を AWS にデプロイ
+- 投稿日: Sep 27, 2019 : AWS IoT Core でデバイス証明書の登録を簡素化する機能 (ベータ版) を発表
+- 投稿日: Sep 27, 2019 : .NET Core を使用する Amazon Linux 2 AMI に Mono を追加
+- 投稿日: Sep 26, 2019 : AWS Glue が Glue の Python シェルジョブと依存関係のある wheel ファイルをサポート
+- 投稿日: Sep 26, 2019 : Amazon SageMaker Neo が新たに 12 のリージョンで利用可能に
+- 投稿日: Sep 26, 2019 : Windows アプリケーションで Amazon Polly の音声が利用可能に
+- 投稿日: Sep 25, 2019 : AWS Cloud Map がさらに 3 つの AWS リージョンで利用可能に
+- 投稿日: Sep 25, 2019 : AWS Direct Connect の AWS Transit Gateway サポートが新たに 6 つのリージョンで利用可能に
+- 投稿日: Sep 25, 2019 : Amazon RDS for Oracle X1 と X1e インスタンスが追加のリージョンで利用可能に
+- 投稿日: Sep 25, 2019 : AWS Well-Architected Tool が AWS アジアパシフィック (東京) リージョンで利用可能になり日本語にローカライズ化
+- 投稿日: Sep 25, 2019 : AWS IoT Core と AWS IoT Device Management が AWS 中東 (バーレーン) リージョンでご利用可能に
+- 投稿日: Sep 24, 2019 : Amazon Aurora Serverless PostgreSQL が Data API のサポートを開始
+- 投稿日: Sep 24, 2019 : AWS Systems Manager で複雑な Ansible のプレイブックを実行可能に
+- 投稿日: Sep 24, 2019 : AWS Storage Gateway のテープゲートウェイ、南米 (サンパウロ) で使用可能に
+- 投稿日: Sep 24, 2019 : Amazon ElastiCache が、最新の Redis 5.0.5 を使用したすべての計画済みオペレーションのオンライン設定変更を発表
+- 投稿日: Sep 24, 2019 : AWS Limit Monitor が vCPU ベースのオンデマンドインスタンス制限モニタリングのサポートを開始
+- 投稿日: Sep 24, 2019 : AWS Marketplace で Amazon Elastic Kubernetes Service (EKS) の有料コンテナソフトウェアのサポートを開始
+- 投稿日: Sep 24, 2019 : Amazon EC2 で vCPU ベースのオンデマンドインスタンス制限が利用可能に
+- 投稿日: Sep 24, 2019 : Amazon Transcribe が AWS KMS 暗号化のサポートを開始
+- 投稿日: Sep 24, 2019 : AWS DataSync でさらに多くのデータコントロールおよびすべての Amazon S3 ストレージクラスのサポートを追加
+- 投稿日: Sep 24, 2019 : AWS Amplify コンソール、ホストされたウェブアプリのダウンロード可能なアクセスログを提供
+- 投稿日: Sep 23, 2019 : AWS Lambda が Kinesis および DynamoDB イベントソースのカスタムバッチウィンドウをサポート開始
+- 投稿日: Sep 20, 2019 : NVIDIA T4 Tensor Core GPU を搭載した、Amazon EC2 G4 インスタンス (機械学習推論およびグラフィックスを多用するアプリケーションに適した非常に費用対効果の高い GPU プラットフォーム) の紹介
+- 投稿日: Sep 19, 2019 : ARMv6 や新しい機械学習コネクタをサポートする AWS IoT Greengrass 1.9.3 の提供開始
+- 投稿日: Sep 19, 2019 : Amazon Athena に、SELECT クエリの結果、または与えられた値のセットを使用して、テーブルにデータを挿入する機能を追加
+- 投稿日: Sep 19, 2019 : Amazon EC2、Amazon ECS、Amazon ElastiCache、Amazon ElasticSearch などのための AWS CloudFormation の更新
+- 投稿日: Sep 19, 2019 : AWS Glue で、Glue ETL ジョブを監視およびトラブルシューティングするための Apache Spark UI の提供を開始
+- 投稿日: Sep 19, 2019 : AWS Elemental MediaConnect で、コンテンツ所有者とサブスクライバーがライブ動画のエンタイトルメントのコストを共有できる機能を追加
+- 投稿日: Sep 19, 2019 : AWS Greengrass 用 AWS IoT Device Tester v 2.0 が利用可能に
+- 投稿日: Sep 19, 2019 : Amazon EKS で、Amazon EFS CSI ドライバーのサポートを発表
+- 投稿日: Sep 19, 2019 : AWS GovCloud (米国) リージョン用の Amazon VPC トラフィックミラーリングのご紹介
+- 投稿日: Sep 18, 2019 : Amazon API Gateway で Private API の呼び出しを簡素化
+- 投稿日: Sep 18, 2019 : Amazon S3 にセイムリージョンレプリケーションが導入されます
+- 投稿日: Sep 18, 2019 : AWS IoT Device Defender が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Sep 18, 2019 : AWS Step Functions がワークフローでの動的並列処理のサポートを追加
+- 投稿日: Sep 18, 2019 : Amazon EKS で、EKS に最適化された AMI メタデータを SSM パラメータ経由で提供
+- 投稿日: Sep 18, 2019 : Amazon WorkSpaces で、異常発生前の最後の状態に復元する機能を導入
+- 投稿日: Sep 17, 2019 : Amazon Elastic Inference が Amazon ECS タスクで利用可能に
+- 投稿日: Sep 17, 2019 : AWS Marketplace で、AWS コンソールからソリューションを簡単に検索
+- 投稿日: Sep 17, 2019 : Amazon EC2 I3en インスタンスが AWS GovCloud (米国東部)、アジアパシフィック (シドニー)、欧州 (ロンドン) の AWS リージョンで利用可能に
+- 投稿日: Sep 16, 2019 : Amazon EKS がクラスターへのタグ付けをサポート
+- 投稿日: Sep 16, 2019 : Amazon DynamoDB 用 NoSQL Workbench のプレビュー版の発表
+- 投稿日: Sep 13, 2019 : AWS Elemental MediaStore で古いマニフェストの削除が可能に
+- 投稿日: Sep 13, 2019 : AWS Storage Gateway がファイルゲートウェイ向けの Amazon CloudWatch ログ記録およびメトリクスのサポートを追加
+- 投稿日: Sep 13, 2019 : AWS Elemental MediaLive でライブチャネル向けの HEVC および 4K/UHD 出力のサポートを開始
+- 投稿日: Sep 12, 2019 : Lumberyard ベータ版 1.21 が利用可能に
+- 投稿日: Sep 12, 2019 : Amazon Athena がアジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Sep 12, 2019 : スマートプロダクトソリューションのご紹介
+- 投稿日: Sep 12, 2019 : Amazon QuickSight が、Level Aware Aggregation、より大規模な SPICE データセットなどに対応
+- 投稿日: Sep 12, 2019 : WorkMail Message Flow SDK
+- 投稿日: Sep 12, 2019 : AWS Elemental MediaConnect が RIST プロトコルのサポートを開始
+- 投稿日: Sep 12, 2019 : Elastic Load Balancing: Network Load Balancer で、Server Name Indication (SNI) を使用した複数の TLS 証明書のサポートを開始
+- 投稿日: Sep 12, 2019 : AWS PrivateLink での Amazon Rekognition のサポートを発表
+- 投稿日: Sep 12, 2019 : AWS Service Catalog から予算の可視性のお知らせ
+- 投稿日: Sep 11, 2019 : Amazon FreeRTOS の基準を満たす NXP の i.MX-RT1060、i.MX-RT1050、Kinetis K64
+- 投稿日: Sep 11, 2019 : AWS IoT Core と AWS IoT Device Management が AWS アジアパシフィック (香港) リージョンでご利用可能に
+- 投稿日: Sep 11, 2019 : Amazon FreeRTOS、アメリカ大陸 (サンパウロ)、アメリカ大陸 (モントリオール)、アメリカ大陸 (北カリフォルニア)、欧州 (パリ)、欧州 (ストックホルム) の各リージョンで提供開始
+- 投稿日: Sep 11, 2019 : AWS Elemental MediaTailor のサーバー側の広告挿入がライブプリロールのサポートを開始
+- 投稿日: Sep 11, 2019 : Amazon VPC フローログにメタデータを追加
+- 投稿日: Sep 11, 2019 : Amazon SageMaker で、Amazon SageMaker 固有の条件キーの使用によりさらに改良されたアクセス制御が可能に
+- 投稿日: Sep 11, 2019 : AWS Marketplace により AMI と Lambda 関数のデプロイが簡単に
+- 投稿日: Sep 11, 2019 : Amazon GuardDuty、AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Sep 11, 2019 : クリックストリーム分析を AWS クラウドにデプロイする新しいクイックスタート
+- 投稿日: Sep 10, 2019 : AWS App Mesh で再試行ポリシーのサポートを開始
+- 投稿日: Sep 10, 2019 : Amazon SNS、Apple Push Notification Service の新しい apns-push-type ヘッダーフィールドのサポートを開始
+- 投稿日: Sep 10, 2019 : APN パートナーが新しい顧客案件を獲得するのに役立つ更新されたトレーニングコースのご紹介
+- 投稿日: Sep 10, 2019 : AWS サービスクォータを使用して Amazon EFS の制限を管理することが可能に
+- 投稿日: Sep 10, 2019 : Amazon Pinpoint で iOS 13 と watchOS 6 のプッシュ通知のサポートを追加
+- 投稿日: Sep 10, 2019 : AWS Storage Gateway で IBM Spectrum Protect on Linux および 5 TiB テープのサポートを開始
+- 投稿日: Sep 10, 2019 : AWS Transfer for SFTP、Amazon S3 の論理ディレクトリのサポートを開始
+- 投稿日: Sep 10, 2019 : Amazon Quantum Ledger Database (QLDB) の一般利用開始の発表
+- 投稿日: Sep 9, 2019 : AISPL がネットバンキングによる支払いに対応
+- 投稿日: Sep 9, 2019 : AWS RoboMaker でシミュレーションジョブへの接続をサポート開始
+- 投稿日: Sep 9, 2019 : Amazon AppStream 2.0 において Image Builder とフリートに対する AWS Identity and Access Management ロールのサポートが有効に
+- 投稿日: Sep 9, 2019 : Amazon EKS で EBS CSI ドライバーのサポートを開始
+- 投稿日: Sep 9, 2019 : AWS CodePipeline が欧州 (ストックホルム) リージョンで使用可能に
+- 投稿日: Sep 6, 2019 : AWS GovCloud (米国東部) リージョンで Amazon EC2 フリート機能が EC2 Auto Scaling を介して利用可能に
+- 投稿日: Sep 6, 2019 : Amazon EC2 フリートが AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Sep 6, 2019 : Amazon ElastiCache で Memcached 1.5.16 が利用可能に
+- 投稿日: Sep 6, 2019 : Amazon QuickSight がお気に入りおよび異常アラートなどを発表
+- 投稿日: Sep 6, 2019 : EMR 6.0.0 (ベータ) を使って Docker と Hadoop 3 を用いた Spark アプリケーションの依存関係の管理を簡素化
+- 投稿日: Sep 5, 2019 : Amazon EC2 Instance Hibernation が Amazon Linux 2 で利用可能に
+- 投稿日: Sep 5, 2019 : Amazon SageMaker Ground Truth でプライベートワーカーのワーカースループットログとメトリクスのサポートを開始
+- 投稿日: Sep 5, 2019 : Amazon Pinpoint で、Apple プッシュ通知サービスの、apns-push-type ヘッダーのサポートを追加
+- 投稿日: Sep 5, 2019 : Amazon SQS、GovCloud (米国) リージョンで Amazon VPC エンドポイントのサポートを開始
+- 投稿日: Sep 5, 2019 : AWS Systems Manager Automation で追加のキューイングをサポート
+- 投稿日: Sep 5, 2019 : Amazon EC2 パーティションプレイスメントグループが AWS GovCloud (米国) リージョンで使用可能に
+- 投稿日: Sep 5, 2019 : AWS Snowball Edge がアジアパシフィック (香港) で利用可能に
+- 投稿日: Sep 5, 2019 : AWS Config ルールを使用してコンプライアンス違反のリソースを自動的に修正する
+- 投稿日: Sep 5, 2019 : WorkDocs Drive でカスタムドライブレターの使用が可能に
+- 投稿日: Sep 4, 2019 : Amazon Elasticsearch Service と Amazon Comprehend を使用したテキスト分析の紹介
+- 投稿日: Sep 4, 2019 : Amazon EKS が Kubernetes サービスアカウントに IAM アクセス許可を割り当てるサポートを追加
+- 投稿日: Sep 4, 2019 : AWS Glue が AWS 中東 (バーレーン) リージョンで提供開始
+- 投稿日: Sep 4, 2019 : Amazon VPC 共有が AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Sep 4, 2019 : Amazon CloudFront、ポルトガルに最初のエッジロケーションを発表
+- 投稿日: Sep 4, 2019 : 新しい 3 日間のクラスルームコース: Advanced Developing on AWS
+- 投稿日: Sep 4, 2019 : Amazon Textract が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Sep 4, 2019 : AWS Elemental MediaPackage が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Sep 4, 2019 : Amazon EFS 低頻度アクセスストレージの料金の引き下げを発表
+- 投稿日: Sep 4, 2019 : Amazon EKS で Kubernetes バージョン 1.14 のサポートを開始
+- 投稿日: Sep 3, 2019 : Amazon SageMaker で新しい小さな Amazon FSx for Lustre ファイルシステムを使用してトレーニングを加速させることが可能に
+- 投稿日: Sep 3, 2019 : Amazon FSx for Lustre で、最小ファイルシステムサイズを 1.2 TB に引き下げ
+- 投稿日: Sep 3, 2019 : AWS Serverless Application Repository、AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Aug 30, 2019 : Amazon ECS、EKS、および Kubernetes の Containers モニタリングが Amazon CloudWatch で使用可能に
+- 投稿日: Aug 30, 2019 : Amazon SageMaker ノートブックで Amazon CloudWatch への Jupyter ログのエクスポートが可能に
+- 投稿日: Aug 30, 2019 : Amazon EKS がバーレーンリージョンで利用可能に
+- 投稿日: Aug 30, 2019 : AWS DataSync が中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Aug 30, 2019 : Amazon ECS で API と ECS コンソールでのランタイムコンテナ ID の表示を開始
+- 投稿日: Aug 29, 2019 : Amazon ElastiCache for Redis が新たに AWS Key Management Service のカスタマー管理型キーによる保管時の暗号化をサポート
+- 投稿日: Aug 29, 2019 : AWS Chatbot が AWS Systems Manager からの通知をサポート
+- 投稿日: Aug 29, 2019 : Amazon EC2 スポットインスタンスが AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Aug 29, 2019 : AWS Application Auto Scaling でスケーリングの停止と再開が利用可能に
+- 投稿日: Aug 29, 2019 : AWS サイト間 VPN に、VPN トンネルのセキュリティアルゴリズムおよびタイマー設定の環境設定機能を追加
+- 投稿日: Aug 28, 2019 : Machine to Cloud 接続フレームワークの紹介
+- 投稿日: Aug 28, 2019 : AWS X-Ray が Amazon SQS をサポート
+- 投稿日: Aug 28, 2019 : AWS 認定クラウドプラクティショナー試験を自宅やオフィスで 24 時間 365 日受けることが可能に
+- 投稿日: Aug 28, 2019 : AWS Glue、Glue ジョブ用 Glue ETL ライブラリのバイナリをリリース
+- 投稿日: Aug 28, 2019 : AWS Global Accelerator で Application Load Balancer エンドポイントを対象にしたクライアント IP アドレス保存のサポートを開始
+- 投稿日: Aug 28, 2019 : Amazon Route 53 がパブリックホストゾーンにクエリボリュームのメトリクスを発行
+- 投稿日: Aug 28, 2019 : Amazon EC2 A1 インスタンスをご利用いただけるリージョンが増えました
+- 投稿日: Aug 28, 2019 : AWS WAF で使用するレートベースのルールで低しきい値設定が可能に
+- 投稿日: Aug 28, 2019 : セッションマネージャーを使用して、インスタンスで個別のコマンドをインタラクティブに実行可能に
+- 投稿日: Aug 28, 2019 : リソースグループが AWS Systems Manager Run Command のターゲットとして選択可能に
+- 投稿日: Aug 28, 2019 : セッションマネージャーを使用したローカルポートとリモートポート間のトラフィックの転送が可能に
+- 投稿日: Aug 28, 2019 : AWS Managed Services が、米国東部 (オハイオ)、アジアパシフィック (ムンバイ)、アジアパシフィック (ソウル)、カナダ (中部)、南米 (サンパウロ)、米国西部 (北カリフォルニア) のリージョンで利用可能に
+- 投稿日: Aug 28, 2019 : AWS Managed Services が、米国東部 (オハイオ)、アジアパシフィック (ムンバイ)、アジアパシフィック (ソウル)、カナダ (中部)、南米 (サンパウロ)、米国西部 (北カリフォルニア)、欧州 (ストックホルム) のリージョンで利用可能に
+- 投稿日: Aug 28, 2019 : PostgreSQL 12 Beta 3 を、今後 Amazon RDS データベース環境でご利用いただけます。
+- 投稿日: Aug 27, 2019 : Amazon EMR リリース 5.26.0 で、最大 16 倍の Spark パフォーマンスを達成
+- 投稿日: Aug 27, 2019 : Amazon ElastiCache でクラスター名に最大 50 文字使用可能に
+- 投稿日: Aug 27, 2019 : AWS Resource Access Manager が AWS GovCloud (米国西東部) リージョンで利用可能に
+- 投稿日: Aug 27, 2019 : リージョン間 VPC ピアリング接続が AWS アジアパシフィック (香港) リージョンで提供開始
+- 投稿日: Aug 27, 2019 : AWS Single Sign-On がカナダ (中部) リージョンで利用可能に
+- 投稿日: Aug 27, 2019 : AWS Systems Manager パラメータストアは自動パラメータ階層の選択を可能にする intelligent-tiering を発表
+- 投稿日: Aug 27, 2019 : Amazon SageMaker で Amazon FSx For Lustre と Amazon EFS のサポートを開始、モデルのトレーニングを一層すばやく簡単に実行可能に
+- 投稿日: Aug 26, 2019 : AWS Systems Manager Distributor が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Aug 26, 2019 : AWS Systems Manager のアドバンスドインスタンス機能が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Aug 26, 2019 : Amazon FreeRTOS が HTTPS クライアントをサポート
+- 投稿日: Aug 26, 2019 : Nuvoton NuMaker-IoT-M487 が Amazon FreeRTOS の認定デバイスに
+- 投稿日: Aug 26, 2019 : AWS IoT Device Tester for Amazon FreeRTOS が Amazon FreeRTOS 201908.00 に対応
+- 投稿日: Aug 26, 2019 : Amazon SageMaker で、機械学習のトレーニングコストを最大 90% 削減するマネージドスポットトレーニングが利用できるようになりました
+- 投稿日: Aug 23, 2019 : Amazon Transcribe の音声のテキスト変換機能でロシア語と中国標準語 (中国本土) のサポートを開始
+- 投稿日: Aug 22, 2019 : Amazon ElastiCache で Redis クラスターモードのオンライン垂直スケーリングをリリース、非 Redis クラスターモードのスケーリングを改良
+- 投稿日: Aug 22, 2019 : Amazon SQS で作成時のタグ付けのサポートを開始
+- 投稿日: Aug 22, 2019 : AWS IoT Core で republish アクションの Quality of Service (QoS) 設定機能を追加
+- 投稿日: Aug 22, 2019 : AWS Systems Manager のパラメータストア機能が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Aug 22, 2019 : AWS Direct Connect の AWS Transit Gateway サポートが欧州 (フランクフルト) と欧州 (ロンドン) の各リージョンで利用可能に
+- 投稿日: Aug 22, 2019 : Amazon Data Lifecycle Manager が欧州 (ストックホルム) リージョンで提供開始
+- 投稿日: Aug 22, 2019 : AWS DataSync で SMB ファイル共有との間でのデータ転送が可能に
+- 投稿日: Aug 22, 2019 : Amazon Forecast の一般提供を開始
+- 投稿日: Aug 21, 2019 : Windows シャドウコピーが、すべての Amazon FSx ファイルシステムでサポートされるようになりました
+- 投稿日: Aug 21, 2019 : AWS Elemental MediaConnect が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Aug 21, 2019 : Amazon Neptune が AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Aug 21, 2019 : AI を利用した健康データのマスキングのご紹介
+- 投稿日: Aug 20, 2019 : Amazon EMR が EMR ノートブックによる外部ライブラリのランタイムインストールのサポートを発表
+- 投稿日: Aug 20, 2019 : Amazon Redshift がクエリパフォーマンス向上のために最適な分散キーを推奨するようになりました
+- 投稿日: Aug 20, 2019 : Amazon RDS for MySQL でマイナーバージョン 8.0.16 がサポートされるようになりました
+- 投稿日: Aug 20, 2019 : Amazon AppStream 2.0 がローカルファイルシステムのリダイレクトのサポートを追加
+- 投稿日: Aug 20, 2019 : Amazon AppStream 2.0 で API オペレーションとストリーミングトラフィック用に Amazon Virtual Private Cloud エンドポイントが使用できるようになりました
+- 投稿日: Aug 20, 2019 : Amazon EMR でブロックパブリックアクセス設定が導入され、EMR クラスターが誤ってネットワークに公開されることを防止できるようになりました。
+- 投稿日: Aug 20, 2019 : AWS クラウドに Amazon Redshift をデプロイする新しいクイックスタート
+- 投稿日: Aug 19, 2019 : Amazon Chime で音声通話とビデオ通話の通話履歴を追加
+- 投稿日: Aug 19, 2019 : Amazon DocumentDB (MongoDB 互換) にスロークエリログの記録のサポートを追加
+- 投稿日: Aug 19, 2019 : AWS Systems Manager の機能を Quick Setup を使って簡単に有効にすることが可能に
+- 投稿日: Aug 19, 2019 : Amazon ECS がコンテナ単位でのスワップ領域パラメータのサポートを開始
+- 投稿日: Aug 16, 2019 : AWS RoboMaker が無線 (OTA) デプロイでの設定可能なタイムアウト機能をサポート
+- 投稿日: Aug 16, 2019 : AWS RoboMaker でログベースのシミュレーション、イベントドリブンなシミュレーション解除、シミュレーションイベントのタグ付けがサポート開始
+- 投稿日: Aug 16, 2019 : AWS App Mesh で HTTP ヘッダーに基づくルーティングとルートの優先順位指定のサポートを開始
+- 投稿日: Aug 16, 2019 : AWS サイト間 VPN で証明書による認証のサポートを開始
+- 投稿日: Aug 16, 2019 : Amazon Athena で Amazon S3 のリクエスタ支払いバケットのデータに対してクエリを実行可能に
+- 投稿日: Aug 16, 2019 : AWS サポート API が AWS GovCloud (米国) で利用可能に
+- 投稿日: Aug 15, 2019 : Amazon EC2 で診断割り込みのサポートを開始
+- 投稿日: Aug 15, 2019 : Amazon Kinesis Data Streams でのプロデューサーライブラリのライセンスが Apache License 2.0 に変更
+- 投稿日: Aug 15, 2019 : AWS Elemental MediaTailor のサーバー側の広告挿入が欧州 (フランクフルト) リージョンで提供開始
+- 投稿日: Aug 15, 2019 : Amazon RDS が Oracle Database 18c をサポート
+- 投稿日: Aug 15, 2019 : AWS Transfer for SFTP が欧州 (ストックホルム) と南米 (サンパウロ) のリージョンで利用可能に
+- 投稿日: Aug 15, 2019 : Amazon FSx for Lustre が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Aug 15, 2019 : Amazon SageMaker が新たに米州、欧州、アジアパシフィックにある 4 つの AWS リージョンで提供開始
+- 投稿日: Aug 15, 2019 : Amazon FSx for Windows File Server が AWS 欧州 (ストックホルム) リージョンで提供開始
+- 投稿日: Aug 15, 2019 : Amazon Kinesis Data Firehose がアジアパシフィック (香港) AWS リージョンで提供開始
+- 投稿日: Aug 14, 2019 : AWS Storage Gateway がアジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Aug 14, 2019 : AWS CodeBuild で Amazon Linux 2 のサポートが追加
+- 投稿日: Aug 14, 2019 : Amazon Kinesis Data Analytics がアジアパシフィック (ムンバイ)、欧州 (パリ)、欧州 (ストックホルム) の AWS リージョンで利用可能に
+- 投稿日: Aug 14, 2019 : Amazon SageMaker Ground Truth で、データのラベル付け自動化のサポートがセマンティックセグメンテーションのラベル付けワークフローに拡張し、6 つの AWS リージョンで新たに利用可能に
+- 投稿日: Aug 14, 2019 : アジアパシフィックリージョンで、AWS IoT Core と AWS IoT Device Management の料金が値下げ
+- 投稿日: Aug 14, 2019 : Amazon Neptune が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Aug 14, 2019 : Amazon RDS が AWS GovCloud (米国) リージョンで、PostgreSQL 11 および新しい PostgreSQL のマイナーバージョン 11.4、10.9、9.6.14、9.5.18、9.4.23 のサポートを開始
+- 投稿日: Aug 14, 2019 : AWS IoT Core と AWS IoT Device Management が NWCD の運営による AWS 中国 (寧夏) リージョンで利用可能に
+- 投稿日: Aug 14, 2019 : Alexa for Business で Amazon のサービス向上目的によるデータの使用を管理可能に
+- 投稿日: Aug 13, 2019 : 新しい AWS 共同ブランド化ガイドの紹介
+- 投稿日: Aug 13, 2019 : AWS Batch が中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Aug 13, 2019 : Amazon Kinesis Data Analytics での、Unicode 完全サポートを発表
+- 投稿日: Aug 13, 2019 : AWS Storage Gateway で作成時のタグ付けとタグベースのアクセスコントロールをサポート
+- 投稿日: Aug 13, 2019 : APN コンテナナビゲートトラックのご紹介
+- 投稿日: Aug 13, 2019 : Amazon Elasticsearch Services で Elasticsearch バージョン 6.8 および 7.1 のサポートを発表
+- 投稿日: Aug 13, 2019 : Amazon CloudFront、新たにイスラエルのエッジロケーションを発表
+- 投稿日: Aug 12, 2019 : Amazon Managed Blockchain で AWS CloudFormation のサポートを開始
+- 投稿日: Aug 12, 2019 : AWS Elemental MediaConvert で、マルチ DRM の CMAF 出力を追加し、音声トラックのサポートを拡充
+- 投稿日: Aug 12, 2019 : Amazon Rekognition の顔分析が向上
+- 投稿日: Aug 12, 2019 : Amazon EC2 スポットインスタンスをプロビジョニングするための、キャパシティーで最適化された新しい配分戦略
+- 投稿日: Aug 12, 2019 : お客様により良いサポートを提供できるよう APN パートナーを指導するための新しい AWS トレーニングコース
+- 投稿日: Aug 12, 2019 : AWS Step Functions がネストされたワークフローのサポートを追加
+- 投稿日: Aug 9, 2019 : Amazon Aurora PostgreSQL 互換エディションで Amazon CloudWatch Logs への PostgreSQL ログファイル出力をサポート
+- 投稿日: Aug 9, 2019 : AWS Elemental MediaConvert の設定の編集と共有が簡単になります
+- 投稿日: Aug 9, 2019 : Amazon EMR と AWS Lake Formation の統合はベータ版になり、Apache Spark のデータベース、テーブル、列レベルのアクセス制御をサポートするようになりました
+- 投稿日: Aug 9, 2019 : Amazon WorkDocs Migration Service
+- 投稿日: Aug 9, 2019 : Amazon Athena に AWS Lake Formation のサポートが追加され、データベース、テーブル、列について、きめ細かなアクセスコントロールを適用できるようになりました
+- 投稿日: Aug 9, 2019 : AWS Systems Manager を使用して、.NET および Microsoft SQL Server アプリケーションの運用上の問題を解決する
+- 投稿日: Aug 9, 2019 : AWS Lake Formation が一般公開されました。
+- 投稿日: Aug 9, 2019 : Amazon Rekognition で、暴力、兵器、自傷行為に関連した画像および動画の検出が可能になり、ヌード検出の精度も向上しました
+- 投稿日: Aug 9, 2019 : Amazon EC2 I3en および C5n ベアメタルインスタンスをリリース
+- 投稿日: Aug 9, 2019 : AWS Glue で、データセット内の一致するレコードの重複排除および検索を行う FindMatches ML 変換の提供を開始
+- 投稿日: Aug 9, 2019 : Amazon Redshift で AWS Lake Formation の列レベルのアクセスコントロールをサポート開始
+- 投稿日: Aug 8, 2019 : Amazon SNS メッセージフィルタリングでキー属性が利用可能に
+- 投稿日: Aug 8, 2019 : Amazon RDS for Oracle で 2019 年 7 月 Oracle パッチセットの更新 (PSU) およびリリース更新 (RU) のサポートを開始
+- 投稿日: Aug 8, 2019 : AWS GovCloud (米国) リージョンで AWS Health が利用可能に
+- 投稿日: Aug 8, 2019 : Amazon EMR でネイティブ EBS 暗号化のサポートを開始
+- 投稿日: Aug 8, 2019 : AWS IoT Device Defender の提供範囲が拡大
+- 投稿日: Aug 8, 2019 : Amazon EC2 フリートで、インスタンスのフリートの上限価格が設定可能に
+- 投稿日: Aug 8, 2019 : Amazon Aurora Multi-Master の一般公開を開始
+- 投稿日: Aug 8, 2019 : API を使用してクライアント側で Lex セッションを管理する
+- 投稿日: Aug 8, 2019 : Amazon EC2 C5 の新しいインスタンスサイズをご利用いただけるリージョンが増えました
+- 投稿日: Aug 8, 2019 : Amplify フレームワークで、GraphQL API、ストレージ、関数、ホスティングのローカルのモックおよびテスト機能を追加
+- 投稿日: Aug 8, 2019 : Amazon EC2 フリートでオンデマンドのターゲット容量の変更が可能に
+- 投稿日: Aug 8, 2019 : AWS Developer Series が edX でリニューアル
+- 投稿日: Aug 8, 2019 : Amazon SageMaker ノートブックで事前インストールされた R kernel が利用可能に
+- 投稿日: Aug 8, 2019 : Amazon CloudFront で、リソースレベルおよびタグベースのアクセス許可のサポートを発表
+- 投稿日: Aug 7, 2019 : 新しいエンドユーザーコンピューティングコンピテンシーソリューション
+- 投稿日: Aug 7, 2019 : Amazon EC2 I3en インスタンスが AWS GovCloud (米国西部) およびアジアパシフィック (シンガポール) AWS リージョンで利用可能に
+- 投稿日: Aug 7, 2019 : AWS Elemental アプライアンスとソフトウェアが AWS マネジメントコンソールで利用可能に
+- 投稿日: Aug 7, 2019 : AWS License Manager が中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Aug 7, 2019 : Amazon RDS for Oracle が Oracle Management Agent (OMA) バージョン 13.3 for Oracle Enterprise Manager Cloud Control 13c のサポートを開始
+- 投稿日: Aug 7, 2019 : Amazon SageMaker Ground Truth が指定エンティティ認識向けのデータのラベル付けワークフローを追加
+- 投稿日: Aug 6, 2019 : PostgreSQL 12 Beta 2 を Amazon RDS データベースプレビュー環境で利用できるようになりました
+- 投稿日: Aug 6, 2019 : Amazon RDS for SQL Server でサーバー照合順序の変更をサポート
+- 投稿日: Aug 6, 2019 : AWS IoT Device Defender が監査結果に対する緩和アクションをサポート
+- 投稿日: Aug 6, 2019 : AWS Fargate を香港リージョンで提供開始
+- 投稿日: Aug 6, 2019 : Amazon Redshift の同時実行スケーリングがさらに 5 つの AWS リージョンで利用可能になり、サポートされるすべての AWS リージョンでコンソールパフォーマンスグラフが強化されました
+- 投稿日: Aug 6, 2019 : AWS DataSync が Amazon VPC エンドポイントをサポート
+- 投稿日: Aug 6, 2019 : 共有 VPC で AWS Glue、Amazon EMR、AWS Aurora Serverless クラスターを開始
+- 投稿日: Aug 6, 2019 : Amazon RDS for Oracle で新しいインスタンスサイズのサポートを開始
+- 投稿日: Aug 6, 2019 : AWS DataSync は、米国リージョンで FIPS 140-2 検証済みエンドポイントをサポートします
+- 投稿日: Aug 5, 2019 : Amazon Route 53 で AWS GovCloud (米国東部) リージョンでのプライベート DNS およびヘルスチェックの提供を開始
+- 投稿日: Aug 5, 2019 : AWS Security Hub が AWS アジアパシフィック (香港) リージョンで使用可能に
+- 投稿日: Aug 5, 2019 : NICE DCV でウェブクライアントでのマルチモニタをサポートしたバージョン 2019.0 をリリース
+- 投稿日: Aug 5, 2019 : Amazon API Gateway で REST API と Amazon Virtual Private Cloud 間の安全な接続をサポートするリージョンが追加
+- 投稿日: Aug 5, 2019 : AWS PrivateLink が AWS GovCloud (米国東部) リージョンに導入
+- 投稿日: Aug 5, 2019 : Amazon DynamoDB が容量モニタリングのサポート機能を搭載
+- 投稿日: Aug 2, 2019 : AWS Batch で Elastic Fabric Adapter のサポートを開始
+- 投稿日: Aug 2, 2019 : Amazon SageMaker の新しいモデル追跡機能が一般提供開始
+- 投稿日: Aug 2, 2019 : Amazon QuickSight がチャートカラーのカスタマイズをサポート。組み込みダッシュボードをすべてのユーザーに表示可能となり、対応リージョンも追加
+- 投稿日: Aug 2, 2019 : AWS X-Ray がバーレーンで利用可能に
+- 投稿日: Aug 2, 2019 : AWS X-Ray がバーレーンで利用可能に
+- 投稿日: Aug 2, 2019 : Amazon AppStream 2.0 にプログラムでイメージを作成する CLI 操作が追加
+- 投稿日: Aug 1, 2019 : AWS CloudFormation で StackSets の引き上げられた上限をサポート開始
+- 投稿日: Aug 1, 2019 : Amazon DocumentDB (MongoDB 互換) に、Aggregation Pipeline 機能と診断機能を追加
+- 投稿日: Aug 1, 2019 : EMR 5.25.0 で 3 倍に向上した Spark のパフォーマンスを実現
+- 投稿日: Aug 1, 2019 : Amazon EKS が香港リージョンで利用可能に
+- 投稿日: Aug 1, 2019 : Lambda@Edge が Python 3.7 のサポートを追加
+- 投稿日: Jul 31, 2019 : AWS IoT Events で AWS CloudFormation のサポートを開始
+- 投稿日: Jul 31, 2019 : AWS CodePipeline のパイプラインの一覧にパイプラインステータスを追加
+- 投稿日: Jul 31, 2019 : Amplify フレームワークに予測カテゴリを追加
+- 投稿日: Jul 31, 2019 : AWS CodeCommit が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Jul 31, 2019 : AWS CodeBuild が AWS アジアパシフィック (香港) リージョンおよび AWS 中東 (バーレーン) リージョンで利用可能に
+- 投稿日: Jul 31, 2019 : Amazon FSx でファイルを以前のバージョンに復元するための Windows シャドウコピーのサポートを開始
+- 投稿日: Jul 31, 2019 : Amazon MSK で Apache Kafka バージョン 2.2.1 のサポートを追加し、欧州 (ストックホルム)、アジアパシフィック (ムンバイ)、アジアパシフィック (ソウル) リージョンで利用可能に
+- 投稿日: Jul 31, 2019 : Amazon Sumerian で物理ベースレンダリング (PBR) のサポートを開始
+- 投稿日: Jul 31, 2019 : AWS Marketplace が AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Jul 30, 2019 : Amazon Polly でニューラルテキスト読み上げ機能とニュースキャスターの音声を提供開始
+- 投稿日: Jul 30, 2019 : Amazon EC2 の休止機能が Ubuntu 18.04 LTS で利用可能に
+- 投稿日: Jul 30, 2019 : AWS RoboMaker が AWS RoboMaker CloudWatch クラウド拡張機能用のオフラインログおよびメトリクスをサポート開始
+- 投稿日: Jul 30, 2019 : EBS のデフォルトのボリュームタイプが GP2 に変更
+- 投稿日: Jul 30, 2019 : AWS Elemental MediaConvert でトランスコーディングジョブの優先度設定が可能に
+- 投稿日: Jul 30, 2019 : Amazon ECS サービスで複数のロードバランサーターゲットグループのサポートを開始
+- 投稿日: Jul 30, 2019 : Amazon EC2 オンデマンドキャパシティー予約が複数の AWS アカウント間で共有可能に
+- 投稿日: Jul 30, 2019 : AWS Elemental MediaStore でリソースのタグ付け機能のサポートを開始
+- 投稿日: Jul 29, 2019 : 新しい AWS 中東 (バーレーン) リージョンを発表
+- 投稿日: Jul 29, 2019 : コーセラでの新しいデジタルコース – AWS Fundamentals: Addressing Security Risk
+- 投稿日: Jul 29, 2019 : Amazon Pinpoint で、キャンペーンおよびアプリケーションのメトリクス API を追加
+- 投稿日: Jul 29, 2019 : Amazon Aurora Serverless MySQL 互換エディションが AWS 中国 (寧夏) リージョンで利用可能に (NWCD による運営)
+- 投稿日: Jul 29, 2019 : クラウド導入を加速する新しいリソースとウェブサイトのお知らせ
+- 投稿日: Jul 26, 2019 : AWS Elemental MediaLive がライブチャネル向けファイルベース入力のサポートを拡張
+- 投稿日: Jul 26, 2019 : Amazon CloudWatch Logs Insights でクロスロググループクエリが可能に
+- 投稿日: Jul 26, 2019 : Amazon Linux 2 Extras で、新しい Linux カーネルの AWS 最適化バージョンの提供開始
+- 投稿日: Jul 26, 2019 : AWS ParallelCluster がアジアパシフィック (香港) リージョンで使用可能に
+- 投稿日: Jul 26, 2019 : Amazon ECR でイミュータブルなイメージタグのサポートを開始
+- 投稿日: Jul 26, 2019 : NWCD 運営の AWS 中国 (寧夏) リージョン、Sinnet 運営の AWS 中国 (北京) リージョンで、Amazon RDS for Oracle の M5 インスタンスタイプおよび T3 インスタンスタイプが利用可能に
+- 投稿日: Jul 26, 2019 : Amazon Transcribe ストリーミングが WebSocket のサポートを開始
+- 投稿日: Jul 26, 2019 : Amazon Transcribe ストリーミングで WebSocket のサポートを開始
+- 投稿日: Jul 26, 2019 : Amazon MSK が PCI DSS に準拠
+- 投稿日: Jul 26, 2019 : AWS Glue が、Glue ETL ジョブを使った Parquet 形式と ORC 形式のファイルのブックマークに対応
+- 投稿日: Jul 26, 2019 : AWS の ChoiceView from Radish Systems が新 Amazon Connect と統合
+- 投稿日: Jul 25, 2019 : AWS Secrets Manager で VPC エンドポイントポリシーのサポートを開始
+- 投稿日: Jul 25, 2019 : Amazon SQS で一時キュークライアントが利用可能に
+- 投稿日: Jul 25, 2019 : AWS IoT Events アクションで、AWS Lambda、SQS、Kinesis Firehose、IoT Events をターゲットとしてサポート
+- 投稿日: Jul 25, 2019 : Amazon EC2 スポットが Red Hat Enterprise Linux (RHEL) で利用可能に
+- 投稿日: Jul 25, 2019 : Amazon S3 が、Amazon CloudWatch メトリクスでパーセンタイルのサポートを追加
+- 投稿日: Jul 25, 2019 : Lumberyard Beta ベータ版 1.20 が利用可能に
+- 投稿日: Jul 25, 2019 : Amazon GuardDuty が AWS アジアパシフィック (香港) リージョンで使用可能に
+- 投稿日: Jul 25, 2019 : AWS Glue がメモリ大量使用ジョブ (開発エンドポイントを通して送信される) 向けの追加設定オプションを新たにサポート
+- 投稿日: Jul 25, 2019 : AWS Glue で、Apache Spark 2.4.3 (Python 3 使用) で ETL ジョブを実行する機能のサポートを開始
+- 投稿日: Jul 25, 2019 : AWS Amplify コンソールで、特定のパターンと一致するブランチを自動的にデプロイする機能のサポートを追加
+- 投稿日: Jul 25, 2019 : Amazon Pinpoint が HIPAA に準拠
+- 投稿日: Jul 25, 2019 : Amazon SES が HIPAA に準拠
+- 投稿日: Jul 25, 2019 : AWS リソースグループがアジアパシフィック (大阪ローカル) AWS リージョンで利用可能に
+- 投稿日: Jul 25, 2019 : AWS Snowball と AWS Snowball Edge がアジアパシフィック (ソウル) リージョンで利用可能に
+- 投稿日: Jul 24, 2019 : AWS Chatbot (ベータ版) のご紹介: Amazon Chime および Slack チャットルームにおける AWS の ChatOps
+- 投稿日: Jul 24, 2019 : 機械学習を利用した予知保全のご紹介
+- 投稿日: Jul 24, 2019 : AWS 予算が AWS チャットボット統合を発表
+- 投稿日: Jul 24, 2019 : AWS RoboMaker が欧州 (フランクフルト)、アジアパシフィック (シンガポール)、米国東部 (オハイオ) リージョンにサービスを拡張
+- 投稿日: Jul 24, 2019 : 新しい AWS 認定試験バウチャーにより、グループの認証が簡単に
+- 投稿日: Jul 24, 2019 : Amazon SNS で AWS X-Ray のサポートを追加
+- 投稿日: Jul 24, 2019 : AWS Well-Architected Tool が AWS 欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Jul 24, 2019 : Amazon FSx for Lustre が米国西部 (北カリフォルニア) リージョンで利用可能に
+- 投稿日: Jul 24, 2019 : Amazon FSx for Windows File Server が米国西部 (北カリフォルニア) リージョンで利用可能に
+- 投稿日: Jul 24, 2019 : AWS Client VPN が分割トンネルのサポートを追加
+- 投稿日: Jul 24, 2019 : AWS Certificate Manager プライベート認証機関がアジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Jul 24, 2019 : Amazon EC2 が起動テンプレート作成時のタグ付けのサポートを開始
+- 投稿日: Jul 23, 2019 : AWS Systems Manager メンテナンスウィンドウでリソースグループがターゲットとして選択可能に
+- 投稿日: Jul 23, 2019 : Amazon EFS の転送中データ暗号化の設定更新
+- 投稿日: Jul 23, 2019 : Amazon EC2 リソース最適化推奨のご紹介
+- 投稿日: Jul 23, 2019 : AWS Backup で復元ポイントへのリソースタグのコピーが自動化
+- 投稿日: Jul 23, 2019 : AWS Elemental MediaConvert でのオーディオサポートの拡大によりパフォーマンスが向上
+- 投稿日: Jul 23, 2019 : NVIDIA Volta V100 GPU を搭載した Amazon EC2 P3 インスタンスが NVIDIA Quadro Virtual Workstation をサポート
+- 投稿日: Jul 22, 2019 : Amazon MQ で AWS Key Management Service (AWS KMS) のサポートの追加により、暗号化機能が改良
+- 投稿日: Jul 22, 2019 : AI 主導型ソーシャルメディアダッシュボードの紹介
+- 投稿日: Jul 22, 2019 : AWS Systems Manager Distributor によって、配信可能なソフトウェアパッケージの作成が簡単に
+- 投稿日: Jul 22, 2019 : AWS Direct Connect の AWS Transit Gateway サポートを AWS 欧州 (アイルランド) リージョンで提供開始
+- 投稿日: Jul 22, 2019 : Amazon ECS コンソールが AWS App Mesh とのシンプルな統合に対応
+- 投稿日: Jul 22, 2019 : AWS IoT Device Tester v1.3.0 が Amazon FreeRTOS 201906.00 メジャーリリースで利用可能に
+- 投稿日: Jul 19, 2019 : AWS CodePipeline が HIPAA に準拠
+- 投稿日: Jul 18, 2019 : AWS Elemental MediaConnect が Zixi でのプルに対応
+- 投稿日: Jul 17, 2019 : EC2 の休止機能が欧州 (ストックホルム) およびアジアパシフィック (香港) の AWS リージョンでも利用可能に
+- 投稿日: Jul 17, 2019 : AWS Direct Connect でリソースベースの認可、タグベースの認可、リソース作成時のタグ付けをサポート
+- 投稿日: Jul 16, 2019 : 暗号化パフォーマンスを向上させる Amazon Corretto Crypto Provider (ACCP) のご紹介
+- 投稿日: Jul 15, 2019 : AWS リソースグループと AWS リソースグループの Tag Editor で追加の AWS リソースをサポート開始
+- 投稿日: Jul 12, 2019 : AWS VPC CNI バージョン 1.5.0 が Amazon EKS クラスターのデフォルトの CNI に
+- 投稿日: Jul 12, 2019 : Kinesis Video Streams に Dynamic Adaptive Streaming over HTTP (DASH) と H.265 動画のサポートが追加されました
+- 投稿日: Jul 12, 2019 : Facebook、Yale、アレン脳科学研究所、NOAA などの新しい AWS パブリックデータセットが利用可能に
+- 投稿日: Jul 12, 2019 : Amazon EC2 I3en インスタンスが米国西部 (北カリフォルニア) とアジアパシフィック (ソウル) AWS リージョンで利用可能に
+- 投稿日: Jul 12, 2019 : Amazon Kinesis Video プロデューサー SDK が C 言語で利用可能になりました
+- 投稿日: Jul 12, 2019 : AWS RoboMaker で Robot Operating System (ROS) Melodic のサポートを開始
+- 投稿日: Jul 12, 2019 : AWS Elemental MediaConvert で HTTPS ソースからのファイル取り込みが可能になりました
+- 投稿日: Jul 12, 2019 : AWS Glue が AWS 南米 (サンパウロ) リージョンで利用可能になりました
+- 投稿日: Jul 12, 2019 : Microsoft ワークロードの AWS への移行をサポートする新しい AWS コンピテンシーパートナー
+- 投稿日: Jul 11, 2019 : AWS クラウド開発キット (AWS CDK) の一般公開を開始
+- 投稿日: Jul 11, 2019 : Amazon EventBridge のご紹介
+- 投稿日: Jul 11, 2019 : AWS Toolkit for Visual Studio Code の一般公開を開始
+- 投稿日: Jul 11, 2019 : AWS Direct Connect がニューヨークのメトロポリタンエリアを 3 つ目の拠点に
+- 投稿日: Jul 11, 2019 : AWS リソースグループが SOC に準拠
+- 投稿日: Jul 11, 2019 : Amazon ECS がローカルテスト向けの改善された機能の提供を開始
+- 投稿日: Jul 9, 2019 : AWS Cloud Map が AWS 南米 (サンパウロ) リージョンで利用可能に
+- 投稿日: Jul 9, 2019 : AWS Container Services が AWS 向け Fluent Bit プラグインをリリース
+- 投稿日: Jul 9, 2019 : AWS License Manager がアジアパシフィック (香港) リージョンで利用可能に
+- 投稿日: Jul 9, 2019 : Amplify Framework で Auth カテゴリと Storage カテゴリのイベントに対する AWS Lambda トリガーの追加のサポートが開始
+- 投稿日: Jul 9, 2019 : Amazon ECS と AWS Fargate 向け Amazon CloudWatch Container Insights のご紹介 – プレビュー開始
+- 投稿日: Jul 9, 2019 : AWS CodeBuild、他言語ビルドのサポートを追加
+- 投稿日: Jul 9, 2019 : AWS Amplify コンソールが静的ウェブホスティングの手動デプロイを発表
+- 投稿日: Jul 9, 2019 : Amazon EFS 低頻度アクセスのライフサイクル管理を使ってコストを最適化する
+- 投稿日: Jul 9, 2019 : AWS GovCloud (米国西部) リージョンで Amazon EC2 フリート機能が EC2 Auto Scaling を介して利用可能に
+- 投稿日: Jul 9, 2019 : Amazon FSx for Windows File Server が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Jul 9, 2019 : Amazon FSx for Lustre が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Jul 9, 2019 : AWS Config により、組織内のすべての AWS アカウントにわたる AWS Config ルールのプロビジョニングが可能に
+- 投稿日: Jul 9, 2019 : AWS 予算レポートのご紹介
+- 投稿日: Jul 9, 2019 : セッションマネージャーが SSH と SCP のトンネリングサポートを開始
+- 投稿日: Jul 9, 2019 : セッションマネージャーでオペレーションシステムユーザーアカウントの対話型セッションをスタートさせる Run As がリリース
+- 投稿日: Jul 9, 2019 : AWS Elemental MediaLive が AWS CloudFormation のサポートを開始
+- 投稿日: Jul 9, 2019 : Amazon CloudWatch 異常検出のご紹介 – プレビュー開始
+- 投稿日: Jul 9, 2019 : AWS IoT がグローバルに拡大
+- 投稿日: Jul 8, 2019 : Amazon Elasticsearch Service で、自動化された時間ごとのスナップショットによって追加料金なしでデータ保護を強化
+- 投稿日: Jul 3, 2019 : Amazon RDS for PostgreSQL で、新しいマイナーバージョン (11.4、10.9、9.6.14、9.5.18、9.4.23) のサポートが開始
+- 投稿日: Jul 3, 2019 : Amazon DocumentDB (MongoDB 互換)、クラスター削除保護の提供を開始
+- 投稿日: Jul 3, 2019 : 米国の商用リージョンで、中国を拠点とするお客様からの中国人民元によるお支払いの受け入れを開始しました。
+- 投稿日: Jul 3, 2019 : AWS WAF と AWS Shield Advanced が、欧州 (パリ)、カナダ (中央)、アジアパシフィック (ムンバイ)、南米 (サンパウロ) で利用可能に
+- 投稿日: Jul 2, 2019 : AWS Amplify Console でビルドイメージが更新され、SAM CLI とカスタムコンテナのサポートを開始
+- 投稿日: Jul 2, 2019 : 産業 IT を専門とする高度な資格を持つ次世代のアドバンスドおよびプレミア APN コンサルティングパートナーをもたらす AWS 産業ソフトウェアコンピテンシー
+- 投稿日: Jul 2, 2019 : Amazon DocumentDB (MongoDB 互換) がクラスターの停止と開始をサポート
+- 投稿日: Jul 2, 2019 : AWS CodeCommit でリソースのタグ付け機能のサポートを開始
+- 投稿日: Jul 2, 2019 : Amazon DynamoDB で、グローバルセカンダリインデックスの構築終了前の削除のサポートを開始
+- 投稿日: Jul 2, 2019 : Amazon RDS で MySQL 5.7 から MySQL 8.0 へのアップグレードの互換性チェックを導入
+- 投稿日: Jul 2, 2019 : Amazon Aurora で AWS アカウント間でのクローン化のサポートが開始
+- 投稿日: Jul 1, 2019 : Amazon API Gateway がタグベースのアクセスコントロールおよび WebSocket API のタグのサポートを開始
+- 投稿日: Jun 28, 2019 : Amazon AppStream 2.0 で Windows Server 2016 および 2019 のサポートを追加
+- 投稿日: Jun 28, 2019 : Amazon RDS for Oracle が Oracle Application Express (APEX) バージョン 19.1 をサポート
+- 投稿日: Jun 28, 2019 : AWS Elemental MediaConnect が限定受信のため SPEKE に対応
+- 投稿日: Jun 28, 2019 : AWS IoT Events、フランクフルト、シドニー、東京でも利用可能に
+- 投稿日: Jun 28, 2019 : Amazon WorkSpaces で AWS リージョンをまたいだイメージのコピーが可能に
+- 投稿日: Jun 28, 2019 : AWS IoT Greengrass を利用可能な AWS リージョンを 7 つ追加
+- 投稿日: Jun 27, 2019 : AWS Security Hub が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Jun 27, 2019 : デジタルトレーニングの新コースが利用可能に: Alexa for Developers
+- 投稿日: Jun 27, 2019 : Amazon Athena が欧州 (ストックホルム) で利用可能に
+- 投稿日: Jun 27, 2019 : AWS Backup が新たに 6 つのリージョンで利用可能に
+- 投稿日: Jun 27, 2019 : AWS クラウドに MemSQL をデプロイする新しいクイックスタート
+- 投稿日: Jun 27, 2019 : Amazon ECS が新しいリソースレベルのアクセス許可およびタグベースのアクセス制御をサポート
+- 投稿日: Jun 27, 2019 : Amazon EC2 M5 および R5 インスタンスの新しいインスタンスサイズの概要
+- 投稿日: Jun 27, 2019 : Amazon Neptune が欧州 (ストックホルム) で利用可能に
+- 投稿日: Jun 27, 2019 : Amazon Transcribe が米国西部 (北カリフォルニア) の AWS リージョンで提供開始
+- 投稿日: Jun 27, 2019 : AWS EdStart が、ブラジルのお客様向けに提供開始しました。
+- 投稿日: Jun 27, 2019 : デジタルトレーニングの新コースが利用可能に: Data Analytics Fundamentals
+- 投稿日: Jun 27, 2019 : AWS Backup を使用して、米国西部 (北カリフォルニア)、カナダ (中部)、欧州 (ロンドン)、アジアパシフィック (シンガポール)、アジアパシフィック (東京)、アジアパシフィック (ソウル) で Amazon EFS ファイルシステムをバックアップ
+- 投稿日: Jun 27, 2019 : Amazon Kinesis Data Firehose が AWS GovCloud (米国東部) リージョンで提供開始
+- 投稿日: Jun 27, 2019 : Amazon EC2 Instance Connect のご紹介
+- 投稿日: Jun 26, 2019 : AWS 深層学習コンテナの新機能: Amazon SageMaker と MXNet 1.4.1 の CUDA 10.0 をサポート
+- 投稿日: Jun 26, 2019 : AWS Batch がアジアパシフィック (香港) リージョンで使用可能に
+- 投稿日: Jun 26, 2019 : AWS Security Token Service が、米国東部 (バージニア)、米国東部 (オハイオ)、欧州 (アイルランド)、アジアパシフィック (東京) で AWS PrivateLink のサポートを開始
+- 投稿日: Jun 26, 2019 : AWS Glue が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Jun 26, 2019 : Amazon CloudWatch Events でターゲットとしての Amazon CloudWatch Logs の使用および CloudWatch Events ルールのタグ付けのサポートを開始
+- 投稿日: Jun 26, 2019 : Amazon FSx for Windows File Server がアジアパシフィック (シンガポール) リージョンで提供開始
+- 投稿日: Jun 26, 2019 : Amazon FSx for Lustre がアジアパシフィック (シンガポール) リージョンで利用可能に
+- 投稿日: Jun 26, 2019 : AWS License Manager が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Jun 25, 2019 : AWS Marketplace がお客様の調達システムに統合されます
+- 投稿日: Jun 25, 2019 : リージョン内のアカウントでの新しい EBS ボリュームのデフォルトでの暗号化が、Sinnet による運営の AWS 中国 (北京) リージョン、および NWCD による運営の AWS 中国 (寧夏) リージョンで利用可能になりました。
+- 投稿日: Jun 25, 2019 : 暗号化されていない Amazon Machine Image (AMI) からの暗号化された EBS-Backed EC2 インスタンスの起動が、Sinnet により運営されている AWS 中国 (北京) リージョン、NWCD により運営されている AWS 中国 (寧夏) リージョンで利用可能になりました
+- 投稿日: Jun 25, 2019 : Amazon FSx for Windows File Server で、VPC またはアカウント間のファイルシステムで単一の AWS マネージド AD が使用可能に
+- 投稿日: Jun 25, 2019 : アカウント間で暗号化された Amazon Machine Images (AMI) の共有が、Sinnet による運営の AWS 中国 (北京) リージョン、および NWCD による運営の AWS 中国 (寧夏) リージョンで利用可能になりました。
+- 投稿日: Jun 25, 2019 : Amazon CloudWatch に、.NET および SQL Server Application Health の可視化を追加
+- 投稿日: Jun 25, 2019 : AWS Direct Connect がイタリアに最初のロケーションをローンチ
+- 投稿日: Jun 25, 2019 : APN ナビゲートのセキュリティトラック
+- 投稿日: Jun 25, 2019 : Amazon EC2 インスタンス用の Amazon VPC トラフィックミラーリングのご紹介
+- 投稿日: Jun 24, 2019 : Amazon EC2 フリートが AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jun 24, 2019 : Amazon EC2 スポットインスタンスが AWS GovCloud (米国西部) リージョンで使用可能に
+- 投稿日: Jun 24, 2019 : AWS Security Hub の一般提供を開始
+- 投稿日: Jun 24, 2019 : Amazon FSx for Windows File Server により組織の自己管理型 Active Directory で直接ファイルシステムを使用できるようになりました
+- 投稿日: Jun 24, 2019 : Amazon DynamoDB でトランザクションリクエストあたり最大 25 の一意の項目および 4 MB のデータがサポート可能に
+- 投稿日: Jun 24, 2019 : Network Load Balancer が UDP プロトコルのサポートを開始
+- 投稿日: Jun 24, 2019 : AWS GovCloud (米国) リージョンで AWS Fargate が利用可能に
+- 投稿日: Jun 24, 2019 : AWS Control Tower の一般提供を開始
+- 投稿日: Jun 24, 2019 : Amazon Connect が対応フローのバージョニングをリリース
+- 投稿日: Jun 24, 2019 : ファイルゲートウェイに SMB 共有の暗号化と署名を強制するためのオプションを追加
+- 投稿日: Jun 24, 2019 : サービスクォータのご紹介: AWS のサービスのクォータを一元的な場所から表示および管理する
+- 投稿日: Jun 21, 2019 : AWS Organizations で IAM アクセスアドバイザーを利用し、確信をもってアクセス許可のガードレールを設定
+- 投稿日: Jun 20, 2019 : AWS Storage Gateway で AWS PrivateLink を使った Amazon VPC エンドポイントのサポートを開始
+- 投稿日: Jun 20, 2019 : Amazon QuickSight で Amazon S3 と Amazon Athena に対するきめ細かなアクセスコントロールのサポートを開始
+- 投稿日: Jun 20, 2019 : Amazon API Gateway がカスタムドメイン用の設定可能な Transport Layer Security バージョンを追加
+- 投稿日: Jun 20, 2019 : OpenWrt と AWS IoT Device Tester をサポートする AWS IoT Greengrass 1.9.2 が公開されました。
+- 投稿日: Jun 20, 2019 : Amazon RDS で Storage Auto Scaling のサポートを開始
+- 投稿日: Jun 20, 2019 : AWS Glue で ETL ワークロードのオーケストレーションを実行するワークフローを提供開始
+- 投稿日: Jun 20, 2019 : Amazon Aurora PostgreSQL 互換で Amazon S3 のデータインポートをサポート開始
+- 投稿日: Jun 20, 2019 : AWS X-Ray が香港で利用可能に
+- 投稿日: Jun 20, 2019 : AWS GovCloud (米国東部) リージョンで Amazon SQS のサーバー側暗号化が利用可能に
+- 投稿日: Jun 20, 2019 : AWS Migration Hub が、サービスにリンクされたロールのサポートを追加
+- 投稿日: Jun 20, 2019 : AWS Lambda コンソールで CloudWatch Logs Insights を使って最近の呼び出しを表示可能に
+- 投稿日: Jun 20, 2019 : Amazon CloudFront コンソールでの Lambda@Edge モニタリング機能拡張の発表
+- 投稿日: Jun 20, 2019 : 新しいクイックスタートで Cohesive Networks VNS3 を AWS クラウドにデプロイする
+- 投稿日: Jun 19, 2019 : AWS Directory Service for Microsoft Active Directory と AD Connector が AWS 欧州 (ストックホルム) リージョンで提供開始
+- 投稿日: Jun 19, 2019 : Amazon EKS が、Kubernetes バージョン 1.13、ECR PrivateLink、および Kubernetes Pod セキュリティポリシーのサポートを開始
+- 投稿日: Jun 19, 2019 : Amazon MQ がムンバイとパリで利用可能に
+- 投稿日: Jun 19, 2019 : Amazon EC2 X1 および X1e インスタンスが AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Jun 18, 2019 : Amazon Connect の AI 音声分析のご紹介
+- 投稿日: Jun 18, 2019 : Amazon CloudFront は北米、ヨーロッパ、オーストラリアに 7 個の新しいエッジロケーションを発表
+- 投稿日: Jun 18, 2019 : Amazon Lightsail では WordPress の管理を簡単にするために GoDaddy と提携
+- 投稿日: Jun 18, 2019 : Sinnet 運営の AWS 中国 (北京) リージョンおよび NWCD 運営の AWS 中国 (寧夏) 地域で AWS P3 リザーブドインスタンスの割引価格が利用可能に
+- 投稿日: Jun 18, 2019 : Amazon EC2 C5 インスタンスの新しいインスタンスサイズの概要
+- 投稿日: Jun 18, 2019 : Amazon FreeRTOS 201906.00 メジャーリリースで Bluetooth Low Energy サポート機能と新しい MQTT ライブラリの一般提供を開始
+- 投稿日: Jun 17, 2019 : AWS のサービスのインターフェイスエンドポイントにエンドポイントポリシーが追加可能に
+- 投稿日: Jun 17, 2019 : 新しい動的 Vegetation システムを備えた Lumberyard ベータ版 1.19 が利用可能に
+- 投稿日: Jun 18, 2019 : AWS Direct Connect の AWS Transit Gateway サポートを AWS GovCloud (米国) とカナダ (中部) の AWS リージョンで提供開始
+- 投稿日: Jun 17, 2019 : Amazon Neptune 監査ログを Cloudwatch に出力することが可能に
+- 投稿日: Jun 14, 2019 : Amazon EC2、Amazon ECS、Amazon EFS、Amazon S3 などの AWS CloudFormation の更新
+- 投稿日: Jun 14, 2019 : Amazon MSK が AWS CloudFormation および Terraform と統合
+- 投稿日: Jun 14, 2019 : AWS Client VPN に AWS CloudFormation へのサポートを追加
+- 投稿日: Jun 14, 2019 : AWS Amplify コンソールで AWS CloudFormation のサポートを開始
+- 投稿日: Jun 13, 2019 : Amazon ElastiCache Redis にリーダーエンドポイントを開始
+- 投稿日: Jun 13, 2019 : Amazon RDS for Oracle で z1d インスタンスタイプのサポートを開始
+- 投稿日: Jun 12, 2019 : Amazon MQ がカナダ (中部) リージョンで使用可能になりました。
+- 投稿日: Jun 12, 2019 : AWS Single Sign-On により Asana および Jamf を含むより多くのビジネスアプリケーションへのアクセスが簡単に
+- 投稿日: Jun 12, 2019 : Network Load Balancer がアジアパシフィック (大阪) リージョンで利用可能に
+- 投稿日: Jun 12, 2019 : Amazon Rekognition が、さらに 4 つの AWS リージョンで利用可能に
+- 投稿日: Jun 12, 2019 : Amazon FSx for Windows File Server が欧州 (フランクフルト) リージョンで利用可能に
+- 投稿日: Jun 12, 2019 : Amazon FSx for Lustre が欧州 (フランクフルト) リージョンで利用可能に
+- 投稿日: Jun 12, 2019 : Amazon QuickSight で新機能 (複数シートのダッシュボード、新しいビジュアルタイプ) の提供を開始
+- 投稿日: Jun 12, 2019 : Amazon Elastic File System が AWS 欧州 (パリ) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : PostgreSQL 準拠の Amazon Aurora がクラスタキャッシュ管理をサポート
+- 投稿日: Jun 11, 2019 : AWS CodeBuild が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : AWS Secrets Manager が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : 新 AWS ISV ワークロード移行プログラム
+- 投稿日: Jun 11, 2019 : AWS ParallelCluster、Elastic Fabric Adapter (EFA) のサポートを開始
+- 投稿日: Jun 11, 2019 : CloudEndure Migration が無料で利用可能に
+- 投稿日: Jun 11, 2019 : AWS セキュリティの基礎のデジタルコースの新バージョンが利用可能に
+- 投稿日: Jun 11, 2019 : Amazon DynamoDB オンデマンドとトランザクションが AWS GovCloud (米国) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : AWS DataSync が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : AWS Serverless Application Repository、AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jun 11, 2019 : Amazon DynamoDB、AWS GovCloud (米国) リージョンでテーブル作成時のタグ付けのサポートを開始
+- 投稿日: Jun 11, 2019 : Amazon Chime が HIPAA に準拠
+- 投稿日: Jun 11, 2019 : 新 AWS パートナーネットワークプログラム、AWS で運営する権限
+- 投稿日: Jun 11, 2019 : AWS Glue が AWS アジアパシフィック (香港) リージョンで使用可能に
+- 投稿日: Jun 10, 2019 : Amazon Personalize の一般提供を開始
+- 投稿日: Jun 10, 2019 : Amazon CloudWatch でダッシュボードの動的なラベルをリリース
+- 投稿日: Jun 10, 2019 : AWS CodeCommit で 2 つのマージ戦略と、マージ競合の解決方法のサポートを追加
+- 投稿日: Jun 6, 2019 : Amazon DynamoDB を使用するアプリケーションを構築するための edX の新しいデジタルコース
+- 投稿日: Jun 6, 2019 : AWS Organizations で AWS アカウントのタグ付けおよびタグ解除のサポートが開始
+- 投稿日: Jun 6, 2019 : AWS KMS が Sinnet 運営の AWS 中国 (北京) リージョン、NWCD 運営の AWS 中国 (寧夏) リージョンで提供開始
+- 投稿日: Jun 6, 2019 : Amazon ECS が、awsvpc ネットワークモードのタスクに対する Elastic Network Interface (ENI) 制限の強化をサポート開始
+- 投稿日: Jun 6, 2019 : Amazon EC2 z1d インスタンスが英国 (ロンドン) リージョンで使用可能に
+- 投稿日: Jun 6, 2019 : Amazon EBS 暗号化が Sinnet による運営の AWS 中国 (北京) リージョン、NWCD による運営の AWS 中国 (寧夏) リージョンで利用可能に
+- 投稿日: Jun 6, 2019 : Serverless Image Handler で、Sharp の利用および Amazon Rekognition でのスマートクロッピングの提供が開始
+- 投稿日: Jun 6, 2019 : AWS Elemental MediaConvert が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Jun 6, 2019 : Amazon AppStream 2.0 がオンライントライアルと SaaS ソリューションを構築するための 3 つの自習型ワークショップを発表
+- 投稿日: Jun 6, 2019 : AWS Well-Architected Tool でノートフィールドの文字数を 8 倍に増加
+- 投稿日: Jun 6, 2019 : AWS Glue で、Python シェルジョブで Python 3.6 と互換性のあるスクリプトのサポートが開始
+- 投稿日: Jun 5, 2019 : Amazon Elastic File System が AWS アジアパシフィック (ムンバイ) リージョンで利用可能に
+- 投稿日: Jun 5, 2019 : Amazon RDS for SQL Server で複数ファイルのネイティブの復元をサポート
+- 投稿日: Jun 5, 2019 : Amazon ECS での Windows Server 2019 コンテナのサポートが一般利用可能に
+- 投稿日: Jun 5, 2019 : Amazon EC2 が Host Recovery を発表
+- 投稿日: Jun 5, 2019 : Amazon Pinpoint に AWS CloudFormation へのサポートを追加
+- 投稿日: Jun 5, 2019 : Amazon DocumentDB (MongoDB 互換) がアジアパシフィック (シドニー) で利用可能に
+- 投稿日: Jun 5, 2019 : Amazon EC2 X1 と X1e インスタンスが追加の AWS リージョンで利用可能に
+- 投稿日: Jun 4, 2019 : Amazon Inspector が Amazon Linux 2 にCIS ベンチマークのサポートを追加
+- 投稿日: Jun 4, 2019 : AWS DataSync が SOC に準拠しました
+- 投稿日: Jun 4, 2019 : Amazon ElastiCache for Redis がセルフサービスアップデートに対応開始
+- 投稿日: Jun 4, 2019 : Amazon API Gateway で VPC エンドポイントポリシーの使用が可能に
+- 投稿日: Jun 4, 2019 : Amazon Inspector が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Jun 4, 2019 : Amazon EC2 I3en インスタンスが追加の AWS リージョンでご利用可能に
+- 投稿日: Jun 4, 2019 : AWS Glue が VPC インターフェイスエンドポイントを実装
+- 投稿日: Jun 3, 2019 : AWS クラウドに Tableau と Snowflake をデプロイする新しいクイックスタート
+- 投稿日: Jun 3, 2019 : Amazon Elasticsearch Service、Elasticsearch 6.7 のサポートを発表
+- 投稿日: May 31, 2019 : AWS CodeCommit が AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: May 31, 2019 : AWS コンピテンシーパートナースポットライト
+- 投稿日: May 31, 2019 : Avis Budget Group と Slalom は AWS の機械学習によってレンタカー業務をさらにデジタル化します
+- 投稿日: May 30, 2019 : Amazon Managed Streaming for Apache Kafka (Amazon MSK) の一般公開を開始
+- 投稿日: May 30, 2019 : Amazon Aurora (PostgreSQL 互換) でのデータベースアクティビティストリームのサポートによりリアルタイムのモニタリングが可能に
+- 投稿日: May 30, 2019 : Amazon Aurora Serverless MySQL 5.6 が Data API のサポートを開始
+- 投稿日: May 30, 2019 : AWS CloudFormation でのタグに基づくアクセス制御のご案内
+- 投稿日: May 30, 2019 : Amplify フレームワーク、GraphQL スキーマの AWS Lambda 関数および Amazon DynamoDB カスタムインデックスのサポートを追加
+- 投稿日: May 30, 2019 : すべてのインスタンスの起動時に暗号化するかを指定せずに EC2 の休止を有効化する
+- 投稿日: May 30, 2019 : Amazon ElastiCache for Redis で計画されたメンテナンス中のクラスター可用性が向上
+- 投稿日: May 30, 2019 : AWS IoT Events が一般提供を開始
+- 投稿日: May 30, 2019 : AWS IoT Analytics でお客様個人の Amazon S3 バケットでのチャネルおよびデータストアをサポート開始
+- 投稿日: May 30, 2019 : 米国国立がん研究所のケーススタディ
+- 投稿日: May 30, 2019 : AWS IoT Things Graph の一般提供を開始
+- 投稿日: May 30, 2019 : Amazon Aurora (PostgreSQL 互換) で PostgreSQL 10.7 のサポートを開始
+- 投稿日: May 29, 2019 : Volkswagen Group Research は、Altair と協力して AWS で Nvidia テクノロジーを使用して航空力学のコンセプト設計を加速化します
+- 投稿日: May 29, 2019 : Amazon EBS で、複数の EBS ボリュームにわたってポイントインタイムのスナップショット、クラッシュ整合性スナップショットを作成する機能が追加
+- 投稿日: May 29, 2019 : Amazon Textract の一般公開開始
+- 投稿日: May 29, 2019 : クラウドベースの IDE である AWS Cloud9 をデプロイする新しいクイックスタート
+- 投稿日: May 29, 2019 : Amazon Route 53 が AWS GovCloud (米国西部) リージョンでプライベート DNS およびヘルスチェックを開始
+- 投稿日: May 29, 2019 : AWS DataSync で EFS-to-EFS 転送のサポートを開始
+- 投稿日: May 28, 2019 : 機械学習を利用した不正検出の紹介
+- 投稿日: May 28, 2019 : Amazon Connect がテレフォニーメタデータを追加
+- 投稿日: May 28, 2019 : Amazon Chime Voice Connector が米国の通話料無料番号のサポートを開始
+- 投稿日: May 28, 2019 :  Amazon EC2 用 Windows Server バージョン 1903 AMI の発表
+- 投稿日: May 28, 2019 : AWS Transit Gateway が AWS 南米 (サンパウロ) リージョンで利用可能に
+- 投稿日: May 28, 2019 : Amazon Pinpoint、配信性能ダッシュボードのメジャーアップデートを発表
+- 投稿日: May 28, 2019 : AWS Storage Gateway サービスで Amazon S3 Glacier から Amazon S3 Glacier Deep Archive に仮想テープを移動する機能を追加
+- 投稿日: May 28, 2019 : AWS Glue で Spark ETL ジョブの継続的なログ記録に対応
+- 投稿日: May 28, 2019 : Amazon Elasticsearch Service で SQL クエリのサポートを開始
+- 投稿日: May 28, 2019 : Amazon Transcribe の音声のテキスト変換機能で現代標準アラビア語のサポートを開始
+- 投稿日: May 28, 2019 : Amazon DynamoDB で、カナダ (中部) リージョンの FIPS 140-2 検証済みエンドポイントをサポート
+- 投稿日: May 28, 2019 : AWS Step Functions でワークフローメタデータへのアクセスが可能に
+- 投稿日: May 28, 2019 : AWS 認定のための新規および更新された試験準備コースを発表
+- 投稿日: May 28, 2019 : AWS に SnapLogic を使用したデータレイクをデプロイする新しいクイックスタート
+- 投稿日: May 24, 2019 : Amazon RDS for SQL Server で SQL Server 監査をサポート
+- 投稿日: May 24, 2019 : AWS Transfer for SFTP が AWS CloudFormation およびホストキーのインポートをサポート開始
+- 投稿日: May 24, 2019 : 米国東部 (バージニア北部)、米国西部 (オレゴン) リージョンにおいて Amazon Connect の電話料金が 26% 値下げ
+- 投稿日: May 24, 2019 : Amazon Aurora PostgreSQL 用のモジュラーアーキテクチャをデプロイできる新しいクイックスタートが利用可能に
+- 投稿日: May 24, 2019 : AWS RoboMaker で無線 (OTA) デプロイジョブのキャンセルが可能に
+- 投稿日: May 24, 2019 : AWS Encryption SDK for C が利用可能に
+- 投稿日: May 24, 2019 : Amazon Athena が GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: May 23, 2019 : AWS IoT Device Tester v1.2 is が Amazon FreeRTOS v1.4.8 で利用可能に
+- 投稿日: May 23, 2019 : AWS クラウドに Ribbon SBC SWe をデプロイする新しいクイックスタート
+- 投稿日: May 23, 2019 : Amazon Elasticsearch Service が SOC に準拠しました
+- 投稿日: May 23, 2019 : AWS CodeCommit で AWS CloudFormation によるリポジトリ作成時にアプリケーションコードの追加をサポート
+- 投稿日: May 23, 2019 : AWS Backup で AWS CloudFormation のサポートを開始
+- 投稿日: May 23, 2019 : Amazon RDS for SQL Server が SQL Server 2017 の Always On 可用性グループをサポート
+- 投稿日: May 23, 2019 : Amazon API Gateway が追加のリソースのタグおよびタグベースのアクセスコントロールのサポートを開始
+- 投稿日: May 23, 2019 : Amazon DynamoDB アダプティブキャパシティーが即時利用可能に
+- 投稿日: May 23, 2019 : リージョンごとに 1 回の設定で新規 EBS ボリュームの暗号化が可能に
+- 投稿日: May 23, 2019 : CloudWatch Logs がメトリクスフィルタのパーセンタイルのサポートを追加
+- 投稿日: May 23, 2019 : Amazon GuardDuty が SOC に準拠しました
+- 投稿日: May 23, 2019 : Amazon EC2 ベアメタルインスタンスが追加の AWS リージョンでご利用可能に
+- 投稿日: May 23, 2019 : Amazon EC2 P3dn インスタンスがアジアパシフィック (東京) AWS リージョンで利用可能に
+- 投稿日: May 23, 2019 : AWS Ground Station の一般提供を発表
+- 投稿日: May 23, 2019 : AWS で Aviatrix Orchestrator for AWS Transit Gateway をデプロイする新しいクイックスタートが利用可能に
+- 投稿日: May 22, 2019 : AWS DataSync にデータ転送のフィルタリングを追加
+- 投稿日: May 22, 2019 : AWS Marketplace で AMI 製品の長期契約が可能に
+- 投稿日: May 22, 2019 : Amazon WorkLink が追加のウェブサイト認可プロバイダーのサポートを発表
+- 投稿日: May 22, 2019 : Amazon DocumentDB (MongoDB 互換) が SOC 1、2、3 に準拠
+- 投稿日: May 22, 2019 : AWS Budgets がコストおよび使用量の予算向けに変動予算ターゲットをサポート
+- 投稿日: May 22, 2019 : AWS Elemental MediaLive が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: May 22, 2019 : Amazon RDS for SQL Server が各データベースインスタンスのデータベース制限を最大 100 個に拡大しました
+- 投稿日: May 22, 2019 : Amazon RDS の推奨事項で Amazon Aurora 向けのベストプラクティスガイダンスを提供開始
+- 投稿日: May 21, 2019 : 新しい Amazon QuickSight サービスデリバリーパートナー
+- 投稿日: May 21, 2019 : Marvell MW320 および MW322 AWS IoT スターターキットが Amazon FreeRTOS で使用可能に
+- 投稿日: May 21, 2019 : 暗号化された EBS スナップショットを使用せずに、AMI で起動した際に EC2 インスタンスで休止機能を有効にする
+- 投稿日: May 21, 2019 : Alexa for Business のお客様は、共有の Echo デバイスのネットワーク設定を一元管理できるようになりました
+- 投稿日: May 21, 2019 : Amazon EC2 C5n インスタンスをご利用いただけるリージョンが増えました
+- 投稿日: May 21, 2019 : AWS Config ルールの新しい料金プランを発表
+- 投稿日: May 21, 2019 : Amazon AppStream 2.0 が使用状況レポート機能を追加
+- 投稿日: May 20, 2019 : Amazon EKS と Kubernetes 向け Amazon CloudWatch Container Insights のプレビュー開始
+- 投稿日: May 20, 2019 : AWS Secrets Manager を使用して AWS クラウドで SOC のコンプライアンスを維持する
+- 投稿日: May 20, 2019 : Amazon RDS for MySQL、MariaDB、PostgreSQL の最大ストレージサイズと I/O パフォーマンスが向上
+- 投稿日: May 20, 2019 : AWS Elemental MediaPackage 料金の全リージョン一斉値下げのお知らせ
+- 投稿日: May 20, 2019 : AWS Client VPN がアジアパシフィック (ムンバイ) と アジアパシフィック (東京) の 各AWS リージョンで利用可能に
+- 投稿日: May 20, 2019 : AWS Elemental MediaStore が AWS CloudFormation のサポートを開始
+- 投稿日: May 17, 2019 : AWS Elemental MediaPackage、Video On Demand 向けの Just-in-Time Packaging のサポートを追加
+- 投稿日: May 17, 2019 : Amazon DocumentDB (MongoDB 互換) が米国東部 (バージニア北部)、米国東部 (オハイオ)、米国西部 (オレゴン)、欧州 (アイルランド) で R5 インスタンスのサポートを開始
+- 投稿日: May 17, 2019 : Amazon GuardDuty に 2 個の新たな脅威検出を追加
+- 投稿日: May 17, 2019 : Amazon Redshift がストアドプロシージャをサポート開始
+- 投稿日: May 17, 2019 : Amazon Neptune が SOC に準拠しました
+- 投稿日: May 17, 2019 : AWS アジアパシフィック (ソウル) リージョンに 3 つ目のアベイラビリティーゾーンが追加
+- 投稿日: May 16, 2019 : Amazon SNS がコスト配分タグのサポートを追加
+- 投稿日: May 16, 2019 : Amazon FSx for Lustre が SOC に準拠しました
+- 投稿日: May 16, 2019 : Amazon FSx for Windows File Server が SOC に準拠しました
+- 投稿日: May 16, 2019 : Amazon RDS for Oracle で 4 月 Oracle パッチセットの更新 (PSU) およびリリース更新 (RU) のサポートを開始
+- 投稿日: May 16, 2019 : Amazon RDS for MySQL でパスワード検証をサポート
+- 投稿日: May 16, 2019 : AWS に Micro Focus Operations Orchestration をデプロイする新しいクイックスタート
+- 投稿日: May 15, 2019 : AWS IoT Analytics で Amazon S3 へのデータセットコンテンツ配信のサポートを開始
+- 投稿日: May 15, 2019 : Amazon Connect サービスデリバリーの紹介
+- 投稿日: May 15, 2019 : Amazon EC2 オンデマンドキャパシティー予約が AWS GovCloud リージョンで利用可能に
+- 投稿日: May 15, 2019 : AWS アジアパシフィック (ムンバイ) リージョンに第三のアベイラビリティーゾーンが追加
+- 投稿日: May 15, 2019 : Amazon Kinesis Data Firehose が AWS 欧州 (ストックホルム) リージョンで提供開始
+- 投稿日: May 15, 2019 : AWS Cloud9 が欧州 (フランクフルト) リージョンで利用可能に
+- 投稿日: May 15, 2019 : AWS Firewall Manager が新たに 4 つのリージョンで利用可能に
+- 投稿日: May 15, 2019 : Amazon ElastiCache for Redis が Redis 5.0.4 のサポートを追加
+- 投稿日: May 15, 2019 : AWS 開発者用ツールコンソールでサービス全体のリソースをすばやく検索する
+- 投稿日: May 15, 2019 : Amazon Transcribe でヒンディー語およびインド英語のサポートを開始
+- 投稿日: May 15, 2019 : AWS Lambda で Node.js v10 のサポートを追加
+- 投稿日: May 15, 2019 : AWS License Manager を追加のリージョンで提供開始
+- 投稿日: May 15, 2019 : AWS AppSync、GraphQL API の複数の認証タイプ設定のサポートを開始
+- 投稿日: May 15, 2019 : AWS IoT Device Defender が、未登録のデバイスの動作の監視をサポート
+- 投稿日: May 15, 2019 : Amazon SQS FIFO キューが、AWS 中国北京 (BSJ) リージョン (SINNET による運営)、アジアパシフィック (香港)、GovCloud (米国東部) および GovCloud (米国西部) で利用可能になりました
+- 投稿日: May 14, 2019 : 新しい AWS 深層学習 AMI: PyTorch 1.1、Chainer 5.4、CUDA 10 support for MXNet
+- 投稿日: May 14, 2019 : Amazon Comprehend のバッチジョブで Amazon Virtual Private Cloud のサポートを開始
+- 投稿日: May 14, 2019 : Amazon DynamoDB Transactions がアジアパシフィック (大阪ローカル) リージョンで利用可能に
+- 投稿日: May 14, 2019 : Performance Insights は Amazon Aurora Global Database をサポートします
+- 投稿日: May 14, 2019 : Amazon SageMaker Ground Truth でデータの手動ラベル付けの自動化のサポートを開始
+- 投稿日: May 14, 2019 : AWS Migration Hub で Amazon EC2 インスタンス適正化推奨機能の提供を開始
+- 投稿日: May 14, 2019 : Amazon Chime でカスタムチャットボットの使用が可能に
+- 投稿日: May 14, 2019 : Amazon EKS が Kubernetes クラスター認証を簡素化
+- 投稿日: May 14, 2019 : AWS に IBM InfoSphere DataStage をデプロイする新しいクイックスタート
+- 投稿日: May 13, 2019 : AWS が、Armv8-M 対応 FreeRTOS 向けに事前設定された例をさらにリリース
+- 投稿日: May 13, 2019 : Amazon VPC エンドポイントでゲートウェイエンドポイント、インターフェイスエンドポイント、エンドポイントサービスへのタグ付け機能のサポートを開始
+- 投稿日: May 13, 2019 : AWS Identity and Access Management (IAM) 管理ポリシーを使用してきめ細かいセッションアクセス許可を作成する
+- 投稿日: May 13, 2019 : Amazon EMR で、HBase クラスターの高可用性を実現する複数のマスターノードをサポート
+- 投稿日: May 13, 2019 : Cloudwatch メトリクスとログを使用して Workmail 組織内の E メールを監視する
+- 投稿日: May 13, 2019 : Amazon EKS がクラスター VPC 内のパブリック IP アドレスのサポートを開始
+- 投稿日: May 13, 2019 : Agilisium Conversational BI Bot を AWS クラウドにデプロイする新しいクイックスタート
+- 投稿日: May 9, 2019 : AWS Direct Connect サービスデリバリーパートナー
+- 投稿日: May 9, 2019 : Amazon Neptune は R5 インスタンスでさらに優れたパフォーマンスをより低コストで提供します
+- 投稿日: May 9, 2019 : 新しいクイックスタートで New Relic Infrastructure を AWS にデプロイ
+- 投稿日: May 9, 2019 : Amazon Translate がムンバイ、シンガポール、東京、カナダ (中部) の各リージョンで利用可能に
+- 投稿日: May 9, 2019 : Amazon GuardDuty が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: May 9, 2019 : Amazon Neptune で秒単位の課金のサポートを開始
+- 投稿日: May 9, 2019 : AWS AppSync で、GraphQL オペレーションのパフォーマンスと状態の可視性が向上
+- 投稿日: May 9, 2019 : Amazon EC2 の C5d、M5、M5d、R5、R5d インスタンスが追加の AWS リージョンで利用可能に
+- 投稿日: May 8, 2019 : AWS Storage Gateway での、Amazon S3 バケット内のオブジェクトを保存しアクセスするための、SMB 共有のアクセスコントロールの強化
+- 投稿日: May 8, 2019 : AWS Step Functions がワークフロー実行イベントのサポートを追加
+- 投稿日: May 8, 2019 : AWS Elemental MediaStore が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: May 8, 2019 : APN ナビゲート基礎手順のご紹介
+- 投稿日: May 8, 2019 : Performance Insights で Amazon RDS for Oracle のカウンターメトリクスをサポート
+- 投稿日: May 8, 2019 : MongoDB との互換性がある Amazon DocumentDB と R5 インスタンスが、アジアパシフィック (東京) とアジアパシフィック (ソウル) リージョンで利用可能に
+- 投稿日: May 8, 2019 : 新しいクイックスタートで、オポチュニスティック型の IPsec メッシュを AWS クラウドにデプロイ
+- 投稿日: May 8, 2019 : AWS Certificate Manager プライベート認証機関が AWS GovCloud で利用可能に
+- 投稿日: May 8, 2019 : Amazon Kinesis Data Analytics でリアルタイムアプリケーションに AWS リソースタグを割り当てることが可能になりました
+- 投稿日: May 8, 2019 : AWS Secrets Manager のクライアント側キャッシングライブラリのサポートが拡大し、シークレットの可用性の向上とコストの削減を実現
+- 投稿日: May 8, 2019 : Amazon Kinesis Data Analytics が、アジアパシフィック (ソウル)、アジアパシフィック (シンガポール)、アジアパシフィック (シドニー)、アジアパシフィック (東京)、欧州 (ロンドン) で利用可能に
+- 投稿日: May 8, 2019 : AWS Service Catalog Connector for ServiceNow で CloudFormation StackSets をサポート
+- 投稿日: May 8, 2019 : 最大 60 TB の NVMe SSD インスタンスストレージを提供する、Amazon EC2 I3en インスタンスの一般提供を開始
+- 投稿日: May 7, 2019 : AWS OpsWorks for Chef Automate が Chef Automate 2 のサポートを開始
+- 投稿日: May 7, 2019 : Amazon CloudFront でインド、日本、米国に 11 個の新しいエッジロケーションの開始を発表
+- 投稿日: May 7, 2019 : AWS Systems Manager パッチマネージャー、Microsoft アプリケーションのパッチ適用に対応
+- 投稿日: May 7, 2019 : AWS Cost Explorer で予約の有効期限切れアラートを提供開始
+- 投稿日: May 7, 2019 : 新しいクイックスタートで Amazon EKS 上にスポットインスタンスと共に CloudBees Core をデプロイ
+- 投稿日: May 7, 2019 : APN パートナー認証向け AWS ビジネスプロフェッショナル新コース
+- 投稿日: May 7, 2019 : Amazon ECR Repository Tagging は、香港、ストックホルム、そしてAWS GovCloud (米国) で利用可能です。
+- 投稿日: May 7, 2019 : Amazon ElastiCache がアジアパシフィック (ムンバイ) AWS リージョンで R5 ノードを提供開始
+- 投稿日: May 6, 2019 : Amazon Cognito は、管理者向けユーザーパスワードリセット用 API を提供開始いたします。
+- 投稿日: May 6, 2019 : Amazon Translate が、ヒンディー語、ペルシア語、マレー語、ノルウェー語へのサポートを追加
+- 投稿日: May 6, 2019 : Performance Insights が Amazon Aurora MySQL 5.7 で一般提供を開始
+- 投稿日: May 3, 2019 : SAP S/4HANA on AWS の新しいクイックスタートデプロイ
+- 投稿日: May 2, 2019 : AWS Fargate PV1.3 が Splunk ログドライバーに対応
+- 投稿日: May 1, 2019 : Amazon Neptune がアジアパシフィック (ソウル) で利用可能に
+- 投稿日: May 1, 2019 : Amazon RDS for PostgreSQL で、新しいマイナーバージョン (11.2、10.7、9.6.12、9.5.16、9.4.21) のサポートが開始
+- 投稿日: May 1, 2019 : AWS Secrets Manager が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: May 1, 2019 : Amazon Elastic File System が AWS カナダ (中部) リージョンで利用可能に
+- 投稿日: May 1, 2019 : Amazon FSx for Windows File Server が Amazon CloudWatch によるファイルシステムのモニタリングに対応
+- 投稿日: May 1, 2019 : Amazon EMR で EMR クラスターで実行中のアプリケーションの再設定がサポート対象に
+- 投稿日: May 1, 2019 : Amazon ECS コンソールで、ECS 向けに最適化された Amazon Linux 2 AMI、および Amazon EC2 A1 インスタンスファミリーが利用可能に
+- 投稿日: May 1, 2019 : Amazon EKS で深層学習ベンチマークユーティリティをリリース
+- 投稿日: May 1, 2019 : Aurora Global Database が 14 の AWS リージョンで利用可能に
+- 投稿日: May 1, 2019 : edX の新しいコース「AWS IoT: Developing and Deploying an Internet of Things」
+- 投稿日: May 1, 2019 : Amazon Transcribe が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Apr 30, 2019 : AWS Well-Architected Tool が AWS アジアパシフィック (シドニー) リージョンで利用可能に
+- 投稿日: Apr 30, 2019 : AWS WAF セキュリティオートメーション、ログ解析のサポートを開始
+- 投稿日: Apr 29, 2019 : AWS クラウドを使用するエンタープライズ向けに サーバーレス CI/CD をセットアップする新しいクイックスタートが利用可能に
+- 投稿日: Apr 29, 2019 : Amazon ECR が AWS GovCloud (米国西部) で AWS PrivateLink のサポートを開始
+- 投稿日: Apr 29, 2019 : Elastic Fabric Adapter の一般提供が開始されました
+- 投稿日: Apr 29, 2019 : 開発者の皆さま、エンジンを始動しましょう。 AWS DeepRacer の仮想リーグが本日よりスタートします。
+- 投稿日: Apr 29, 2019 : Amazon MQ で、タグベースのリソースレベルアクセス許可のサポートを開始
+- 投稿日: Apr 26, 2019 : AWS Security Token Service (STS) で、すべての AWS リージョンと互換性のあるセッショントークンがグローバル STS エンドポイントにより発行されるようになりました
+- 投稿日: Apr 26, 2019 : AWS IoT Analytics が SQL データセット更新間隔の高速化のサポートを開始
+- 投稿日: Apr 26, 2019 : DynamoDBMapper が Amazon DynamoDB トランザクション API コールのサポートを開始
+- 投稿日: Apr 26, 2019 : Amazon DynamoDB テーブルの作成時にタグ付けできるようになりました
+- 投稿日: Apr 25, 2019 : AWS Systems Manager のパラメータストアがアドバンスドパラメータを導入
+- 投稿日: Apr 25, 2019 : AWS Systems Manager がより高い API スループットでのパラメーターストアの使用のサポートを開始
+- 投稿日: Apr 25, 2019 : Robot Operating System (ROS) Melodic 向け AWS RoboMaker クラウド拡張機能の発表
+- 投稿日: Apr 25, 2019 : Amazon VPC 共有が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Apr 25, 2019 : AWS が Amazon DynamoDB エンドポイント用の IP アドレス範囲を指定
+- 投稿日: Apr 25, 2019 : AWS AppSync が GraphQL API のタグ付けのサポートを開始
+- 投稿日: Apr 25, 2019 : AWS IoT Analytics で AWS IoT Core からの IoT Analytics リソース用シングルステップセットアップ機能のサポートを開始
+- 投稿日: Apr 25, 2019 : Amazon GameLift リアルタイムサーバーのプレビュー版の提供を開始
+- 投稿日: Apr 25, 2019 : AWS Service Catalog からタグ更新のお知らせ
+- 投稿日: Apr 24, 2019 : Amazon SageMaker Ground Truth がワークフローをシンプルにする新機能、新しいデータラベリングベンダー、アジアパシフィックリージョンへの拡大を発表
+- 投稿日: Apr 24, 2019 : AWS アジアパシフィック (香港) リージョンの発表
+- 投稿日: Apr 24, 2019 : Amazon Kinesis Data Streams でのコンシューマーライブラリのライセンスが Apache License 2.0 に変更
+- 投稿日: Apr 25, 2019 : AWS Resource Access Manager (RAM) が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Apr 24, 2019 : AWS Global Accelerator が新たに 6 つのリージョンで利用可能に
+- 投稿日: Apr 24, 2019 : AWS Single Sign-On が証明書のカスタマイゼーションでコーポレートポリシーのサポートを開始
+- 投稿日: Apr 24, 2019 : Android と iOS で実現可能な AWS Device Farm Remote Access の手動テストが Android OS 8+ と iOS 11+ デバイスへのサポートを開始
+- 投稿日: Apr 24, 2019 : AWS RoboMaker がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Apr 24, 2019 : AWS RoboMaker がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Apr 24, 2019 : Amazon EC2 T3a インスタンスの一般提供開始
+- 投稿日: Apr 24, 2019 : Amazon EKS がパブリックプレビューとして EC2 A1 インスタンスのサポートを開始
+- 投稿日: Apr 24, 2019 : Amazon RDS for PostgreSQL が Amazon S3 からのデータインポートのサポートを開始
+- 投稿日: Apr 23, 2019 : Amazon Elasticsearch Service が C5、M5、R5 インスタンスで今まで以上のパフォーマンスをより低いコストで提供
+- 投稿日: Apr 19, 2019 : Amazon Transcribe がアジアパシフィック (ソウル) および欧州 (フランクフルト) で利用可能になりスペイン語 (ES) の言語サポートを開始
+- 投稿日: Apr 19, 2019 : AWS Glue が AWS GovCloud (米国東部) リージョンで利用可能に
+- 投稿日: Apr 18, 2019 : Amazon Aurora Serverless がスナップショットの共有およびクロスリージョンコピーをサポート開始
+- 投稿日: Apr 18, 2019 : AWS License Manager が GovCloud (米国) リージョンで利用可能に
+- 投稿日: Apr 18, 2019 : AWS Server Migration Service での Azure から AWS への移行サポートの発表
+- 投稿日: Apr 18, 2019 : Amazon Aurora および Amazon RDS で MySQL 5.7 データベースからの移行を高速化
+- 投稿日: Apr 18, 2019 : Amazon EC2、Amazon ECS、Amazon Elastic Load Balancer に対する AWS CloudFormation のサポート範囲が更新されました
+- 投稿日: Apr 18, 2019 : AWS CodeCommit が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Apr 18, 2019 : Slurm Workload Manager のサポートが強化された AWS ParallelCluster 2.3.1 が公開されました
+- 投稿日: Apr 18, 2019 : AWS Organizations が AWS GovCloud (米国) リージョンで利用可能に
+- 投稿日: Apr 18, 2019 : Amazon Comprehend、混同行列によるカスタム分類のサポートを開始
+- 投稿日: Apr 18, 2019 : 欧州 (ストックホルム) およびアジアパシフィック (大阪) の AWS リージョンで、S3 への Amazon VPC フローログの配信が可能に
+- 投稿日: Apr 18, 2019 : Amazon EC2 P3dn インスタンスが欧州 (ダブリン) AWS リージョンで利用可能に
+- 投稿日: Apr 18, 2019 : AWS クラウドの AWS Directory Service に Duo MFA をデプロイする新しいクイックスタート
+- 投稿日: Apr 25, 2019 : AWS Amplify コンソールがカスタムヘッダーのサポートを追加
+- 投稿日: Apr 17, 2019 : AWS Transit Gateway が AWS GovCloud (米国) リージョンで利用可能に
+- 投稿日: Apr 17, 2019 : Amazon MSK のオープンプレビューを AP (シンガポール) および AP (シドニー) AWS リージョンに拡張
+- 投稿日: Apr 17, 2019 : Amazon Polly がアラビア語のサポートを追加
+- 投稿日: Apr 17, 2019 : Amplify フレームワークが新しい Amazon Aurora Serverless、GraphQL、OAuth 機能を発表
+- 投稿日: Apr 16, 2019 : AWS クラウドに Cherwell サービスマネジメントコネクタをデプロイする新しいクイックスタートのご紹介
+- 投稿日: Apr 16, 2019 : Amazon FreeRTOS でリソースのタグ付け機能のサポートを開始
+- 投稿日: Apr 16, 2019 : 新しい AWS 認定 Alexa スキルビルダー – スペシャリティ試験の発表
+- 投稿日: Apr 16, 2019 : Amazon RDS for PostgreSQL、PostgreSQL 11 への複数メジャーバージョンアップグレードのサポートを開始
+- 投稿日: Apr 16, 2019 : Amazon WorkDocs がドキュメント承認を導入
+- 投稿日: Apr 16, 2019 : AWS Client VPN が、さらに 4 つの AWS リージョンで利用可能に
+- 投稿日: Apr 16, 2019 : Amazon WorkDocs Migration Service
+- 投稿日: Apr 16, 2019 : Amazon Kinesis Data Firehose での AWS PrivateLink のサポートを拡張
+- 投稿日: Apr 16, 2019 : NICE DCV が MacOS ネイティブクライアントをリリース
+- 投稿日: Apr 12, 2019 : Amazon RDS 拡張モニタリングに新しいストレージメトリクスおよびホストメトリクスが追加
+- 投稿日: Apr 11, 2019 : 新しい AWS パブリックデータセットが、国立再生可能エネルギー研究所、南洋理工大学、スタンフォード、Software Heritage などから利用可能に
+- 投稿日: Apr 10, 2019 : Amazon QuickSight では、ローカリゼーション、パーセンタイル計算などを行えるようになりました
+- 投稿日: Apr 10, 2019 : Amazon SageMaker がノートブックインスタンスへのルートアクセスの制御を向上
+- 投稿日: Apr 10, 2019 : Amazon SageMaker が、アジアパシフィック (東京) およびアジアパシフィック (ソウル) の AWS リージョンで料金を値下げ
+- 投稿日: Apr 9, 2019 : Amazon MQ で ActiveMQ Minor バージョン 5.15.9 サポートを開始
+- 投稿日: Apr 9, 2019 : Amazon Pinpoint でトランザクション SMS メッセージ向け分析ダッシュボードの提供を開始
+- 投稿日: Apr 9, 2019 : AWS Amplify Console が新たに 5 つのリージョンで利用可能に
+- 投稿日: Apr 9, 2019 : EMR リリース 5.22.0 を発表: HBase、Oozie、Flink の新バージョンをサポート、最適化された EBS 設定により Spark などのアプリケーション向け IO パフォーマンスを向上
+- 投稿日: Apr 8, 2019 : AWS Certification の受験場所が 3 倍に増加、認定取得がより便利に
+- 投稿日: Apr 8, 2019 : AWS Elemental MediaStore でチャンク形式のオブジェクト転送をサポート、超低レイテンシーの動画ワークフローを実現
+- 投稿日: Apr 8, 2019 : Amazon RDS for Oracle で、最大 64 TiB のデータベースストレージサイズをサポート
+- 投稿日: Apr 9, 2019 : 中国本土で Amazon CloudFront の使用が可能に
+- 投稿日: Apr 8, 2019 : AWS Elemental MediaConvert の新しい高速トランスコーディングで画像処理がより迅速に
+- 投稿日: Apr 8, 2019 : Amazon CloudFront がディストリビューションに代替ドメイン名を追加する際のセキュリティを強化
+- 投稿日: Apr 8, 2019 : Amazon Elasticsearch Service でイベント監視およびアラートのサポートを開始
+- 投稿日: Apr 8, 2019 : Amazon Elasticsearch Service での、Elasticsearch 6.5 のサポートを発表
+- 投稿日: Apr 5, 2019 : AWS Certificate Manager プライベート認証機関がさらに 5 つのリージョンで利用可能に
+- 投稿日: Apr 4, 2019 : Amazon Redshift のスナップショットに対しさらに詳細なコントロールが可能に
+- 投稿日: Apr 5, 2019 : AWS Glue がメモリ大量使用ジョブ向け設定オプションを新たにサポート
+- 投稿日: Apr 5, 2019 : AWS Elemental MediaLive でシングルパイプラインオプションを使用した低コストライブチャネルを提供
+- 投稿日: Apr 5, 2019 : AWS Elemental MediaPackage および MediaTailorで、DASH エンドポイントとマネタイゼーションへのサポートが改善します。
+- 投稿日: Apr 9, 2019 : AWS が Windows から Linux への Microsoft SQL Server データベースのプラットフォーム変更を簡素化
+- 投稿日: Apr 5, 2019 : AWS Elastic Beanstalk でタグベースのアクセス許可を拡張
+- 投稿日: Apr 5, 2019 : Amazon Transcribe による音声リアルタイムテキスト変換で、英語 (英国)、フランス語、フランス語 (カナダ) のサポートを開始
+- 投稿日: Apr 5, 2019 : Amplify フレームワークにおけるモバイルおよびウェブアプリケーション向けの OAuth 2.0 フロー、ホストされた UI、AR/VR シーンの設定が簡素化されます
+- 投稿日: Apr 5, 2019 : AWS Amplify コンソールでフルスタックのサーバーレスアプリケーションのワンクリックデプロイのサポートを開始
+- 投稿日: Apr 4, 2019 : Amazon EKS が Amazon CloudWatch への Kubernetes コントロールプレーンログの配信を開始
+- 投稿日: Apr 4, 2019 : AWS Systems Manager Session Manager で、カスタムキーを使用したセッションの暗号化が可能に
+- 投稿日: Apr 4, 2019 : Amazon WorkSpaces が WorkSpaces ディレクトリ、イメージ、カスタムバンドル、IP アクセスコントロールグループ向けのタグ付けのサポートを開始
+- 投稿日: Apr 4, 2019 : AWS Serverless Application Repository が欧州 (パリ) と欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Apr 8, 2019 : AWS DeepLens で、新たな鳥分類プロジェクトテンプレートを発表
+- 投稿日: Apr 4, 2019 : Amazon SageMaker 自動モデルチューニングでランダム検索とハイパーパラメータスケーリングオプションのサポートを開始
+- 投稿日: Apr 4, 2019 : Amazon DocumentDB (MongoDB 互換) に、文字列、日付、サンプリングを対象とした Aggregation Pipeline 機能が追加されました。
+- 投稿日: Apr 4, 2019 : AWS Batch がバッチジョブを高速化する GPU スケジューリングをサポート開始
+- 投稿日: Apr 4, 2019 : AWS Secrets Manager が欧州 (パリ) リージョンで利用可能に
+- 投稿日: Apr 4, 2019 : Amazon Virtual Private Cloud の Bring Your Own IP を新たに 4 つのリージョンでサポート開始
+- 投稿日: Apr 4, 2019 : AWS Cloud9 がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Apr 4, 2019 : Amazon Managed Streaming for Apache Kafka のオープンプレビューを東京およびオレゴンの AWS リージョンでも利用可能に
+- 投稿日: Apr 4, 2019 : Amazon Connect でプエルトリコの電話番号のサポートを追加
+- 投稿日: Apr 4, 2019 : AWS Elastic Beanstalk が Go 1.12 のサポートを追加
+- 投稿日: Apr 4, 2019 : Amazon FSx for Lustre がアジアパシフィック (シドニー) リージョンで利用可能に
+- 投稿日: Apr 4, 2019 : Amazon FSx for Windows File Server がアジアパシフィック (シドニー) リージョンで提供開始
+- 投稿日: Apr 4, 2019 : AWS RoboMaker が Gazebo 9 エンジンのサポートを開始
+- 投稿日: Apr 4, 2019 : AWS RoboMaker が Gazebo 9 エンジンのサポートを開始
+- 投稿日: Apr 4, 2019 : Amazon Comprehend でリソースのタグ付け機能のサポートを開始
+- 投稿日: Apr 4, 2019 : AWS Backup がアジアパシフィック (シドニー) および欧州 (フランクフルト) AWS リージョンで提供開始
+- 投稿日: Apr 3, 2019 : 新しいクイックスタートは AWS に ISE 推奨ベースの VFX バーストレンダリングフレームワークをデプロイします
+- 投稿日: Apr 4, 2019 : Amazon WorkSpaces が WorkSpaces ディレクトリ、イメージ、カスタムバンドル、IP アクセスコントロールグループ向けのタグ付けのサポートを開始
+- 投稿日: Apr 3, 2019 : AWS Govcloud (米国) リージョンで Amazon VPC フローログを S3 に配信可能に
+- 投稿日: Apr 3, 2019 : AWS Fargate PV1.3 がシークレットを追加、コンテナの依存関係の管理を強化
+- 投稿日: Apr 2, 2019 : Video on Demand で AWS Elemental MediaConvert の QVBR モードが利用できるように
+- 投稿日: Apr 2, 2019 : AWS が、Amazon EFS と Amazon FSx for Lustre の CSI Driver を導入
+- 投稿日: Apr 2, 2019 : AWS Cloud9 が Ubuntu 開発環境のサポートを発表
+- 投稿日: Apr 2, 2019 : Amazon CloudWatch で検索条件式が利用可能に
+- 投稿日: Apr 2, 2019 : 新しい AWS MSP ナビゲートのトラック
+- 投稿日: Apr 1, 2019 : Amazon CloudWatch アラームにリソースレベルポリシーを使用できるようになりました
+- 投稿日: Apr 1, 2019 : 新しいクイックスタートは SUSE クラウドアプリケーションプラットフォームを AWS クラウドにデプロイします
+- 投稿日: Apr 1, 2019 : Amazon DynamoDB が DynamoDB ストリームに関連する料金を削減しグローバルテーブルを値下げへ
+- 投稿日: Apr 1, 2019 : APN プログラム 2019 の変更点
+- 投稿日: Apr 1, 2019 : 新しい AWS の基礎: Coursera でのサーバーレスアプリケーションの構築コース
+- 投稿日: Apr 1, 2019 : Amazon Elastic Inference をすばやく開始するための新しいセットアップツール
+- 投稿日: Mar 29, 2019 : 暗号化された Amazon Aurora PostgreSQL データベースの非暗号化スナップショットからの復元
+- 投稿日: Mar 29, 2019 : AWS Toolkit for Visual Studio Code (開発者向けプレビュー版) が Visual Studio Marketplace からダウンロードできるようになりました
+- 投稿日: Mar 29, 2019 : PostgreSQL クラスターからデータベーススナップショットにタグをコピーする
+- 投稿日: Mar 29, 2019 : 新しいクイックスタートを使用して、AWS での IBM Cloud Private for Data をデプロイ
+- 投稿日: Mar 28, 2019 : Amazon Aurora with PostgreSQL Compatibility で論理レプリケーションのサポートを開始
+- 投稿日: Mar 28, 2019 : AWS Key Management Service が 1 秒あたりの API リクエストを増加
+- 投稿日: Mar 28, 2019 : AWS Key Management Service が、キー、エイリアス、助成のデフォルトの上限値を引上げ
+- 投稿日: Mar 28, 2019 : AWS Firewall Manager Support For AWS Shield Advanced の発表
+- 投稿日: Mar 28, 2019 : Amazon EKS で Kubernetes バージョン 1.12 および CloudFormation を通したクラスターバージョンアップデートのサポートを開始
+- 投稿日: Mar 28, 2019 : AWS Marketplace での関連製品の検索がより簡単に
+- 投稿日: Mar 28, 2019 : Amazon Comprehend が AWS KMS 暗号化のサポートを開始
+- 投稿日: Mar 28, 2019 : Amazon EC2 でスケジュールされたイベントの時間を選択できる新機能のご紹介
+- 投稿日: Mar 28, 2019 : Amazon Transcribe が、カスタム発音と表示フォームでカスタム語彙を強化
+- 投稿日: Mar 28, 2019 : AWS GovCloud (米国) で Amazon DynamoDB のバックアップと復元が利用可能に
+- 投稿日: Mar 28, 2019 : Amazon API Gateway が API Publishing を改善し、ユーザーエクスペリエンスを向上させる機能を追加
+- 投稿日: Mar 28, 2019 : Amazon Redshift、最良の分散スタイルを自動で選択
+- 投稿日: Mar 28, 2019 : 新しいクイックスタートを使用して AWS に Micro Focus PlateSpin Migrate をデプロイする
+- 投稿日: Mar 27, 2019 : AWS Fargate および Amazon ECS が ECS サービスの外部デプロイメントコントローラーをサポート
+- 投稿日: Mar 27, 2019 : AWS 深層学習コンテナのご紹介
+- 投稿日: Mar 27, 2019 : Amazon EKS が Windows コンテナサポートのパブリックプレビューを開始
+- 投稿日: Mar 27, 2019 : Amazon ECS で新しいローカルのテストツールが利用可能
+- 投稿日: Mar 27, 2019 : Alexa for Business、Skill Blueprints を使用して組織用の Alexa スキルの作成が可能に
+- 投稿日: Mar 27, 2019 : Application Load Balancer で高度なリクエストルーティングのサポートを開始
+- 投稿日: Mar 27, 2019 : AWS Transfer for SFTP が AWS PrivateLink をサポート開始
+- 投稿日: Mar 27, 2019 : AWS Storage Gateway サービスで、テープゲートウェイを Amazon S3 Glacier Deep Archive ストレージクラスと統合
+- 投稿日: Mar 27, 2019 : すべての商用 AWS リージョンおよび AWS GovCloud (米国) での Amazon S3 Glacier Deep Archive ストレージクラスの一般提供開始を AWS が発表
+- 投稿日: Mar 27, 2019 : AWS Toolkit for IntelliJ が一般公開されました
+- 投稿日: Mar 27, 2019 : AMD EPYC プロセッサを備えた新しい Amazon EC2 M5ad と R5ad が利用可能に
+- 投稿日: Mar 27, 2019 : AWS App Mesh が一般提供を開始
+- 投稿日: Mar 27, 2019 : Amazon Redshift の同時実行スケーリング機能を発表。ユーザーアクティビティのバースト時に一貫性のある高速パフォーマンスを実現
+- 投稿日: Mar 26, 2019 : 新しい AWS MSP ナビゲートのトラック
+- 投稿日: Mar 25, 2019 : 新しい AWS SAP ナビゲートトラック
+- 投稿日: Mar 25, 2019 : Direct Connect ゲートウェイのマルチアカウントサポートを発表
+- 投稿日: Mar 25, 2019 : AWS Organizations のサービスコントロールポリシーで、きめ細かなアクセス許可管理が可能に
+- 投稿日: Mar 25, 2019 : AWS Event Fork Pipelines – ネストされたサーバーレスアプリケーション
+- 投稿日: Mar 25, 2019 : AWS RoboMaker がシミュレーションジョブやロボットのアップデートを最大 10 倍高速化する、新しいビルドとバンドル機能を発表
+- 投稿日: Mar 25, 2019 : MySQL 5.7 互換の Amazon Aurora、GTID ベースの複製をサポート
+- 投稿日: Mar 22, 2019 : AWS IoT Device Management の新機能としてフリートメトリクスの生成が可能に
+- 投稿日: Mar 22, 2019 : Amazon Transcribe の音声のテキスト変換機能でドイツ語と韓国語のサポートを開始
+- 投稿日: Mar 22, 2019 : Amazon Kinesis Data Analytics で AWS CloudTrail ログ記録のサポートを開始
+- 投稿日: Mar 22, 2019 : AWS IoT Core が、ポート 443 の X.509 クライアント証明書ベースの認証による HTTP REST API のサポートを開始
+- 投稿日: Mar 21, 2019 : 多言語対応自動字幕トラックを使用したライブストリーミングのご紹介
+- 投稿日: Mar 21, 2019 : AWS Storage Gateway が Amazon S3 オブジェクトロックのサポートをファイルゲートウェイに追加
+- 投稿日: Mar 21, 2019 : Amazon Simple Notification Service (SNS) 向けの Amazon VPC エンドポイントが AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Mar 21, 2019 : AWS CodePipeline がパイプライン実行履歴にアクションレベルの詳細を追加
+- 投稿日: Mar 20, 2019 : Amazon RDS が MySQL バージョン 5.7.25、5.7.24、および MariaDB バージョン 10.2.21 のサポートを追加
+- 投稿日: Mar 20, 2019 : AWS Config に Amazon API Gateway のサポートを追加
+- 投稿日: Mar 20, 2019 : AWS Glue でリソースのタグ付け機能のサポートを開始
+- 投稿日: Mar 20, 2019 : AWS 深層学習 AMI の新機能: Amazon Linux 2、TensorFlow 1.13.1、MXNet 1.4.0、Chainer 5.3.0
+- 投稿日: Mar 20, 2019 : AWS Service Catalog が AWS GovCloud (米国) リージョンで使用可能に
+- 投稿日: Mar 19, 2019 : Amazon ElastiCache for Redis 5.0.3 が I/O 処理を強化しパフォーマンスを向上
+- 投稿日: Mar 19, 2019 : AWS Config のリソース設定プロパティに基づいてクエリを実行できるようになりました
+- 投稿日: Mar 19, 2019 : Amazon EC2 z1d インスタンスが欧州 (フランクフルト) およびアジアパシフィック (シドニー) のリージョンで使用可能に
+- 投稿日: Mar 19, 2019 : Amazon EKS が Kubernetes API サーバーエンドポイントアクセスコントロールをリリース
+- 投稿日: Mar 19, 2019 : AWS IoT Device Tester v1.1 が AWS IoT Greengrass v1.8.0 で利用可能に
+- 投稿日: Mar 18, 2019 : AWS Certificate Manager 用の更新コマンドのご紹介
+- 投稿日: Mar 18, 2019 : Amazon Rekognition、拡張された顔分析を開始
+- 投稿日: Mar 18, 2019 : Amazon GameLift リアルタイムサーバーのプレビュー版の提供を開始
+- 投稿日: Mar 18, 2019 : AWS RoboMaker で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Mar 18, 2019 : Amazon Chime Voice Connector の紹介
+- 投稿日: Mar 18, 2019 : Amazon Chime Business Calling を発表
+- 投稿日: Mar 18, 2019 : Amazon WorkDocs Drive でオフラインコンテンツとオフライン検索をサポート
+- 投稿日: Mar 15, 2019 : 新しい AWS 認定機械学習 – 専門知識を提供開始
+- 投稿日: Mar 15, 2019 : AWS IoT Greengrass で、AWS IoT Analytics 向けの新しいコネクタ、AWS CloudFormation テンプレートのサポート、フリートインデックス作成の統合を追加
+- 投稿日: Mar 15, 2019 : Amazon Neptune で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Mar 15, 2019 : Amazon Corretto 11 が一般提供開始となりました
+- 投稿日: Mar 14, 2019 : Amplify フレームワークで iOS、Android、React Native の開発者向け認証機能を強化
+- 投稿日: Mar 14, 2019 : Amazon SageMaker Ground Truth でマルチカテゴリ境界ボックスおよびカスタムワークフロー向けの新しい UI テンプレートのサポートを開始
+- 投稿日: Mar 14, 2019 : AWS Glue によって Apache Spark SQL クエリの実行が可能に
+- 投稿日: Mar 14, 2019 : AWS Systems Manager が 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Mar 14, 2019 : Amazon SQS FIFO キューが、欧州 (ストックホルム) リージョン、NWCD が運営する AWS 中国 (寧夏) リージョンで利用可能になりました。
+- 投稿日: Mar 14, 2019 : 動的 Vegetation、レイヤーなどの新機能を備えた Lumberyard ベータ版 1.18 が利用可能に
+- 投稿日: Mar 14, 2019 : Lumberyard ベータ版 1.18 の 190 を超えるアップデートが利用可能に
+- 投稿日: Mar 14, 2019 : AWS Config で AWS Config リソースへのタグ付けのサポートを追加
+- 投稿日: Mar 14, 2019 : AWS Elemental MediaConnect が新たに 6 つのリージョンで利用可能に
+- 投稿日: Mar 14, 2019 : Amazon QuickSight が ML Insights の一般提供開始を発表
+- 投稿日: Mar 14, 2019 : Amazon Inspector が Amazon EC2 A1 インスタンスのサポートを追加
+- 投稿日: Mar 13, 2019 : Amazon DocumentDB (MongoDB 互換) が欧州 (フランクフルト) で R5 インスタンスを使用して利用可能に
+- 投稿日: Mar 13, 2019 : Amazon Neptune がアジアパシフィック (ムンバイ) で利用可能に
+- 投稿日: Mar 13, 2019 : AWS WAF が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Mar 13, 2019 : Amazon FSx for Lustre がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Mar 13, 2019 : Amazon FSx for Windows File Server がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Mar 13, 2019 : AWS Elemental MediaConvert、ジョブの詳細な進行状況ステータスとサーバー側の S3 暗号化のサポートを開始
+- 投稿日: Mar 13, 2019 : Amazon AppStream 2.0 で iPad および Android タブレットとタッチ操作のサポートを開始
+- 投稿日: Mar 13, 2019 : Amazon RDS で PostgreSQL 11 のサポートを開始
+- 投稿日: Mar 13, 2019 : Amazon Comprehend が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Mar 12, 2019 : AWS Schema Conversion Tool に新互換機能が追加
+- 投稿日: Mar 12, 2019 : AWS IoT Analytics で IoT Analytics リソース用シングルステップセットアップ機能のサポートを開始
+- 投稿日: Mar 12, 2019 : AWS Config ルールを使用してコンプライアンス違反のリソースを修正する
+- 投稿日: Mar 12, 2019 : Amazon EC2 M5a および R5a インスタンスをご利用いただけるリージョンが増えました
+- 投稿日: Mar 12, 2019 : AWS Schema Conversion Tool に Oracle ETL ジョブを AWS Glue へ移行するサポートを追加
+- 投稿日: Mar 11, 2019 : Amazon RDS for Oracle が読み取りのスケーラビリティと読み取りの可用性のための Active Data Guard を使用したリージョン内リードレプリカのサポートを追加
+- 投稿日: Mar 11, 2019 : Amazon Kinesis Data Firehose 向けのリソース作成時のタグ付けとタグベースの IAM アプリケーション
+- 投稿日: Mar 11, 2019 : Performance Insights が Amazon RDS for MariaDB で一般利用開始
+- 投稿日: Mar 11, 2019 : Amazon EMR リリース 5.21.0 が Flink 1.7.0 をサポート
+- 投稿日: Mar 11, 2019 : Amazon FSx for Lustre で Amazon Linux からのアクセスのサポートを開始
+- 投稿日: Mar 8, 2019 : AWS License Manager によるオンプレミスのインスタンスの追跡を強化
+- 投稿日: Mar 8, 2019 : AWS WAF と AWS Shield Advanced が、新たに 4 つのリージョンで利用可能に
+- 投稿日: Mar 8, 2019 : AWS CodePipeline を使用して AWS Serverless Application Repository へのリリースが自動化
+- 投稿日: Mar 8, 2019 : AWS License Managerに、オンプレミスの使用状況、インスタンスの数、CPU 最適化設定に基づく vCPU を追跡する新しい機能を追加
+- 投稿日: Mar 8, 2019 : AWS Elemental MediaLive から AWS Elemental MediaPackage へのライブストリーミング送信が簡単に
+- 投稿日: Mar 7, 2019 : AWS IoT Greengrass が、新しいネットワーク構成とグループ権限設定を導入
+- 投稿日: Mar 7, 2019 : AWS Elemental MediaLive がチャネル配信の一時停止をスケジュールする機能をサポート
+- 投稿日: Mar 15, 2019 : AWS Secrets Manager を使用して Amazon DocumentDB と Amazon Redshift の認証情報をローテーションする
+- 投稿日: Mar 7, 2019 : Identity and Access Management (IAM) ロールが Amazon GameLift で利用可能に
+- 投稿日: Mar 7, 2019 : Amazon Connect がアジアパシフィック (シドニー) の AWS リージョンで Customer Voice Stream のサポートを開始
+- 投稿日: Mar 7, 2019 : AWS PrivateLink が VPC ピアリングを経由したアクセスをサポート開始
+- 投稿日: Mar 7, 2019 : AWS CodeCommit が VPC エンドポイントのサポートを開始
+- 投稿日: Mar 7, 2019 : Amazon Linux AMI から Amazon Linux 2 への移行のためのプレアップグレードアシスタントのご紹介
+- 投稿日: Mar 7, 2019 : Amazon ECS がコンテナの依存関係の管理を強化
+- 投稿日: Mar 7, 2019 : Amazon Kinesis Video Streams がアジアパシフィック (シドニー) で利用可能に
+- 投稿日: Mar 7, 2019 : AWS Amplify コンソールが CDN キャッシュの即時無効化とデルタデプロイをサポート
+- 投稿日: Mar 6, 2019 : AWS Direct Connect の新しいコンソールを発表
+- 投稿日: Mar 6, 2019 : Amazon Comprehend が AWS 欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Mar 6, 2019 : White Company と Piksel Retail の導入事例
+- 投稿日: Mar 6, 2019 : Amazon SNS の新しいコンソールが利用可能に
+- 投稿日: Mar 5, 2019 : AWS Systems Manager で、大規模ハイブリッド環境向けのオンプレミスインスタンス管理をサポート開始
+- 投稿日: Mar 5, 2019 : AWS Step Functions、タグベースのアクセス許可を追加
+- 投稿日: Mar 5, 2019 : AWS ParallelCluster の Amazon FSx Lustre サポート
+- 投稿日: Mar 5, 2019 : AWS Elemental MediaLive で、暗号化された HLS 入力と VPC 入力のサポートを追加
+- 投稿日: Mar 5, 2019 : Amazon Athena がカナダ (中部) リージョンで使用可能に
+- 投稿日: Mar 5, 2019 : Amazon Corretto 11 がリリース候補版として利用可能に
+- 投稿日: Mar 4, 2019 : AWS Elemental MediaPackage でリソースのタグ付け機能のサポートを開始
+- 投稿日: Mar 4, 2019 : Amazon QuickSight で Row Level Security が有効化された E メールレポート、新しい分析機能、その他のサポートを開始
+- 投稿日: Mar 4, 2019 : 新しい AWS デジタルカスタマーエクスペリエンスコンピテンシーパートナーソリューションのご紹介
+- 投稿日: Mar 4, 2019 : Performance Insights が Amazon RDS for SQL Server で一般利用開始
+- 投稿日: Mar 4, 2019 : AWS Elemental MediaConvert が欧州 (パリ) リージョンで利用可能に
+- 投稿日: Feb 28, 2019 : リソースグループタグ付け API が追加の AWS サービスをサポート
+- 投稿日: Feb 28, 2019 : Amazon ElastiCache for Redis で Redis 5.0.3 のサポートを追加、Redis コマンド名の変更が可能に
+- 投稿日: Feb 28, 2019 : AWS RAM、AWS Robomaker、Amazon ApiGateway、その他のサービスに対する AWS CloudFormation カバレッジのアップデート
+- 投稿日: Feb 28, 2019 : Amazon DocumentDB (MongoDB 互換) で集計、配列、インデックス作成用の新しい機能のサポートを開始
+- 投稿日: Feb 28, 2019 : Amazon Translate が欧州 (フランクフルト) およびアジアパシフィック (ソウル) の AWS リージョンでも使用可能に
+- 投稿日: Feb 28, 2019 : AWS での Kubernetes の Portworx PX-Enterprise 用クイックスタート
+- 投稿日: Feb 28, 2019 : AWS Systems Manager のステートマネージャーでアカウント間のドキュメントの共有が可能に
+- 投稿日: Feb 28, 2019 : Amazon Connect、対応フローへの AWS Lambda 関数の追加を簡略化
+- 投稿日: Feb 28, 2019 : Amazon DynamoDB が保管時のデータを暗号化するための暗号化キーの切り替えのサポートを追加
+- 投稿日: Feb 27, 2019 : AWS Single Sign-On がさらに 7 つのリージョンで利用可能に
+- 投稿日: Feb 27, 2019 : Amazon MQ が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Feb 26, 2019 : Performance Insights が T2 および T3 インスタンスタイプのサポートを開始
+- 投稿日: Feb 26, 2019 : AWS が FreeRTOS カーネルでの RISC-V サポートを発表
+- 投稿日: Feb 26, 2019 : Amazon RDS for Oracle が Amazon S3 との統合によるデータ送受信機能のサポートを開始
+- 投稿日: Feb 26, 2019 : AWS Elemental MediaStore でコンテナのアクセスログのサポートを開始
+- 投稿日: Feb 26, 2019 : ACE 機会紹介と ACE ツールの拡張のご紹介
+- 投稿日: Feb 25, 2019 : Amazon Aurora の MySQL 互換で R5 インスタンスタイプのサポートを開始
+- 投稿日: Feb 25, 2019 : Amazon Aurora の MySQL 互換で T3 インスタンスタイプのサポートを開始
+- 投稿日: Feb 25, 2019 : Amazon WorkLink、Android 携帯電話で利用可能に
+- 投稿日: Feb 25, 2019 : AWS PrivateLink が AWS GovCloud (米国西部) リージョンに導入
+- 投稿日: Feb 22, 2019 : Amazon FSx for Windows ファイルサーバーで、ファイルシステムへのオンプレミスアクセス、および AWS VPC、アカウント、リージョン間のアクセスのサポートを開始
+- 投稿日: Feb 22, 2019 : AWS Server Migration Service
+- 投稿日: Feb 22, 2019 : Amazon Kinesis Video Streams が、HTTP Live Streaming (HLS) 経由の音声動画同期再生と MPEG-TS コンテナ形式のサポートを追加
+- 投稿日: Feb 21, 2019 : Amazon RDS for MySQL と Amazon RDS for MariaDB が R5 インスタンスタイプをサポート開始
+- 投稿日: Feb 21, 2019 : AWS RoboMaker が新しい言語、タグ付け、AWS CloudFormation のサポートを開始
+- 投稿日: Feb 21, 2019 : AWS Elemental MediaConvert が新たに動画の回転と広告マーカーの挿入をサポート
+- 投稿日: Feb 21, 2019 : AWS リソースグループの Tag Editor が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Feb 21, 2019 : Amazon RDS for MySQL と Amazon RDS for MariaDB が T3 インスタンスタイプをサポート開始
+- 投稿日: Feb 21, 2019 : Amazon Data Lifecycle Manager (DLM) が従来よりもバックアップ間隔を短縮したオプションをサポート
+- 投稿日: Feb 21, 2019 : AWS Shield が、高度な保護のためのデフォルトのリソース制限を引き上げ
+- 投稿日: Feb 21, 2019 : AWS Elastic Beanstalk が Windows Server プラットフォーム V2 向けにマネージドアップデート、イミュータブルデプロイ、拡張ヘルスモニタリングをサポート開始
+- 投稿日: Feb 20, 2019 : Atlassian 製品用の AWS クイックスタートで既存のインフラストラクチャの自動検出を開始
+- 投稿日: Feb 20, 2019 : AWS CodeCommit で複数のファイルを含むコミットのプログラムによる作成のサポートを開始
+- 投稿日: Feb 20, 2019 : Amazon DynamoDB Accelerator (DAX) が欧州 (フランクフルト) リージョンに拡大され、米国西部 (北カリフォルニア) リージョンで R4 インスタンスタイプのサポートを追加
+- 投稿日: Feb 20, 2019 : Amazon EC2 フリートでターゲット容量制限の引き上げが可能に
+- 投稿日: Feb 20, 2019 : Performance Insights で Amazon RDS for MySQL、RDS for PostgreSQL、Aurora MySQL のカウンターメトリクスのサポートを開始
+- 投稿日: Feb 19, 2019 : Java 対応の Amazon Kinesis Data Analytics が AWS CloudFormation をサポート
+- 投稿日: Feb 19, 2019 : AWS IoT Device Defender が統計的異常検出とデータ可視化に対応
+- 投稿日: Feb 19, 2019 : AWS Well-Architected Tool でオンプレミスおよびハイブリッドクラウドワークロード向けアーキテクチャレビューのサポートを開始
+- 投稿日: Feb 18, 2019 : プロフェッショナルレベルの AWS 認定試験更新のお知らせ
+- 投稿日: Feb 18, 2019 : Amazon Connect が外部の電話番号に転送する際にサポートされるオプションを追加
+- 投稿日: Feb 18, 2019 : Athena Workgroups を使ってユーザーまたはアプリケーション間のワークロード分離、クエリメトリクスの閲覧、コスト管理の適用を行う
+- 投稿日: Feb 11, 2019 : Amazon WorkMail が、Route 53 カスタムドメイン用に 1-click DNS 設定を追加しました。
+- 投稿日: Feb 1, 2019 : Amazon WorkMail 向けの AWS Lambda を使って受信メールにアクションをトリガーする
+- 投稿日: Feb 15, 2019 : AWS IoT Device Tester が Amazon FreeRTOS v1.4.5 および v1.4.6 で利用可能に
+- 投稿日: Feb 15, 2019 : 新しいクイックスタートを使用したAmazon EKS を使って Kubernetes クラスターをデプロイする
+- 投稿日: Feb 15, 2019 : Amazon EC2 High Memory インスタンスが AWS GovCloud (米国東部) リージョンで使用可能に
+- 投稿日: Feb 14, 2019 : Amazon FSx for Windows File Server で AWS CloudFormation のサポートを開始
+- 投稿日: Feb 14, 2019 : Amazon FSx for Lustre で AWS CloudFormation のサポートを開始
+- 投稿日: Feb 14, 2019 : AWS Transfer for SFTP がアジアパシフィック (ムンバイ) リージョンで利用可能に
+- 投稿日: Feb 14, 2019 : Amazon DynamoDB Accelerator (DAX) が Python および .NET 向けの DynamoDB トランザクションサポートを追加
+- 投稿日: Feb 13, 2019 : Amazon Aurora with PostgreSQL Compatibility で PostgreSQL 10.6 のサポートを開始
+- 投稿日: Feb 13, 2019 : Amazon EKS が P3dn インスタンス向けに強化された VPC CNI プラグイン v1.3.2 をリリース
+- 投稿日: Feb 13, 2019 : Amazon Corretto 11 のプレビュー版の提供を開始
+- 投稿日: Feb 13, 2019 : Amazon AppStream 2.0 がアジアパシフィック (ソウル) リージョンで利用可能に
+- 投稿日: Feb 13, 2019 : ハイブリッドクラウド用 Route 53 リゾルバーが 7 つの新リージョンに拡大
+- 投稿日: Feb 13, 2019 : 強化されたコンテンツモデレーションが Amazon Rekognition Video で利用可能に
+- 投稿日: Feb 13, 2019 : AWS ソリューションのご紹介
+- 投稿日: Feb 13, 2019 : Amazon MSK のオープンプレビューがオハイオおよびアイルランド AWS リージョンで利用可能になり、Apache Kafka 2.1.0 のサポートを追加
+- 投稿日: Feb 13, 2019 : Amazon EKS がムンバイ、ロンドン、パリの AWS リージョンで利用可能に
+- 投稿日: Feb 13, 2019 : 新しい Amazon EC2 ベアメタルインスタンスのご紹介
+- 投稿日: Feb 13, 2019 : Amazon EFS が低コストのストレージクラスをリリース
+- 投稿日: Feb 12, 2019 : AWS 認定ステータスを表示する新しい AWS デジタルバッジの発表
+- 投稿日: Feb 12, 2019 : Amazon Kinesis Data Firehose がカスタム Amazon S3 プレフィックスのサポートを発表
+- 投稿日: Feb 12, 2019 : Amazon DocumentDB (MongoDB 互換) で Amazon CloudWatch Logs によるデータベース監査のサポートを開始
+- 投稿日: Feb 12, 2019 : 新しいクイックスタートを使用して AWS に XebiaLabs の DevOps プラットフォームをデプロイする
+- 投稿日: Feb 12, 2019 : Amazon RDS for Oracle が Oracle Application Express (APEX) バージョン 18.1 および 18.2 をサポート
+- 投稿日: Feb 11, 2019 : Amplify フレームワークが、複数の環境、カスタムリゾルバー、大規模なデータモデル、MFA を含む IAM ロールのサポートを追加
+- 投稿日: Feb 11, 2019 : 新しい AWS マネージドサービスプロバイダー (MSP) 検証チェックリスト
+- 投稿日: Feb 12, 2019 : Amazon EC2 で、Sinnet が運営する AWS 中国 (北京) リージョン、NWCD が運営する AWS 中国 (寧夏) リージョンでの C5、C5d、R5、および R5d インスタンスの利用開始を発表
+- 投稿日: Feb 11, 2019 : 新しいクイックスタートを使用して、AWS での IBM Cloud Private をデプロイ
+- 投稿日: Feb 8, 2019 : AWS マネジメントコンソールが AWS GovCloud (米国) でアカウント間のワンクリック切り替えのサポートを開始
+- 投稿日: Feb 8, 2019 : Amazon RDS for Oracle で 2019 年 1 月 Oracle パッチセットの更新 (PSU) およびリリース更新 (RU) のサポートを開始
+- 投稿日: Feb 8, 2019 : Amazon GuardDuty に 3 個の新たな脅威検出が追加
+- 投稿日: Feb 7, 2019 : AWS OpsWorks for Chef Automate および AWS OpsWorks for Puppet Enterprise で AWS CloudFormation のサポートを開始
+- 投稿日: Feb 7, 2019 : AWS AppSync が欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Feb 7, 2019 : AWS CloudFormation を使用して Amazon API Gateway での WebSocket API 作成を自動化する
+- 投稿日: Feb 7, 2019 : AWS Fargate が AWS PrivateLink のサポートを開始
+- 投稿日: Feb 7, 2019 : AWS Elemental MediaLive でリソースのタグ付け機能のサポートを開始
+- 投稿日: Feb 7, 2019 : Amazon Transcribe が南米 (サンパウロ) リージョンで利用可能に
+- 投稿日: Feb 7, 2019 : Amazon Athena が GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Feb 7, 2019 : Amazon Transcribe の音声リアルタイムテキスト変換でスペイン語 (米国) のサポートを開始
+- 投稿日: Feb 7, 2019 : Amazon SQS FIFO キューは、現在 15 の AWS リージョンで利用可能です
+- 投稿日: Feb 7, 2019 : Amazon Elasticsearch Service で 3 つのアベイラビリティーゾーンのデプロイをサポート
+- 投稿日: Feb 6, 2019 : Amazon FSx for Lustre の新オプションと S3 データ処理の高速化
+- 投稿日: Feb 6, 2019 : Amazon Comprehend が AWS アジアパシフィック (シンガポール) およびカナダ (中部) の両リージョンで利用可能に
+- 投稿日: Feb 6, 2019 : Amazon Polly が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Feb 6, 2019 : AWS サイト間 VPN が IKEv2 に対応
+- 投稿日: Feb 6, 2019 : AWS Glue が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Feb 6, 2019 : Amazon CloudFront が米国とフランスに 6 つの新しいエッジロケーションを立ち上げることを発表
+- 投稿日: Feb 6, 2019 : アジアパシフィック (ムンバイ) AWS リージョンで、Amazon EC2 X1 インスタンスが 25% 値下げに
+- 投稿日: Feb 5, 2019 : Amazon SNS メッセージフィルタリングで複数の文字列値へのブラックリストマッチングのサポートを開始
+- 投稿日: Feb 5, 2019 : AWS X-Ray SDK for .NET Core が一般公開へ
+- 投稿日: Feb 5, 2019 : AWS Cost Explorer の Amazon EC2 予約の正規化された単位についての情報の紹介
+- 投稿日: Feb 4, 2019 : Amazon ECS が GPU 対応 EC2 インスタンスのサポートを強化
+- 投稿日: Feb 4, 2019 : AppStream 2.0 でセッション開始前およびセッション終了後のカスタムスクリプトが可能に
+- 投稿日: Feb 4, 2019 : 新しい AWS 認定のポリシーでより多くの選択肢と柔軟性を提供
+- 投稿日: Feb 4, 2019 : AWS Glue データカタログクライアント向けの Apache Hive メタストア用ソースコードがダウンロード可能に
+- 投稿日: Feb 4, 2019 : 新しいクイックスタートは AWS に CloudLens と Eastwind をデプロイします
+- 投稿日: Feb 4, 2019 : リージョン間 VPC ピアリング接続が AWS GovCloud (米国) で利用可能に
+- 投稿日: Feb 4, 2019 : クイックスタートのアップデート: AWS クラウドでの Active Directory Domain Services
+- 投稿日: Feb 4, 2019 : AWS Batch で Amazon EC2 A1 および EC2 G3s インスタンスのサポートを開始
+- 投稿日: Feb 4, 2019 : AWS Step Functions ワークフローをローカルで開発してテストする
+- 投稿日: Feb 4, 2019 : Windows Server を使用中の Windows ネイティブクライアントおよびウェブクライアント上で Kerberos 認証とタッチ入力のサポートを NICE DCV が開始
+- 投稿日: Feb 4, 2019 : Amazon DynamoDB ローカルが、トランザクション API、オンデマンドキャパシティーモード、および 20 GSI のサポートを追加
+- 投稿日: Jan 31, 2019 : Amazon Corretto が一般公開されました
+- 投稿日: Jan 29, 2019 : Amazon RDS for Oracle で Oracle SQLT 診断ツール (バージョン 12.2.180725) をサポート
+- 投稿日: Jan 28, 2019 : Amazon EMR で、KDC 持ち込みで Kerberos 認証が有効化が可能に
+- 投稿日: Jan 25, 2019 : Amazon ECS および Amazon ECR が AWS PrivateLink のサポートを開始
+- 投稿日: Jan 25, 2019 : AWS Elemental MediaLive に I フレームのみの HLS マニフェストと JPEG 出力を追加
+- 投稿日: Jan 25, 2019 : Amazon RDS for PostgreSQL で T3 インスタンスタイプのサポートを開始
+- 投稿日: Jan 25, 2019 : AWS Systems Manager Distributor が AWS GovCloud (米国) で提供開始
+- 投稿日: Jan 25, 2019 : Amazon RDS for Oracle で T3 インスタンスタイプのサポートを開始
+- 投稿日: Jan 24, 2019 : Media2Cloud ソリューションの紹介
+- 投稿日: Jan 24, 2019 : Amazon Transcribe が新たに 4 つのリージョンで利用可能に
+- 投稿日: Jan 24, 2019 : Amazon SageMaker バッチ変換で TFRecord フォーマットのサポートを開始
+- 投稿日: Jan 24, 2019 : Amazon CloudWatch エージェントが Procstat プラグインおよび複数の設定ファイルのサポートを追加
+- 投稿日: Jan 24, 2019 : Network Load Balancer が TLS ターミネーションのサポートを開始
+- 投稿日: Jan 24, 2019 : Amazon Step Functions で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 24, 2019 : AWS Elastic Beanstalk が .NET Core 2.2 のサポートを追加
+- 投稿日: Jan 24, 2019 : Amazon EC2 R5、R5d、C5d、および M5d インスタンスがアジアパシフィック (ムンバイ) AWS リージョンで利用可能に
+- 投稿日: Jan 24, 2019 : Amazon Elasticsearch Service で 3 つのアベイラビリティーゾーンのデプロイをサポート
+- 投稿日: Jan 24, 2019 : AWS マネジメントコンソールを使用して、アクセスキー、パスワード、MFA 設定を簡単に発見し更新する
+- 投稿日: Jan 23, 2019 : AWS Batch が欧州 (ストックホルム) リージョンで提供開始
+- 投稿日: Jan 23, 2019 : 英国気象庁、クイーンズランド州政府、ペンシルバニア大学、Buildzero などから、AWS パブリックデータセットが入手可能に
+- 投稿日: Jan 23, 2019 : Amazon WorkSpaces が AWS GovCloud (米国西部) リージョンで利用可能に
+- 投稿日: Jan 23, 2019 : Amazon Elastic File System (Amazon EFS) が AWS 欧州 (ロンドン) リージョンで利用可能に
+- 投稿日: Jan 24, 2019 : AWS CodeBuild で、プライベートの Docker レジストリからのイメージのアクセスをサポート開始
+- 投稿日: Jan 23, 2019 : AWS CloudFormation UpdateReplacePolicy 属性のご紹介
+- 投稿日: Jan 23, 2019 : Amazon Neptune がアジアパシフィック (東京) リージョンで利用可能に
+- 投稿日: Jan 23, 2019 : AWS Elastic Beanstalk が Ruby 2.6 のサポートを追加
+- 投稿日: Jan 23, 2019 : Amazon WorkLink のご紹介
+- 投稿日: Jan 23, 2019 : Amazon Elasticsearch Service で 200 ノードのサポート付きクラスターの最大容量が 2 倍に
+- 投稿日: Jan 23, 2019 : Amazon Elasticsearch Service、Elasticsearch 6.4 のサポートを発表
+- 投稿日: Jan 22, 2019 : Amazon Cognito が AWS カナダ (中部) リージョンで使用可能に
+- 投稿日: Jan 22, 2019 : Amazon Gognito で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 22, 2019 : AWS Config、AWS Config ルールのデフォルト制限を引上げ
+- 投稿日: Jan 22, 2019 : AWS Glue での Python シェルジョブの概要
+- 投稿日: Jan 22, 2019 : AWS Storage Gateway、テープゲートウェイのスループットパフォーマンスの向上を発表
+- 投稿日: Jan 22, 2019 : AWS Storage Gateway、ボリュームを切り離して接続する機能を導入し、さまざまなホストプラットフォーム間でボリュームを簡単に移動可能に
+- 投稿日: Jan 22, 2019 : AWS Systems Manager State Manager が、ゲスト内でのインスタンスレベルの設定管理をサポート開始
+- 投稿日: Jan 21, 2019 : Amazon EKS が ISO および PCI コンプライアンスを達成
+- 投稿日: Jan 21, 2019 : AWS Cloud9 が AWS CloudTrail ログ記録をサポート
+- 投稿日: Jan 21, 2019 : Amazon MQ で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 18, 2019 : AWS 深層学習 AMI の最新情報: TensorFlow、TensorBoard 1.12.1、MMS 1.0.1 用 Elastic Inference の更新
+- 投稿日: Jan 18, 2019 : AWS IoT Core、AWS Mobile SDK for iOS へのカスタム認証のサポートを拡大
+- 投稿日: Jan 18, 2019 : Amazon Redshift、ANALYZE を自動実行したテーブル統計の更新が可能に
+- 投稿日: Jan 18, 2019 : Amazon ElastiCache、R5 および M5 ノードファミリー向けのスタンダードリザーブドインスタンスを提供開始
+- 投稿日: Jan 18, 2019 : AWS Trusted Advisor が新しいベストプラクティスチェックに機能を追加
+- 投稿日: Jan 18, 2019 : AWS Migration Hub がオンプレミスのサーバーおよびアプリケーションデータインポート機能をサポート開始 – 移行の進行状況追跡に利用可能
+- 投稿日: Jan 18, 2019 : Amazon Elastic Inference で TensorFlow モデルのデプロイ用の新しい Python API を使用した TensorFlow 1.12 のサポートを開始
+- 投稿日: Jan 18, 2019 : AWS Elemental MediaLive が、AWS CloudTrail のサポートを追加
+- 投稿日: Jan 18, 2019 : Amazon Rekognition Video で物体境界ボックスおよびさらに高精度な物体とシーンの検出が利用可能に
+- 投稿日: Jan 18, 2019 : AWS Comprehend が AWS CloudTrail に統合
+- 投稿日: Jan 17, 2019 : AWS CodePipeline で Amazon S3 へのデプロイのサポートを開始
+- 投稿日: Jan 17, 2019 : AWS Secrets Manager がサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 17, 2019 : 新しいクイックスタートを使用して AWS に Micro Focus Enterprise Server をデプロイする
+- 投稿日: Jan 16, 2019 : Amazon ECR で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 16, 2019 : Amazon EKS で 99.9% のサービスレベルアグリーメント (SLA) が発表
+- 投稿日: Jan 16, 2019 : E メールベースの認証を使用したユーザーポータルへのサインインで AWS SSO ユーザーのセキュリティを強化
+- 投稿日: Jan 16, 2019 : Amazon EBS が AWS Backup と統合してボリュームの保護を容易に
+- 投稿日: Jan 16, 2019 : バックアップの一元管理と自動管理のために AWS Backup が Amazon DynamoDB と統合
+- 投稿日: Jan 16, 2019 : Alexa for Business で共有デバイスの設定に IT 管理者のシンプルなワークフローを提供開始
+- 投稿日: Jan 16, 2019 : AWS Step Functions が NWCD による運営で AWS 中国 (北京)、Sinnet による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Jan 16, 2019 : AWS Storage Gateway が AWS Backup と統合、Volume Gateway が管理するボリュームを保護
+- 投稿日: Jan 16, 2019 : AWS Backup のご紹介
+- 投稿日: Jan 16, 2019 : Amazon EC2 T3 インスタンスがアジアパシフィック (ムンバイ) AWS リージョンで利用可能に
+- 投稿日: Jan 16, 2019 : Amazon Elastic File System の AWS Backup との統合のご紹介
+- 投稿日: Jan 16, 2019 : Amazon Kinesis Data Firehose が Sinnet 運営の AWS 中国 (北京) リージョン、NWCD 運営の AWS 中国 (寧夏) リージョンで提供開始
+- 投稿日: Jan 16, 2019 : Amazon Kinesis Data Firehose が AWS GovCloud (米国西部) リージョンで提供開始
+- 投稿日: Jan 15, 2019 : AWS Elemental MediaConvert に IMF 入力が追加、キャプション書き込みのサポートを強化
+- 投稿日: Jan 14, 2019 : Amazon Kinesis Data Streams で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 14, 2019 : Amazon Kinesis Data Firehose で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 14, 2019 : Amazon Kinesis Video Streams で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 11, 2019 : Amazon QuickSight でピボットテーブルの機能拡張、クロススキーマの結合などを提供開始
+- 投稿日: Jan 11, 2019 : AWS Config に AWS Service Catalog のサポートが追加
+- 投稿日: Jan 10, 2019 : Amazon EC2 スポットが複数のページにわたる "describe-spot-instance-requests" の結果表示に対応
+- 投稿日: Jan 10, 2019 : AWS Single Sign-On で、特定の AWS マネジメントコンソールページにユーザーを誘導することが可能に
+- 投稿日: Jan 10, 2019 : AWS Device Farm で Appium Node.js と Appium Ruby のサポートを開始
+- 投稿日: Jan 10, 2019 : AWS Glue が AWS 欧州 (パリ) リージョンで利用可能に
+- 投稿日: Jan 9, 2019 : Amazon EKS がソウルリージョンで使用可能に
+- 投稿日: Jan 9, 2019 : AWS Database Migration Service が、MongoDB 互換の Amazon DocumentDB をターゲットとしてサポート
+- 投稿日: Jan 9, 2019 : Amazon Neptune がアジアパシフィック (シドニー) で利用可能に
+- 投稿日: Jan 9, 2019 : 一般提供を開始した Amazon DocumentDB (MongoDB 互換) の紹介
+- 投稿日: Jan 8, 2019 : AWS OpsWorks スタックが Amazon Linux 2、Amazon Linux 2018.03、Ubuntu 18.04 をサポート
+- 投稿日: Jan 8, 2019 : Amazon EC2 X1e インスタンスがアジアパシフィック (ソウル) AWS リージョンで利用可能に
+- 投稿日: Jan 7, 2019 : AWS ParallelCluster が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Jan 7, 2019 : AWS ParallelCluster が AWS 欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Jan 7, 2019 : AWS Step Functions でリソースのタグ付け機能のサポートを開始
+- 投稿日: Jan 7, 2019 : 新しいクイックスタートで、AWS に Citrix Virtual Apps and Desktops サービスをデプロイ
+- 投稿日: Jan 7, 2019 : AWS Fargate で最大 50% の値下げを発表
+- 投稿日: Jan 8, 2019 : Amazon Pinpoint が新たに 3 つのリージョンで利用可能に
+- 投稿日: Jan 4, 2019 : Amazon EC2 High Memory インスタンスが追加の AWS リージョンで利用可能に
+- 投稿日: Jan 3, 2019 : Renesas のシステムオンチップ、RX65N が Amazon FreeRTOS で使用可能に
+- 投稿日: Jan 2, 2019 : Amazon API Gateway のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 2, 2019 : AWS 認定 Alexa スキルビルダー – スペシャリティベータ試験の発表
+- 投稿日: Jan 7, 2019 : Amazon EMR で 99.9% のサービスレベルアグリーメント (SLA) を発表
+- 投稿日: Jan 2, 2019 : Amazon EFS で 99.9% のサービスレベルアグリーメント (SLA) が発表
+- 投稿日: Jan 24, 2019 : AWS CodeBuild でクロスアカウント ECR イメージへのアクセスをサポート開始
+- 投稿日: Apr 24, 2019 : AWS アジアパシフィック (香港) リージョンの発表
+- 投稿日: May 13, 2019 : Amazon Aurora (PostgreSQL 互換) で PostgreSQL 9.6.11 のサポートを開始
+- 投稿日: Mar 19, 2019 : AWS Direct Connect が 500 Mbps を超えるホスト型接続容量を追加
+- 投稿日: Apr 25, 2019 : Amazon Pinpoint が新たに 2 つの AWS アジアパシフィックリージョンで利用可能に
+- 投稿日: May 15, 2019 : AWS CodeBuild が欧州 (ストックホルム) リージョンで利用可能に
+- 投稿日: Mar 28, 2019 : AWS Database Migration Service にデータ変換とデータレイクの機能が新たに追加
+- 投稿日: Apr 4, 2019 : Amazon SQS で VPC エンドポイント向けポリシーのサポートを開始
+- 投稿日: Feb 4, 2019 : AWS クラウドプラクティショナーの基礎知識デジタルコースの更新と改善の発表
+- 投稿日: Feb 21, 2019 : AWS CodeBuild がローカルキャッシュをサポート開始
+- 投稿日: Mar 28, 2019 : Amazon AppStream 2.0 が HIPAA に準拠
+- 投稿日: Apr 4, 2019 : Amazon SNS で VPC エンドポイントポリシーの使用が可能に
+- 投稿日: Mar 12, 2019 : AD Connector が Sinnet による運営で AWS 中国 (北京)、NWCD による運営で AWS 中国 (寧夏) の各リージョンで利用可能に
+- 投稿日: Jun 20, 2019 : Amazon Aurora PostgreSQL 互換で t3.medium インスタンスのサポートを開始
+- 投稿日: Apr 4, 2019 : Amazon Aurora の PostgreSQL 互換で R5 インスタンスタイプのサポートを開始
