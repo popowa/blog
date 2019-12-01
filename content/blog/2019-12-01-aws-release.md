@@ -3,7 +3,7 @@ Date: 2019-12-01 16:00
 Authors: ayakomuro
 Category: tech
 Tags:  AWS
-Slug: 2019-aws-release
+Slug: 2019/aws-release-title
 Status: published
 Summary: 2019年にリリースされたAWSサービス(2019/12/1時点)
 
