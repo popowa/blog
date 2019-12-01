@@ -3,7 +3,7 @@ Date: 2017-12-16 10:45
 Tags: AWS
 Slug: 2017/12/2017-aws-release
 Authors: ayakomuro
-Summary: 2017年のAWSリリース一覧を自分用に図にまとめてみた方法とその結果
+Summary: 2017年のAWSリリース一覧を自分用に図にまとめてみた方法とその結果👀
 
 ## 動機
 [九州インフラ交流勉強会(Kixs) Vol.006](https://kixs.connpass.com/event/69643/)で発表資料作成する為に色々調べたりまとめて見ました。

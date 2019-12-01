@@ -1,11 +1,11 @@
-Title: AWSの2019年リリース一覧を見てみる（2019月12月1日時点）
+Title: AWSの2019年リリース一覧を見てみた（2019月12月1日時点）
 Date: 2019-12-01 16:00
 Authors: ayakomuro
 Category: tech
 Tags:  AWS
 Slug: 2019/aws-release-title
 Status: published
-Summary: 2019年にリリースされたAWSサービス(2019/12/1時点)
+Summary: 2019年にリリースされたAWSサービス(2019/12/1時点)⚠️
 
 詳細は[こちら](https://blog.popowa.com/2019-aws.html)を見て貰うとしてなんとまぁ……全部で……
 1429行あるようです。リリース以外にもパートナーの案内とかあるので全部ではないようですが……いやはや👀💥
