@@ -1,7 +1,7 @@
 Title: 九電と西部ガスの利用をどちらかに統合した場合
 Date: 2017-04-09 22:13
 Authors: ayakomuro
-Tags:  思った事
+Tags:  cost-saving
 Slug:2017/04/blog-post
 Status: published
 
@@ -40,7 +40,3 @@ Status: published
 
 
 現在九電に寄せると4000円弱安くなる模様。でも金額以上にサービスなどが変わらずなのかはまだ見ていない。4000円弱なら驚くほどの割引率ではなくまず通常の利用を節約した方が良さそうだ。
-
-
-
-

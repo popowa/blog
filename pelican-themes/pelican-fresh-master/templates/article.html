@@ -14,9 +14,9 @@
         <h1 class="entry-title">
           <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
              title="Permalink to {{ article.title|striptags }}">{{ article.title}}</a></h1>
-        {% include 'twitter.html' %}
       </header>
       <div class="entry-content">
+        {% include 'twitter.html' %}
         {% include 'article_infos.html' %}
 
         {% if SHARETHIS_PUB_KEY %}

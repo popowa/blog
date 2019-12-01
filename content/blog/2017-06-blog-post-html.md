@@ -1,7 +1,7 @@
 Title: ハンドメイド、ノベルティ作る時のお店一覧
 Date: 2017-06-07 20:57
 Authors: ayakomuro
-Tags:  ノベルティ, ハンドメイド, メモ
+Tags:  drawing
 Slug:2017/06/blog-post
 Status: published
 
