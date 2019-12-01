@@ -52,7 +52,7 @@ CloudAutomatorのAPI登録はRoute53のFullアクセス権限のみアタッチ�
 
 ## DatadogでWebhook機能としてCloudAutomatorを登録する
 
-![Webhookインテグレーション]({filename}/images/20171204-02.png)
+![Webhookインテグレーション]({static}/images/20171204-02.png)
 
 まずDatadogでWebhook機能をONにします。
 [Datadog-Webhooks Integration](https://docs.datadoghq.com/integrations/webhooks/)
@@ -65,7 +65,7 @@ WebhooksのConfigurationから設定をします。
 
 ```json
 {"Authorization" : "CAAuth xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,
-"Content-Length": 0}
+ "Content-Length": 0}
 ```
 
 設定を保存します。

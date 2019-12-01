@@ -1,0 +1,1626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="no-js aws-lng-ja_JP" lang="ja-JP" data-static-assets="https://a0.awsstatic.com" data-js-version="1.0.314" data-css-version="1.0.325">
+ <head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <link rel="dns-prefetch" href="https://a0.awsstatic.com" /> 
+  <link rel="dns-prefetch" href="//d0.awsstatic.com" /> 
+  <link rel="dns-prefetch" href="//d1.awsstatic.com" /> 
+  <title>AWS re:Invent 2018 で発表された新サービスと機能 | AWS</title> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="robots" content="index, follow" /> 
+  <link rel="canonical" href="https://aws.amazon.com/jp/new/reinvent/" /> 
+  <link rel="alternate" href="//aws.amazon.com/de/new/reinvent/" hreflang="de-de" /> 
+  <link rel="alternate" href="//aws.amazon.com/new/reinvent/" hreflang="en-us" /> 
+  <link rel="alternate" href="//aws.amazon.com/es/new/reinvent/" hreflang="es-es" /> 
+  <link rel="alternate" href="//aws.amazon.com/fr/new/reinvent/" hreflang="fr-fr" /> 
+  <link rel="alternate" href="//aws.amazon.com/it/new/reinvent/" hreflang="it-it" /> 
+  <link rel="alternate" href="//aws.amazon.com/jp/new/reinvent/" hreflang="ja-jp" /> 
+  <link rel="alternate" href="//aws.amazon.com/ko/new/reinvent/" hreflang="ko-kr" /> 
+  <link rel="alternate" href="//aws.amazon.com/pt/new/reinvent/" hreflang="pt-br" /> 
+  <link rel="alternate" href="//aws.amazon.com/cn/new/reinvent/" hreflang="zh-cn" /> 
+  <link rel="alternate" href="//aws.amazon.com/tw/new/reinvent/" hreflang="zh-tw" /> 
+  <link rel="icon" type="image/ico" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico" /> 
+  <link rel="shortcut icon" type="image/ico" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico" /> 
+  <link rel="apple-touch-icon" sizes="57x57" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="72x72" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="114x114" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png" /> 
+  <link rel="apple-touch-icon" sizes="144x144" href="https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png" /> 
+  <meta property="twitter:card" content="summary" /> 
+  <meta property="twitter:title" content="AWS re:Invent 2018 で発表された新サービスと機能 | AWS" /> 
+  <meta property="twitter:description" content="" /> 
+  <meta property="twitter:image" content="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_179x109.png" /> 
+  <meta property="twitter:site" content="@awscloud" /> 
+  <meta property="og:title" content="AWS re:Invent 2018 で発表された新サービスと機能 | AWS" /> 
+  <meta property="og:type" content="company" /> 
+  <meta property="og:url" content="https://aws.amazon.com/jp/new/reinvent/" /> 
+  <meta property="og:image" content="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" /> 
+  <meta property="og:site_name" content="Amazon Web Services, Inc." /> 
+  <meta property="fb:pages" content="153063591397681" /> 
+  <meta name="google-site-verification" content="XHghG81ulgiW-3EylGcF48sG28tBW5EH0bNUhgo_DrU" /> 
+  <meta name="msvalidate.01" content="6F92E52A288E266E30C2797ECB5FCCF3" /> 
+  <meta name="baidu-site-verification" content="pjxJUyWxae" /> 
+  <link rel="stylesheet" href="https://a0.awsstatic.com/libra-css/css/1.0.325/style-awsm.css" /> 
+  <script>
+  var AWS = {
+    PageSettings: {
+      supportedLanguages: ['ar', 'en', 'es', 'de', 'fr', 'id', 'it', 'jp', 'ko', 'pt', 'ru', 'th', 'tr', 'vi', 'cn', 'tw'],
+      defaultLanguage: 'en',
+      logDataSet: 'LIVE:PROD',
+      logInstance: 'PUB',
+      csdsEndpoint: 'https://aws.amazon.com/',
+      framework: 'v2',
+      g11nLibPath: 'https://a0.awsstatic.com/g11n-lib/2.0.45',
+      i18nStringPath: 'https://i18n-string.us-west-2.prod.pricing.aws.a2z.com',
+      libraCSSPath: 'https://a0.awsstatic.com/libra-css/css/1.0.325',
+      libraCSSImagePath: 'https://a0.awsstatic.com/libra-css/images',
+      isLoggingEnabled: true,
+      currentLanguage: 'ja-JP',
+      isMarketplace: false,
+      isRTL: false
+    }
+  };
+
+  var require = {
+    baseUrl: 'https://a0.awsstatic.com',
+    packages: [
+      { name: 'libra', location: 'libra/1.0.314' }
+    ],
+    paths: {
+      "directories": "https://a0.awsstatic.com/libra/1.0.314/directories",
+      "libra-cardsui": "https://a0.awsstatic.com/libra/1.0.314/libra-cardsui",
+      "librastandardlib": "https://a0.awsstatic.com/libra/1.0.314/librastandardlib",
+      "aws-blog": "https://a0.awsstatic.com/aws-blog/1.0.28/js",
+      "plc": "https://a0.awsstatic.com/plc/js/1.0.91/plc",
+      "scripts": "libra/1.0.314/v1-polyfills/scripts",
+      "psf": "https://a0.awsstatic.com/psf/1.1.6",
+      "libra-search": "https://a0.awsstatic.com/libra-search/1.0.10/js",
+      "pricing-calculator": "https://a0.awsstatic.com/pricing-calculator/js/1.0.2",
+      "pricing-savings-plan": "https://a0.awsstatic.com/pricing-savings-plan/js/1.0.4"
+    },
+    waitSeconds: 15
+  };
+</script> 
+  <script src="https://a0.awsstatic.com/libra/1.0.314/libra-head.js"></script> 
+  <script src="https://a0.awsstatic.com/s_code/js/1.0/awshome_s_code.js"></script> 
+  <script>
+      AWS.TargetMediator = {
+        supportedLanguages: AWS.PageSettings.supportedLanguages,offerOrigin: 'https://s0.awsstatic.com',pageLanguage: 'jp'
+      };
+    </script> 
+  <script data-js-script="target-mediator" src="https://a0.awsstatic.com/target/1.0.102/aws-target-mediator.js"></script> 
+ </head> 
+ <body class="awsm"> 
+  <header id="aws-page-header" class="awsm m-page-header" role="banner"> 
+   <div id="m-nav" class="m-nav" role="navigation"> 
+    <div class="m-nav-header lb-clearfix" data-menu-url="https://s0.awsstatic.com/ja_JP/nav/v3/panel-content/desktop/index.html"> 
+     <div class="m-nav-logo"> 
+      <div class="lb-bg-logo aws-amazon_web_services_smile-header-desktop-en"> 
+       <a href="https://aws.amazon.com/jp/?nc2=h_lg"><span>アマゾン ウェブ サービスのホームページに戻るには、ここをクリック</span></a> 
+      </div> 
+     </div> 
+     <div class="m-nav-secondary-links" style="min-width: 620px"> 
+      <a href="/jp/contact-us/?nc2=h_header"> 無料相談はこちら ≫ </a> 
+      <a class="lb-txt-none lb-tiny-iblock lb-txt-13 lb-txt lb-has-trigger-indicator" href="#" data-mbox-ignore="true" data-lb-popover-trigger="popover-support-selector"> サポート&nbsp; <i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <a id="m-nav-language-selector" class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-language-selector" data-language="jp">日本語&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <a class="lb-tiny-iblock lb-txt lb-has-trigger-indicator" href="#" data-lb-popover-trigger="popover-my-account">アカウント&nbsp;<i class="icon-caret-down lb-trigger-mount"></i></a> 
+      <div class="m-nav-cta-btn"> 
+       <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_header_nav_cta" data-lb-comp-ignore="true"> 
+        <div class="lb-btn"> 
+         <a id="aws-nav-cta-button" class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_ct&amp;src=default" style="min-width:171px;"><span>AWS アカウントを作成する</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="m-nav-primary-group"> 
+      <div class="m-nav-primary-links"> 
+       <i class="m-nav-angle-left-icon" aria-hidden="true"></i> 
+       <ul> 
+        <li><a href="/jp/products/?nc2=h_ql_prod" data-panel="m-nav-panel-products">製品</a></li> 
+        <li><a href="/jp/solutions/?nc2=h_ql_sol" data-panel="m-nav-panel-solutions">ソリューション</a></li> 
+        <li><a href="/jp/pricing/?nc2=h_ql_pr" data-panel="m-nav-panel-pricing">料金</a></li> 
+        <li><a href="https://docs.aws.amazon.com/index.html?nc2=h_ql_doc" data-panel="m-nav-panel-documentation">ドキュメント</a></li> 
+        <li><a href="/jp/getting-started/?nc2=h_ql_gs" data-panel="m-nav-panel-learn">学習</a></li> 
+        <li><a href="/jp/partners/?nc2=h_ql_pn" data-panel="m-nav-panel-partner">パートナー</a></li> 
+        <li><a href="https://aws.amazon.com/marketplace/?nc2=h_ql_mp" data-panel="m-nav-panel-marketplace">AWS Marketplace</a></li> 
+        <li><a href="/jp/customer-enablement/?nc2=h_header" data-panel="m-nav-panel-customer">カスタマー支援</a></li> 
+        <li><a href="/jp/contact-us/?nc2=h_header" data-panel="m-nav-panel-more">さらに詳しく見る </a></li> 
+       </ul> 
+       <div class="m-nav-icon-group"> 
+        <i class="m-nav-angle-right-icon" aria-hidden="true"></i> 
+        <i class="m-nav-search-icon"></i> 
+       </div> 
+      </div> 
+      <div class="m-nav-search"> 
+       <form action="https://aws.amazon.com/search" role="search"> 
+        <div class="m-typeahead" data-directory-id="typeahead-suggestions" data-lb-comp="typeahead"> 
+         <input class="m-nav-search-field" placeholder="検索" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery" /> 
+        </div> 
+       </form> 
+       <i class="m-nav-close-icon"></i> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-language-selector" data-action="hover" data-position="top"> 
+     <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+        <li data-language="ar"> <a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a> </li> 
+        <li data-language="id"> <a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a> </li> 
+        <li data-language="de"> <a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a> </li> 
+        <li data-language="en"> <a href="https://aws.amazon.com/?nc1=h_ls">English</a> </li> 
+        <li data-language="es"> <a href="https://aws.amazon.com/es/?nc1=h_ls">Espa&ntilde;ol</a> </li> 
+        <li data-language="fr"> <a href="https://aws.amazon.com/fr/?nc1=h_ls">Fran&ccedil;ais</a> </li> 
+        <li data-language="it"> <a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a> </li> 
+        <li data-language="pt"> <a href="https://aws.amazon.com/pt/?nc1=h_ls">Portugu&ecirc;s</a> </li> 
+       </ul> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+        <li data-language="vi"> <a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a> </li> 
+        <li data-language="tr"> <a href="https://aws.amazon.com/tr/?nc1=h_ls">T&uuml;rk&ccedil;e</a> </li> 
+        <li data-language="ru"> <a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a> </li> 
+        <li data-language="th"> <a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a> </li> 
+        <li data-language="jp"> <a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a> </li> 
+        <li data-language="ko"> <a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a> </li> 
+        <li data-language="cn"> <a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a> </li> 
+        <li data-language="tw"> <a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-my-account" data-action="hover" data-position="top"> 
+     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+      <li> <a href="https://console.aws.amazon.com/?nc2=h_m_mc">AWS マネジメントコンソール</a> </li> 
+      <li> <a href="https://portal.aws.amazon.com/gp/aws/manageYourAccount?nc2=h_m_ma">アカウント設定</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/billing/home?nc2=h_m_bc">請求情報とコスト管理</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/iam/home?nc2=h_m_sc#security_credential">セキュリティ認証情報</a> </li> 
+      <li> <a href="https://phd.aws.amazon.com/?nc2=h_m_sc">AWS Personal Health Dashboard</a> </li> 
+     </ul> 
+    </div> 
+    <div class="lb-popover lb-popover-aui lb-popover-tiny" data-lb-comp="popover" data-id="popover-support-selector" data-action="hover" data-position="top"> 
+     <ul class="lb-txt-none lb-ul lb-list-style-none lb-tiny-ul-block"> 
+      <li> <a href="https://console.aws.amazon.com/support/home/?nc2=h_ql_cu">サポートセンター</a> </li> 
+      <li> <a href="/jp/premiumsupport/knowledge-center/?nc2=h_m_ma">ナレッジセンター</a> </li> 
+      <li> <a href="/jp/premiumsupport/?nc2=h_m_bc">AWS サポートの概要</a> </li> 
+     </ul> 
+    </div> 
+    <script class="tt-suggestion-tpl" type="text/x-handlebars-template">
+    <div>
+      <a href="{{primaryUrl}}">
+        <div class="tt-title">
+          {{title}}
+        </div>
+        {{#if desc}}
+          <div class="tt-desc">
+            {{desc}}
+          </div>
+        {{/if}}
+      </a>
+      <div class="tt-btn-group">
+        {{#if pricingUrl}}
+          <a href="{{pricingUrl}}">
+            <div class="tt-btn">料金</div>
+          </a>
+        {{/if}}
+        {{#if docsUrl}}
+          <a href="{{docsUrl}}">
+            <div class="tt-btn">ドキュメント</div>
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </script> 
+    <script class="tt-products-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header lb-txt-bold">
+      <p>製品</p>
+    </div>
+  </script> 
+    <script class="tt-keypages-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header lb-txt-bold">
+      <p>関連ページ</p>
+    </div>
+  </script> 
+    <script class="tt-tutorials-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header lb-txt-bold">
+      <p>チュートリアル</p>
+    </div>
+  </script> 
+    <script class="tt-blogs-head-tpl" type="text/x-handlebars-template">
+    <div class="tt-header lb-txt-bold">
+      <p>ブログ</p>
+    </div>
+  </script> 
+    <script class="tt-see-all-tpl" type="text/x-handlebars-template">
+    <div class="tt-see-all">
+      <a href="https://aws.amazon.com/search/?searchQuery={{ query }}">次に対するその他の検索結果を表示 "{{ query }}"&lrm;</a>
+    </div>
+  </script> 
+   </div> 
+   <div id="m-nav-mobile" class="m-nav-mobile"> 
+    <div id="m-nav-mobile-header" class="m-nav-mobile-header" data-menu-url="https://s0.awsstatic.com/ja_JP/nav/v3/panel-content/mobile/index.html"> 
+     <div class="lb-bg-logo aws-amazon_web_services_smile-header-mobile-en"> 
+      <a href="https://aws.amazon.com/jp/?nc2=h_lg"><span>アマゾン ウェブ サービスのホームページに戻るには、ここをクリック</span></a> 
+     </div> 
+     <div class="m-nav-mobile-button-group"> 
+      <i class="m-nav-mobile-button icon-search"></i> 
+      <i class="m-nav-mobile-button icon-reorder"></i> 
+     </div> 
+    </div> 
+    <div id="m-nav-mobile-search" class="m-nav-mobile-search"> 
+     <form action="https://aws.amazon.com/search" role="search"> 
+      <div class="m-typeahead"> 
+       <input class="m-nav-search-field" placeholder="検索" autocomplete="off" spellcheck="false" dir="auto" type="text" name="searchQuery" /> 
+      </div> 
+     </form> 
+    </div> 
+    <nav id="m-nav-trimdown" role="navigation"> 
+     <ul class="m-nav-mobile-menu-group"> 
+      <li> <a href="/jp/products/?nc2=h_mo">製品</a> </li> 
+      <li> <a href="/jp/solutions/?nc2=h_mo">ソリューション</a> </li> 
+      <li> <a href="/jp/pricing/?nc2=h_mo">料金</a> </li> 
+      <li> <a href="/jp/what-is-aws/?nc2=h_mo">AWS 入門</a> </li> 
+      <li> <a href="/jp/getting-started/?nc2=h_mo">開始方法</a> </li> 
+      <li> <a href="/jp/documentation/?nc2=h_mo">ドキュメント</a> </li> 
+      <li> <a href="/jp/training/?nc2=h_mo">トレーニングと認定</a> </li> 
+      <li> <a href="/jp/developer/?nc2=h_mo">開発者センター</a> </li> 
+      <li> <a href="/jp/solutions/case-studies/?nc2=h_mo">お客様の導入事例</a> </li> 
+      <li> <a href="/jp/partners/?nc2=h_mo">パートナー</a> </li> 
+      <li> <a href="https://aws.amazon.com/marketplace/?nc2=h_mo">AWS Marketplace</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/support/home?nc2=h_ql_cu">サポート</a> </li> 
+      <li> <a href="https://console.aws.amazon.com/console/home">コンソールにログイン</a> </li> 
+      <li> <a href="/jp/console/mobile/">モバイルアプリケーションをダウンロード</a> </li> 
+      <li> <a href="/jp/contact-us/?nc2=h_mo">無料相談窓口はこちら ≫</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="lb-sticky-subnav" style="background-color:rgba(255, 255, 255, 0.5);" data-lb-comp="sticky-subnav" data-lb-page-path="/jp/new/reinvent/"> 
+    <div class="lb-row lb-row-max-large lb-snap"> 
+     <div class="lb-tiny-24 lb-sticky-subnav-content"> 
+      <div class="lb-sticky-subnav-title"> 
+      </div> 
+      <div class="lb-sticky-subnav-links"> 
+       <a class="lb-tiny-align-right lb-txt-none lb-txt" href="#Product_Announcements"> トップに戻る</a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="aws-page-content" class="lb-page-content lb-page-with-sticky-subnav" style="padding-top:0px; padding-bottom:0px;" data-page-alert-target="true"> 
+   <main role="main"> 
+    <div class="lb-bg-left-top-cover lb-mid-pad lb-none-v-margin lb-grid" style="margin-top:0px; background-image:url('//d1.awsstatic.com/events/reinvent/2018/2018-reInvent_Recap_HERO.96ba3836ccf98b1a8b891987e091345204dd95ba.png');"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
+        <div class="lb-col lb-tiny-24 lb-mid-8"> 
+         <figure class="lb-none-v-margin lb-img"> 
+          <div class="lb-border-horizontal lb-none-pad"> 
+           <img alt="reinvent-logo_all-white" title="reinvent-logo_all-white" src="//d1.awsstatic.com/Digital%20Marketing/House/Hero/logos/reinvent-logo_all-white.ee1c8a22214d8c27577147cb85b27d69aa661b99.png" /> 
+          </div> 
+         </figure> 
+         <div class="lb-grid lb-row lb-row-max-large lb-snap" style="padding-left:35px; padding-right:35px;"> 
+          <div class="lb-col lb-tiny-24 lb-mid-24"> 
+           <div class="lb-small-v-margin lb-form-item"> 
+            <div class="lb-dropdown lb-equal-width lb-dropdown-p" data-equalize-widths="true" data-lb-comp="dropdown" data-redirect="true"> 
+             <div class="lb-dropdown-label" tabindex="0"> 
+              <span>カテゴリを選択する</span> 
+             </div> 
+             <input class="lb-dropdown-selected" type="hidden" /> 
+             <ul class="lb-dropdown-list" role="listbox"> 
+              <li data-value="" role="option" tabindex="0" class="lb-dropdown-item"> <span>カテゴリを選択する</span> </li> 
+              <li data-value="#Application_Integration" role="option" tabindex="0" class="lb-dropdown-item"> <span>アプリケーション連携</span> </li> 
+              <li data-value="#Analytics" role="option" tabindex="0" class="lb-dropdown-item"> <span>分析</span> </li> 
+              <li data-value="#Blockchain" role="option" tabindex="0" class="lb-dropdown-item"> <span>ブロックチェーン</span> </li> 
+              <li data-value="#Compute" role="option" tabindex="0" class="lb-dropdown-item"> <span>コンピューティング</span> </li> 
+              <li data-value="#Databases" role="option" tabindex="0" class="lb-dropdown-item"> <span>データベース</span> </li> 
+              <li data-value="#Developer_Tools" role="option" tabindex="0" class="lb-dropdown-item"> <span>開発者用ツール</span> </li> 
+              <li data-value="#Internet_of_Things" role="option" tabindex="0" class="lb-dropdown-item"> <span>IoT</span> </li> 
+              <li data-value="#Machine_Learning" role="option" tabindex="0" class="lb-dropdown-item"> <span>機械学習</span> </li> 
+              <li data-value="#Management_.26_Governance" role="option" tabindex="0" class="lb-dropdown-item"> <span>マネジメントとガバナンス</span> </li> 
+              <li data-value="#Marketplace" role="option" tabindex="0" class="lb-dropdown-item"> <span>Marketplace</span> </li> 
+              <li data-value="#Media_Services" role="option" tabindex="0" class="lb-dropdown-item"> <span>メディアサービス</span> </li> 
+              <li data-value="#Transfer_and_Migration" role="option" tabindex="0" class="lb-dropdown-item"> <span>移行とデータ転送</span> </li> 
+              <li data-value="#Mobile" role="option" tabindex="0" class="lb-dropdown-item"> <span>モバイル</span> </li> 
+              <li data-value="#Networking_.26_Content_Delivery" role="option" tabindex="0" class="lb-dropdown-item"> <span>ネットワークとコンテンツ配信</span> </li> 
+              <li data-value="#Robotics" role="option" tabindex="0" class="lb-dropdown-item"> <span>ロボティクス</span> </li> 
+              <li data-value="#Satellite" role="option" tabindex="0" class="lb-dropdown-item"> <span>人工衛星</span> </li> 
+              <li data-value="#Security.2C_Identity.2C_.26_Compliance" role="option" tabindex="0" class="lb-dropdown-item"> <span>セキュリティ、アイデンティティ、コンプライアンス</span> </li> 
+              <li data-value="#Storage" role="option" tabindex="0" class="lb-dropdown-item"> <span>ストレージ</span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="lb-col lb-tiny-24 lb-mid-16"> 
+         <h1 id="Product_Announcements" class="lb-tiny-align-left lb-txt-white lb-txt-60 lb-tiny-hide lb-small-show lb-mid-show lb-large-show lb-xlarge-show lb-none-v-margin lb-h1-large lb-title" style="margin-top:0px; margin-bottom:0px;"> 製品発表</h1> 
+         <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
+          <div class="lb-col lb-tiny-24 lb-mid-8"> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-8"> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-8"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="lb-none-pad lb-grid lb-row lb-row-max-large lb-snap" style="margin-top:0px; margin-bottom:0px;"> 
+        <div class="lb-col lb-tiny-24 lb-mid-24"> 
+         <h1 id="Watch_the_Keynotes" class="lb-tiny-align-center lb-txt-none lb-txt-skt-purple lb-h1 lb-title"> 基調講演ビデオ</h1> 
+         <div class="lb-tiny-align-center lb-txt-white lb-rtxt"> 
+          <p style="text-align: center;">*動画再生中に動画内の上部タイトルをクリックすると、YouTube にて日本語字幕をご覧いただけます。<br /> </p> 
+         </div> 
+         <div class="lb-grid lb-row lb-row-max-large lb-snap lb-gutter-tiny"> 
+          <div class="lb-col lb-tiny-24 lb-mid-6"> 
+           <div class="lb-video lb-video-p" data-lb-comp="video" data-placement="inPlace" data-youtube-id="mDNHK-SzXEM" data-source="youtube" data-video-title="Monday Night Live Keynote"> 
+            <figure itemscope="true" itemtype="http://schema.org/VideoObject"> 
+             <div class="video-js"></div> 
+             <meta itemprop="embedUrl" content="https://www.youtube.com/watch?v=mDNHK-SzXEM" /> 
+            </figure> 
+           </div> 
+           <div class="lb-txt-white lb-rtxt"> 
+            <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; text-align: center;"><b>Peter DeSantis,&nbsp;VP, AWS Global Infrastructure</b></p> 
+           </div> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-6"> 
+           <div class="lb-video lb-video-p" data-lb-comp="video" data-placement="inPlace" data-youtube-id="7NJs7CsstHc" data-source="youtube" data-video-title="Global Partner Keynote"> 
+            <figure itemscope="true" itemtype="http://schema.org/VideoObject"> 
+             <div class="video-js"></div> 
+             <meta itemprop="embedUrl" content="https://www.youtube.com/watch?v=7NJs7CsstHc" /> 
+            </figure> 
+           </div> 
+           <div class="lb-txt-white lb-rtxt"> 
+            <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; text-align: center;"><b>Terry Wise, VP of Global Alliances Ecosystems, and Channels, AWS</b></p> 
+           </div> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-6"> 
+           <div class="lb-video lb-video-p" data-lb-comp="video" data-placement="inPlace" data-youtube-id="ZOIkOnW640A" data-source="youtube" data-video-title="Andy Jassy Keynote"> 
+            <figure itemscope="true" itemtype="http://schema.org/VideoObject"> 
+             <div class="video-js"></div> 
+             <meta itemprop="embedUrl" content="https://www.youtube.com/watch?v=ZOIkOnW640A" /> 
+            </figure> 
+           </div> 
+           <div class="lb-txt-white lb-rtxt"> 
+            <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; text-align: center;"><b>Andy Jassy, CEO, Amazon Web Services</b></p> 
+           </div> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-6"> 
+           <div class="lb-video lb-video-p" data-lb-comp="video" data-placement="inPlace" data-youtube-id="femopq3JWJg" data-source="youtube" data-video-title="Werner Vogels keynote"> 
+            <figure itemscope="true" itemtype="http://schema.org/VideoObject"> 
+             <div class="video-js"></div> 
+             <meta itemprop="embedUrl" content="https://www.youtube.com/watch?v=femopq3JWJg" /> 
+            </figure> 
+           </div> 
+           <div class="lb-txt-white lb-rtxt"> 
+            <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; text-align: center;"><b>Werner Vogels, CTO, Amazon.com</b></p> 
+           </div> 
+          </div> 
+         </div> 
+         <hr class="lb-divider" /> 
+         <h2 id="AWS_re.3AInvent_2018_.E3.83.80.E3.82.A4.E3.82.B8.E3.82.A7.E3.82.B9.E3.83.88_.E3.80.9C_AWS_.E3.81.AE.E6.9C.80.E6.96.B0.E5.8B.95.E5.90.91.E3.82.92.E5.AD.A6.E3.81.B6.E3.80.9C" class="lb-tiny-align-center lb-txt-bold lb-txt-none lb-txt-white lb-h1 lb-title" style="margin-bottom:0px;"> AWS re:Invent 2018 ダイジェスト</h2> 
+         <h2 id="AWS_re.3AInvent_2018_.E3.83.80.E3.82.A4.E3.82.B8.E3.82.A7.E3.82.B9.E3.83.88_.E3.80.9C_AWS_.E3.81.AE.E6.9C.80.E6.96.B0.E5.8B.95.E5.90.91.E3.82.92.E5.AD.A6.E3.81.B6.E3.80.9C" class="lb-tiny-align-center lb-txt-bold lb-txt-none lb-txt-white lb-tiny-v-margin lb-h1 lb-title"> 東京・大阪でイベント開催！</h2> 
+         <div class="lb-grid lb-row lb-row-max-large lb-snap"> 
+          <div class="lb-col lb-tiny-24 lb-mid-12"> 
+           <div class="lb-txt-bold lb-txt-22 lb-rtxt" style="color:#FFFFFF;"> 
+            <p style="text-align: center;"><b>2018 年 12 月 11 日 (火) 10:00 ～ 17:20<br /> 東京会場よりライブストリーム中継！</b></p> 
+            <p style="text-align: center;"><a href="https://pages.awscloud.com/AWSreInvent2018digestLiveStream20181211-jp.html">詳細・お申し込みはこちら &raquo;</a></p> 
+           </div> 
+          </div> 
+          <div class="lb-col lb-tiny-24 lb-mid-12"> 
+           <div class="lb-txt-bold lb-txt-22 lb-rtxt" style="color:#FFFFFF;"> 
+            <p style="text-align: center;"><b>2018 年 12 月 13 日 (木) 10:00 ～ 17:20<br /> サンライズビル大阪（大阪） にて開催<br /> </b></p> 
+            <p style="text-align: center;"><b><a href="https://aws.amazon.com/jp/about-aws/events/2018/reinvent-recap-osaka/" target="_blank">詳細・お申し込みはこちら &raquo;</a></b></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-bottom:20px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Application_Integration" class="lb-txt-light lb-txt-none lb-h1 lb-title" style="margin-top:20px;"> アプリケーション連携</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF; margin-bottom:20px;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Step_Functions_.2B_Amazon_SageMaker_.26_AWS_Glue" class="lb-txt-none lb-h3 lb-title"> AWS Step Functions、 Amazon SageMaker と AWS Glue の連携</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Step Functions は、Amazon SageMaker および AWS Glue と連携し、データサイエンスおよびエンジニアリングチームが機械学習（ML）のワークフローの作成、デプロイメント、監視、およびイテレーションをより簡単かつ迅速に行うことができます。AWS Step Functions を使用すれば、複数の Amazon SageMaker のジョブと AWS のサービスをコーディングなしで、数分で接続し機械学習のワークフローを自動化できます。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-step-functions-adds-eight-more-service-integrations/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/blogs/aws/new-compute-database-messaging-analytics-and-machine-learning-integration-for-aws-step-functions">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Step_Functions_.2B_Workflow_Automation" class="lb-txt-none lb-h3 lb-title"> AWS Step Functions でワークフローの自動化</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Step Functions で AWS Batch、Amazon Elastic Container Service (ECS) のジョブを開始するワークフローを自動化できるようになりました。Amazon DynamoDB でデータペイロード（データ本体）を格納および取得します。Amazon SNS と Amazon SQS にメッセージを送れます。これらの連携により、ワークフローの構築、セキュリティの簡素化、および監視がより迅速に対応できるようになります。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/aws-step-functions-adds-eight-more-service-integrations/"><b>詳細はこちら &gt;</b></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Analytics" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> 分析</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Lake_Formation" class="lb-txt-none lb-h3 lb-title"> AWS Lake Formation<sup> 近日リリース</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Lake Formation は、プレビュー版の新サービスで、セキュアなデータレイクを構成します。これにより、データの取り込み、分類、整理、変換が可能になります。AWS Lake Formation は、Amazon EMR、Amazon Redshift, Amazon Athena, Amazon Sagemaker, QuickSight のような分析ツールとの連携を容易にします。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-lake-formation/">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-aws-lake-formation/">日本語ブログを読む</a> | <a href="https://www.businesswire.com/news/home/20181128005682/en/Amazon-Web-Services-Announces-Services-Build-Deploy">プレスリリース</a>&nbsp;| <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1202-ABD.html?&amp;trk=el_a131L000006VMfTQAW&amp;trkCampaign=December_1202-ABD&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Quicksight" class="lb-txt-none lb-h3 lb-title"> Amazon QuickSight<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon QuickSight は、機械学習を提供する最初の BI サービスであり、自然言語が組織内のすべてのユーザーにインサイトを与えます。機械学習と自然言語により、ユーザーは隠れたインサイトを容易に発見することができ、前進するために重要な要素を理解し、機械学習の専門家や手動の解析による膨大な時間を費やすことなく、ビジネスを予測することができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-announces-ml-insights-preview-for-amazon-quicksight/">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/amazon-quicksight-announces-ml-insights-in-preview/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Kinesis_Data_Analytics_for_Java_Applications" class="lb-txt-none lb-h3 lb-title"> Amazon Kinesis Data Analytics for Java Applications</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Kinesis Data Analytics は、ストリーミングデータを解析したり、すぐに使用可能なインサイトを得たり、ビジネスやお客様のニーズにも即時に対応できる、最も簡単な方法です。ストリーミングデータを解析する為に SQL を記述することに加えて、開発者はいかなるスケールにおいてもデータを構造化、変換、統合するような共通処理を可能にするビルトイン型の最新の Java アプリケーションを構築できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-kinesis-data-analytics-now-supports-java-based-stream-processing-applications/">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/new-amazon-kinesis-data-analytics-for-java/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Managed_Streaming_for_Kafka" class="lb-txt-none lb-h3 lb-title"> Amazon Managed Streaming for Kafka<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Managed Streaming for Kafka は、フルマネージド型のサービスで、Apache Kafka を使用してストリーミングデータを処理するアプリケーションを簡単に構築および実行できます。 Kafkaのインフラストラクチャ管理の専門知識は必要ありません。したがって、インフラストラクチャの管理にかかる時間を短縮し、ストリーミングアプリケーションを構築する時間を短縮できます。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-managed-streaming-for-kafka-in-public-preview/" target="_blank"><b>詳細はこちら &raquo;</b></a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-werner-vogels-keynote-amazon-msk/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Blockchain" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> ブロックチェーン</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Managed_Blockchain" class="lb-txt-none lb-h3 lb-title"> Amazon Managed Blockchain<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Managed Blockchain は、Hyperledger Fabric や Ethereum といった人気のオープンソースフレームワークを用い、スケーラブルなブロックチェーンネットワークを容易に作成し管理するフルマネージド型のサービスです。<b><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-jassy-keynote-amazon-managed-blockchain/">日本語ブログを読む</a> | <a href="https://www.businesswire.com/news/home/20181128005679/en/AWS-Announces-Amazon-Quantum-Ledger-Database-QLDB">プレスリリースを見る</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Compute" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> コンピューティング</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="EC2_A1_Instance" class="lb-txt-none lb-h3 lb-title"> EC2 A1 インスタンス</h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>Amazon EC2 A1 インスタンスは、大幅なコスト節約、スケールアウトと拡張した Arm エコシステムによりサポートされた Arm ベースのワークロードに適しています。A1 インスタンスは EC2 ではじめてのインスタンスで、AWS がカスタムデザインした 64 ビット Arm Neoverse コアと回路による Graviton プロセッサーを使用しています。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-ec2-a1-instances/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-ec2-instances-a1-powered-by-arm-based-aws-graviton-processors/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="EC2_C5n" class="lb-txt-none lb-h3 lb-title"> EC2 C5n インスタンス</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon EC2 C5n インスタンスは C5 インスタンスファミリーに追加された次世代のインスタンスで、100 Gbps のネットワークのスループットを提供します。C5n インスタンスは、ハイパフォーマンスコンピューティング（HPC）、データレイク、ファイヤウォールやルーターなどのネットワークアプライアンスを含むネットワーク集中型アプリケーションに適しています。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-ec2-c5n-instances/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-c5n-instances-with-100-gbps-networking/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Container_Competency" class="lb-txt-none lb-h3 lb-title"> AWS Container Competency</h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>AWS Container Competency は、AWS の製品やソリューションでコンテナの実行をサポートする AWS Partner Network (APN) テクノロジーパートナー を識別します。パートナーが提供する製品やサービスは、コンテナ上でワークロードの処理能力を向上させるよう AWS のサービスと連携します。AWS Container Competency は、オーケストレーション、スケジューリング、インフラ、アプリケーションの構築／テスト、コンテナ上での構築の最適化に加え、監視、ログの記録、コンテナのセキュリティ管理なども最適化できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-containers-competency">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/apn/introducing-the-aws-container-competency-program/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Firecracker" class="lb-txt-none lb-h3 lb-title"> Firecracker</h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>Firecracker は、AWS のオープンソースによる専用仮想化技術です。セキュアでマルチテナントなコンテナで、機能ベースのサービスが AWS Lambda と AWS Fargate で利用できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/firecracker-lightweight-virtualization-for-serverless-computing/">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/firecracker-lightweight-virtualization-for-serverless-computing/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Outposts" class="lb-txt-none lb-h3 lb-title"> AWS Outposts<sup> 近日リリース</sup> </h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>AWS Outposts は、ネイティブな AWS サービス、インフラストラクチャ、運用モデルをデータセンター、コロケーションスペース、オンプレミス環境へ仮想的にもたらします。AWS Outposts なら、エンタープライズIT全体に対して単一の管理方法が適用でき、同様にオンプレミスまたはクラウドにおけるモダンアプリケーション開発において、自動化、ガバナンス制御、ポリシー、API、開発者ツールが使用可能です。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-outposts/">詳細はこちら &raquo;</a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-amazon-outposts/">日本語ブログを読む</a> | <a href="https://www.businesswire.com/news/home/20181128005680/en/Amazon-Web-Services-Announces-AWS-Outposts">プレスリリースを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_EC2_P3dn_instances" class="lb-txt-none lb-h3 lb-title"> Amazon EC2 P3dn インスタンス<sup> 近日リリース</sup> </h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>Amazon EC2 P3dn.24xlarge インスタンスは、最も処理速度が速く、パワフルで、P3 インスタンスの中でも最も大きなインスタンスサイズです。100 Gbps のネットワークスループット、8 NVIDIA&reg; Tesla&reg; V100 GPU、32 GB メモリ、 カスタマイズした 96 Intel&reg; Xeon&reg; Scalable (Skylake) vCPU、2 TB の NVMeベースの SSD ストレージなどが利用できます。さらに高速なネットワーク、プロセッサ、GPU メモリ倍増、 vCPU を追加すれば、機械学習に費やす時間をさらに低減したり、いくつかのインスタンスを使ってスケールアウトさせるような HPC のシミュレーションを実行したりすることができます。<a href="https://aws.amazon.com/ec2/instance-types/p3/#Amazon_EC2_P3dn.24xlarge_Instances"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="On-Demand_Hibernated" class="lb-txt-none lb-h3 lb-title"> Amazon EC2 オンデマンドハイバーネーション</h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>起動中の EC2 インスタンスの休止（一時停止）と再開ができるようになりました。すぐに再開できるようメモリ上に展開している状態を保持できます。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-ec2-now-lets-you-pause-and-resume-your-workloads/">詳細はこちら &raquo;</a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-hibernate-your-ec2-instances/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Lightsail_Tagging" class="lb-txt-none lb-h3 lb-title"> Amazon Lightsail のインスタンスアップグレード </h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>本日より Amazon Lightsail のインスタンスを Amazon EC2 のインスタンスへ簡単にアップグレードできるようになりました。Lightsail は、予測しやすい価格、アプリケーションのスケールと管理、必要に応じて EC2 へ移行できるなど Lightsail の使いやすいプラットフォームの特徴をより活用できるようになります。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-lightsail-now-supports-resource-tagging/">詳細はこちら &raquo;</a><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Lambda_as_a_Target_for_Application_Load_Balancer.EF.BB.BF" class="lb-txt-none lb-h3 lb-title"> アプリケーションロードバランサーで AWS Lambda をサポート</h3> 
+       <div class="lb-txt-14 lb-rtxt"> 
+        <p>アプリケーションロードバランサーで AWS Lambda ファンクションを呼び出し、サーバーレスアプリケーションでウェブブラウザなどの HTTP クライアントからの HTTP(S) リクエストを処理できるようになりました。アプリケーションロードバランサーをサーバーやサーバーレスコンピューティングのアプリケーションにおける運用や監視を簡易化するため、共通の HTTP エンドポイントして利用できます。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/">詳細はこちら&nbsp;&raquo;</a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/lambda-functions-as-targets-for-application-load-balancers/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1205-SRV.html?&amp;trk=el_a131L000006VMfiQAG&amp;trkCampaign=December_1205-SRV&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Lambda_Layers" class="lb-txt-none lb-h3 lb-title"> AWS Lambda レイヤー</h3> 
+       <div class="lb-rtxt"> 
+        <p>複数の機能間において共通のソフトウェアやデータを簡単に管理できる、AWS Lambda の機能、Lambda レイヤーを発表しました。以前、開発者は、アプリケーションフレームワーク、SDK、機械学習モデルなどの Lambda 関数に必要なすべてのソフトウェアとデータを関数のデプロイメントパッケージに含める必要がありました。現在では、Lambda レイヤーを使用して、複数の機能間で共通のソフトウェアとデータを集中管理することができます。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-lambda-now-supports-custom-runtimes-and-layers/">詳細はこちら&nbsp;&raquo;</a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/">ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1205-SRV.html?&amp;trk=el_a131L000006VMfiQAG&amp;trkCampaign=December_1205-SRV&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_License_Manager" class="lb-txt-none lb-h3 lb-title"> AWS License Manager</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS License Manager は、AWS やオンプレミス環境にある Oracle、Microsoft、SAP などのソフトウェアライセンスを容易に管理することができます。AWS License Manager であれば、管理者がそれらのライセンスを単一のダッシュボードで確認でき、誤った使用を防止するようなルールを設定できます。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing%20aws%20license%20manager/">詳細はこちら &raquo;</a>&nbsp;</p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-license-manager-manage-software-licenses-and-enforce-licensing-rules/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Databases" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> データベース</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="DynamoDB_Transactions.EF.BB.BF" class="lb-txt-none lb-h3 lb-title"> DynamoDB トランザクション</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon DynamoDB トランザクションを利用することにより、開発者は複数のミスのゆるされないの操作を必要とするミッションクリティカルなアプリケーションでビジネスロジックを支援することができます。例えば、開発者が構築する注文処理アプリケーションで、顧客の支払い方法が有効であることを確認し、1 回限りのミスのゆるされない操作として正確なロイヤリティポイント数を顧客の口座にクレジットすることができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-amazon-dynamodb-support-for-transactions/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-amazon-dynamodb-transactions/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Quantum_Ledger_Database" class="lb-txt-none lb-h3 lb-title"> Amazon Quantum Ledger Database</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Quantum Ledger Database (QLDB) は、アプリケーションのデータに加えられた不変で暗号で検証可能なすべての変更履歴を提供する完全マネージド型の元帳データベースです。<b><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/">詳細はこちら&nbsp;&raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-amazon-quantum-ledger-database/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Timestream" class="lb-txt-none lb-h3 lb-title"> Amazon Timestream</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Timestream は、IoT および運用アプリケーションにおいてリレーショナルデータベースの 1/10 のコストで 1 日あたり何兆ものイベントを容易に保存、分析できる、高速でスケーラブルな完全マネージド型の時系列データベースです。Amazon Timestream を使用することにより、DevOps のログデータや、IoT アプリケーションのセンサーデータ、機器保守のための工業用テレメトリーデータを簡単に保存、分析できます。<b><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/">詳細はこちら&nbsp;&raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-amazon-timestream/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_RDS_on_VMware" class="lb-txt-none lb-h3 lb-title"> Amazon RDS on VMware</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Relational Database Service (RDS) on VMware を使用することにより、AWS の数十万のお客様が活用している Amazon RDS テクノロジーを使用して、オンプレミスやハイブリッド環境でマネージドデータベースをデプロイできます。RDS on VMware を使用することにより、VMware vSphere の独自データセンターでデータベースの設定、操作、拡張や、AWS への移行が容易に行えます。<b><a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-public-preview-amazon-rds-on-vmware/">詳細はこちら&nbsp;&raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/in-the-works-amazon-rds-on-vmware/">日本語ブログを読む</a> |&nbsp;<a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1203-DAT.html?&amp;trk=el_a131L000006VMfYQAW&amp;trkCampaign=December_1203-DAT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Aurora_Global_Databases" class="lb-txt-none lb-h3 lb-title"> Amazon Aurora Global Databases</h3> 
+       <div class="lb-rtxt"> 
+        <p>Aurora Global Database は、複数の AWS リージョンにまたがって、アプリケーションワークロードに対応できるようデータベースリソースを完全に使用可能な専用インフラストラクチャを使用して、1 秒未満の待ち時間で書き込みをレプリケートできます。世界規模のフットプリントを持つアプリケーションでは低レイテンシーな読み込みのためにセカンダリリージョンのリーダーインスタンスを使用できます。セカンダリリージョンでは災害対策のために 1 分以内に完全な読み書きワークロードを取得できます。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-amazon-aurora-global-database/">詳細はこちら &raquo;</a></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1210-DAT.html?&amp;trk=el_a131L000006VMg7QAG&amp;trkCampaign=December_1210-DAT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="DynamoDB_On-Demand" class="lb-txt-none lb-h3 lb-title"> DynamoDB On-Demand</h3> 
+       <div class="lb-rtxt"> 
+        <p>お客様が消費するリソースのみへの支払いを可能にする新しい請求オプションです。新しい課金オプションにより、あらかじめ設定されたスループットが提供され、ワークロードは毎秒 0から数千件の要求が瞬時に増加し、DynamoDB は、サーバー、ストレージ、またはスループットのキャパシティプランニングを行わずにインターネット規模のパフォーマンスとフルマネージドな体験の組み合わせを提供する最初のデータベースとなります。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-dynamodb-on-demand/"><b>詳細はこちら&nbsp;&raquo;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Developer_Tools" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> 開発者用ツール</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="New_Support_for_Blue.2FGreen_Deployments" class="lb-txt-none lb-h3 lb-title"> 新旧システムの切替構築に新たなサポート</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon ECS と AWS Fargate は AWS CodeDeploy を経由して、新旧のシステムの切替構築をサポートします。新たな本番環境にトラフィックを向ける前に新しいアプリケーションが正常に動作するかどうかの、検証のための構築を容易に自動化できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/the-aws-developer-tools-improve-continuous-delivery-support-for-aws-fargate-and-amazon-ecs/">詳細はこちら &raquo;</a></b></p> 
+        <p>&nbsp;</p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/use-aws-codedeploy-to-implement-blue-green-deployments-for-aws-fargate-and-amazon-ecs/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="New_AWS_Toolkits" class="lb-txt-none lb-h3 lb-title"> 新しい AWS Toolkits</h3> 
+       <div class="lb-rtxt"> 
+        <p>PyCharm 用 AWS Toolkit は、AWS 上で Python アプリケーションを簡単に開発できるようにする新しいオープンソースプラグインです。 このツールキットは、PyCharm でサーバーレスアプリケーションの作成、ステップバイステップのデバッグ、およびデプロイを支援する、統合されたエクスペリエンスを提供します。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-toolkit-for-pycharm/"><b>詳細はこちら &raquo;</b></a></p> 
+        <p>&nbsp;</p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-toolkits-for-pycharm-intellij-preview-and-visual-studio-code-preview/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Internet_of_Things" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> IoT</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_Things_Graph" class="lb-txt-none lb-h3 lb-title"> AWS IoT Things Graph<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS IoT Things Graph を使用すると、センサーやアクチュエータのようなデバイスを接続することで、あるいは、コードをほとんど、またはまったく使用しないウェブサービスを接続することで、IoT アプリケーションを簡単に構築できます。 AWS IoT Things Graph により、連携して動作するよう設計されていないデバイスやサービスを簡単に接続できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/iot-things-graph-now-in-preview/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1217-IOT.html?&amp;trk=el_a131L000006VMgbQAG&amp;trkCampaign=December_1217-IOT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_Events" class="lb-txt-none lb-h3 lb-title"> AWS IoT Events<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS IoT Events は、マネージド型の IoT サービスで、さまざまな IoT センサーやアプリケーションからのイベントを容易に検出して対応できます。 IoT Events は、運用上の問題をすばやく解決し、メンテナンスコストを削減し、運用を効率化し、製品品質を改善するのに役立ちます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-iot-events-now-available-in-preview/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1217-IOT.html?&amp;trk=el_a131L000006VMgbQAG&amp;trkCampaign=December_1217-IOT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="New_Greengrass_Features" class="lb-txt-none lb-h3 lb-title"> 新しい Greengrass の特徴</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS IoT Greengrass の新しい機能には、サードパーティーのアプリケーションおよび AWS サービス、信頼できる秘密鍵ストレージのハードウェアルート、および新しい設定オプションへのコネクタが含まれています。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-iot-greengrass-extends-functionality-with-connectors-to-external-applications-hardware-root-of-trust-security-and-isolation-configurations/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/iot/aws-iot-greengrass-now-enables-simplified-deployments-enhanced-security-and-greater-flexibility/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_SiteWise" class="lb-txt-none lb-h3 lb-title"> AWS IoT SiteWise<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS IoT SiteWise は、産業施設のデータベースから IoT データを簡単に収集、構造化、検索し、設備やプロセスのパフォーマンスを分析するためのマネージドサービスです。 IoT SiteWise により、高コストな内製のデータ収集および管理アプリケーションを構築するのではなく、業務を理解して最適化することに集中できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-iot-sitewise-now-available-in-limited-preview/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1217-IOT.html?&amp;trk=el_a131L000006VMgbQAG&amp;trkCampaign=December_1217-IOT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Partner_Device_Catalog" class="lb-txt-none lb-h3 lb-title"> AWS Partner Device Catalog</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Device Qualification Catalog により、お客様は、Amazon FreeRTOS、AWS IoT Greengrass、AWS IoT Core、Amazon Kinesis Video Streams など、AWS のサービスで動作するデバイスを簡単に見つけることができます。 AWS Device Qualification Program により、AWS パートナーネットワーク （APN） のハードウェアパートナーは、セルフでデバイスに関する資格を取得し、お客様が簡単に購入できるよう、AWS Partner Device Catalog に掲載することができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-device-qualification-program/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/apn/introducing-the-aws-device-qualification-program/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_Service_Delivery_Designations" class="lb-txt-none lb-h3 lb-title"> AWS IoT Service Delivery Designations</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Service Delivery プログラムでは、AWS Partner Network（APN）コンサルティングパートナーが、特定のAWSサービスをお客様に提供した実績を紹介します。 今回の re:Invent で、AWS IoT Core、AWS IoT Analytics、AWS IoT Greengrass の 3 つの新しい AWS IoT Service Delivery を発表しました。 これらの APN パートナーは、関連する AWS サービスの実証された知見と深い専門知識を活用して、安全でスケーラブルな IoT ソリューションを構築します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/new-iot-service-delivery-designations/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/apn/introducing-new-aws-iot-service-delivery-designations/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_Device_Tester_for_Amazon_FreeRTOS" class="lb-txt-none lb-h3 lb-title"> AWS IoT Device Tester for Amazon FreeRTOS<sup> ベータ版</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon FreeRTOS は、Bluetooth Low Energy （BLE） をサポートしました。 この機能により、組み込みアプリの開発者は、BLE を使用して、Amazon FreeRTOS デバイスを、Android および iOS デバイスを経由して AWS IoT に安全に接続できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/bluetooth-low-energy-ble-support-in-amazon-freertos-now-available-in-beta/">詳細はこちら&nbsp;&raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/using-bluetooth-low-energy-with-amazon-freertos-on-espressif-esp32/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Machine_Learning" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> 機械学習</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_SageMaker_Ground_Truth" class="lb-txt-none lb-h3 lb-title"> Amazon SageMaker Ground Truth</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon SageMaker Ground Truth は、人為的な注釈と統合された自動ラベリングを効果的に組み合わせて、高品質で正確なトレーニングデータセットを構築するためのサービスです。Ground Truth を利用することで、モデルが学習して正しい決断を下すのに役立つラベルづけされたデータを使用して訓練を行うことができ、機械学習モデルの成功を促します。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-sagemaker-groundtruth/"><b>詳細はこちら&nbsp;&raquo;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-sagemaker-ground-truth-build-highly-accurate-datasets-and-reduce-labeling-costs-by-up-to-70/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1201-MCL.html?&amp;trk=el_a131L000006VMfOQAW&amp;trkCampaign=December_1201-MCL&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加する</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Forecast" class="lb-txt-none lb-h3 lb-title"> Amazon Forecast<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon.com (http://amazon.com/) で使われるのと同じ技術に基づいて、Amazon Forecast は機械学習を使用して時系列データと追加変数を組み合わせて、高精度の予測を作成します。Amazon Forecast を開始するには、機械学習の経験は必要ありません。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-forecast-now-in-preview/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-forecast-time-series-forecasting-made-easy/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1209-MCL.html?&amp;trk=el_a131L000006VMg2QAG&amp;trkCampaign=December_1209-MCL&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Comprehend_Medical" class="lb-txt-none lb-h3 lb-title"> Amazon Comprehend Medical</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Comprehend Medical は機械学習を用いて、体系化されていない医療テキストのインサイトと関連性を迅速に見つけ出します。Amazon Compehend Medical は HIPAA に適合しており、初期費用不要ですべての開発者が高度な医療テキスト分析へのアクセスができるようになります。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-comprehend-medical"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-comprehend-medical-jp/">日本語ブログを読む</a><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Elastic_Inference" class="lb-txt-none lb-h3 lb-title"> Amazon Elastic Inference</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Elastic Inference は、Amazon SageMaker または Amazon EC2 インスタンスを使用することにより、深層学習推論コストを最大 75 % 削減可能となる高速化されたコンピューティングサービスです。Amazon Elastic Inference は、深層学習推論を実行する SageMaker のエンドポイントや EC2 インスタンスに簡単にアタッチすることができる小規模なサイズの完全な GPU インスタンを提供します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-elastic-inference/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-elastic-inference-gpu-powered-deep-learning-inference-acceleration/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Textract" class="lb-txt-none lb-h3 lb-title"> Amazon Textract<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Textract は、スキャンしたドキュメントからテキストとデータを自動的に検出、抽出するサービスです。Textract は、単純な光学式文字認識 (OCR) を超えて、テーブルに格納されたフォームや情報のフィールドの内容も識別します。Textract により、ドキュメントワークフローを迅速に自動化できるため、1 時間で 100 万ページのドキュメントページを処理できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-textract-now-in-preview-easily-extract-text-and-data-from-virtually-any-document/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-amazon-textract/">日本語ブログを読む</a> |&nbsp;<a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1212-MCL.html?&amp;trk=el_a131L000006VMgHQAW&amp;trkCampaign=December_1212-MCL&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加する</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Personalize" class="lb-txt-none lb-h3 lb-title"> Amazon Personalize<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Personalize は機械学習サービスであり、開発者は個人ごとに適切なタイミングに適切なメッセージでパーソナライズをスケーラブルに作成することができます。Amazon.com (http://amazon.com/) が何百万人もの顧客へ製品レコメンデーションを提供するのと同じパーソナライズ技術に基づいて、Amazon Personalize は顧客データから生成されたインサイトを使用して、特定のニーズに合わせて最適化されたエクスペリエンスを提供します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-personalize-now-in-preview/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-personalize-real-time-personalization-and-recommendation-for-everyone/">日本語ブログを読む</a> | <a href="https://www.youtube.com/watch?v=9tArgQrJBzE">動画を見る</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1209-MCL.html?&amp;trk=el_a131L000006VMg2QAG&amp;trkCampaign=December_1209-MCL&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加する</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Sagemaker_Neo" class="lb-txt-none lb-h3 lb-title"> Amazon Sagemaker Neo</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon SageMaker Neo は、機械学習モデルをトレーニングして、クラウド内またはエッジでどこでも利用でき、最大 2 倍のパフォーマンス改善が可能となります。Amazon SageMaker Neo を利用することで、モデルが構築されたフレームワークとは無関係に、異なるハードウェアプラットフォームにデプロイすることができます。SageMaker Neo は、コンパイラとランタイムを使用してモデルを最適化し、モデルフレームワークやハードウェアに依存しないモデルを作成します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-amazon-sagemaker-neo/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-sagemaker-neo-train-your-machine-learning-models-once-run-them-anywhere/">日本語ブログを読む</a> | <a href="https://www.youtube.com/watch?v=RjhrugELYW8">動画を見る</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_SageMaker_RL" class="lb-txt-none lb-h3 lb-title"> Amazon SageMaker RL</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon SageMaker RL は、自律システム、ロボティクス、運用リサーチをはじめとした多くの分野で実世界の複雑なシナリオを反映するために、開発者やデータサイエンティストが強化学習を使って模擬環境でモデルを構築、訓練およびデプロイできるよう支援します。Amazon SageMker RL は、深層強化学習手法を用いて、学習し、プロトタイプを作成し、迅速に実世界の問題に革新的なソリューションを提供したい開発者を支援します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-sagemaker-announces-support-for-reinforcement-learning/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/amazon-sagemaker-rl-managed-reinforcement-learning-with-amazon-sagemaker/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Translate_Custom_Terminology" class="lb-txt-none lb-h3 lb-title"> Amazon Translate Custom Terminology</h3> 
+       <div class="lb-rtxt"> 
+        <p>Custom Terminology は お客様が企業およびドメイン特有のボキャブラリを使うために、Amazon Translate からの出力をカスタマイズする目的でご利用いただける機能です。お客様は、翻訳リクエストを含むカスタム用語をアップロードし、呼び出すことにより、ブランド名、キャラクター名、モデル名などの独自コンテンツを、コンテクストや Amazon Translate アルゴリズムによる決定にかかわらず、お客様が必要とする形で正確に翻訳させることができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-translate-now-supports-customized-translations/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/introducing-amazon-translate-custom-terminology/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Dynamic_Training_with_Apache_MXNet_on_AWS" class="lb-txt-none lb-h3 lb-title"> Dynamic Training with Apache MXNet on AWS</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS の Apache MXNet による Dynamic Training は、精度を損なうことなく、トレーニングの途中で EC2 スポットインスタンスや RI の追加および削除を柔軟に行うことで、トレーニングにかかるコストを大幅に削減します。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-dynamic-training-with-apache-mxnet/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/machine-learning/introducing-dynamic-training-for-deep-learning-with-amazon-ec2/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Sagemaker_Developer_Enhancements" class="lb-txt-none lb-h3 lb-title"> Amazon Sagemaker Developer Enhancements</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon SageMaker には、機械学習モデルの前処理と後処理を支援する開発者の生産性を向上する機能がいくつか用意されており、機械学習モデルの構築、トレーニング、導入をより簡単に迅速に行えます。 Amazon SageMaker の新しい開発者向け拡張機能は、一般的に必要とされる前処理タスクと後処理タスクが大幅に軽減されるため、機械学習モデルを迅速かつ簡単に導入するのに役立ちます。<br /> </p> 
+       </div> 
+       <div class="lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-now-comes-with-new-capabilities-for-accelerating-machine-learning-experimentation/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_DeepRacer" class="lb-txt-none lb-h3 lb-title"> AWS DeepRacer</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS DeepRacer は 1/18 スケールのレースカーで、強化学習（RL）を始めるための興味深い楽しい方法を提供します。 強化学習 (RL) は、他の機械学習方法よりも訓練モデルに対して大きく異なるアプローチをとる高度な機械学習（ML）技術でです。 そのスーパーパワーは、ラベル付きトレーニングデータを必要とせずに非常に複雑な動作を学習し、長期的な目標を最適化しながら短期的な決定を下すことができるということです。 <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-deepracer/"><b>詳細はこちら &gt;</b></a></p> 
+       </div> 
+       <div class="lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/jp/blogs/news/aws-deepracer-go-hands-on-with-reinforcement-learning-at-reinvent/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1204-MCL.html?&amp;trk=el_a131L000006VMfdQAG&amp;trkCampaign=December_1204-MCL&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーへ参加</a> | <a href="https://www.youtube.com/watch?v=lRGSHtHtcrk">動画を見る</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Sagemaker_Orchestration_and_Management" class="lb-txt-none lb-h3 lb-title"> Amazon Sagemaker Orchestration and Management</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon SageMaker は、開発者が安全で復元力のある機械学習アプリケーションの配信を促進するために、オーケストレーションと管理のいくつかの機能強化を発表しました。 Amazon SageMaker を使用した新しいオーケストレーションと管理機能の拡張により、機械学習モデルを導入するための記述と管理に必要なコードの量が削減されます。<br /> </p> 
+       </div> 
+       <div class="lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebooks-now-support-git-integration-for-increased-persistence-collaboration-and-reproducibility/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_IoT_Greengrass_ML_Inference" class="lb-txt-none lb-h3 lb-title"> AWS IoT Greengrass ML Inference</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS IoT Greengrass ML Inference は、SageMaker の新機能と統合されています。 これにより機械学習の推論を、コンピューティングやストレージの能力が低い場合でも、より高速に、より多くの種類のデバイスで実行できます。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/aws-iot-greengrass-now-supports-amazon-sagemaker-neo/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Management_.26_Governance" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> マネジメントとガバナンス</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_CloudWatch_Logs_Insights" class="lb-txt-none lb-h3 lb-title"> Amazon CloudWatch Logs Insights</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon CloudWatch Logs Insights は、完全に統合された、インタラクティブな、使った分だけお支払いいただく、CloudWatch のログ分析サービスです。 CloudWatch Logs Insights を使用すると、ログをすぐに調査、分析し、可視化して、運用上の問題を簡単にトラブルシューティングできます。 <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Control_Tower" class="lb-txt-none lb-h3 lb-title"> AWS Control Tower<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Control Tower は、安全なマルチアカウント環境をセットアップ、管理する最も簡単な方法です。お客様は、ベストプラクティスの青写真を使って AWS 環境を迅速にセットアップ、設定し、ガードレールで継続的にポリシーを実施し、ダッシュボードで AWS 環境を把握することができます。<a href="/jp/controltower/"><b>詳細はこちら &gt;</b></a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-aws-control-tower/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Well-Architected_Partner_Program" class="lb-txt-none lb-h3 lb-title"> AWS Well-Architected Partner Program</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Well-Architected パートナープログラムは、AWS Partner Network (APN) コンサルティングパートナーをトレーニングし、お客様が AWS Well-Architected フレームワークを活用して優れた設計の習慣を確立し、リスクを排除し、AWS のベストプラクティスと AWS の原則に従うワークロードを設計できるよう支援します。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-well-architected-partners">詳細はこちら &raquo;&nbsp;</a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/apn/introducing-the-aws-well-architected-partner-program/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="CloudWatch_Application_Insights" class="lb-txt-none lb-h3 lb-title"> CloudWatch Application Insights<sup> Preview</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon CloudWatch Application Insights は、.NET および SQL Server アプリケーションの可観測性を可能する新しいサービスです。 CloudWatch Application Insights は、機械学習に基づくインテリジェントな異常検出を活用して、アプリケーションからキーとなるメトリックとログを検出し、SQL サーバへのメモリプレッシャーといった一般的な問題を突き止めます。<a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CHAP_using-service-linked-roles-appinsights.html"><b>詳細はこちら &gt;</b></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Well-Architected_Tool" class="lb-txt-none lb-h3 lb-title"> AWS Well-Architected Tool</h3> 
+       <div class="lb-rtxt"> 
+        <p><span class="tlid-translation translation"><span>AWS Well-Architected Tool は、ワークロードをレビューし、最新の AWS アーキテクチャのベストプラクティスと比較するのに役立ちます。</span> <span>このツールは、AWS ソリューションアーキテクチャチームが実施した数万のワークロードレビューで使用されてきた AWS Well-Architected フレームワークに基づいています。</span> <span>AWS Well-Architected Tool は、5つの柱に沿ったアーキテクチャガイダンスを提供し、アプリケーションのニーズに合わせた設計を実装するのに役立ちます。</span> <span><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-well-architected-tool/"><b>詳細はこちら &raquo;</b></a></span></span></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/aws-new-aws-well-architected-tool-review-workloads-against-best-practices/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Serverless_Application_Repository" class="lb-txt-none lb-h3 lb-title"> AWS Serverless Application Repository</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Serverless Application Repository は、ネストされたアプリケーションをサポートするようになりました。 プロジェクトやチーム内で共通のサーバーレスパターンが出現すると、それらをネストされたアプリケーションとして配布してデプロイし、ベストプラクティスを確保しながら新しいアーキテクチャを迅速に開発することができます。 <a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/sam-supports-nested-applications-using-serverless-application-repository/"><b>詳細はこちら &raquo;</b></a></p> 
+        <p>&nbsp;</p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1205-SRV.html?&amp;trk=el_a131L000006VMfiQAG&amp;trkCampaign=December_1205-SRV&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーへ参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Marketplace" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> Marketplace</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Marketplace_for_Containers" class="lb-txt-none lb-h3 lb-title"> AWS Marketplace for Containers</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Marketplace for Containers により、お客様は AWS Marketplace と Amazon ECS コンソールでコンテナ製品を見つけることができます。AWS Marketplace for Containers を利用することで、Amazon ECS や Amazon EKS などの Amazon コンテナサービス群にコンテナ製品を簡単にデプロイすることができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-announces-new-container-products-in-awsmarketplace">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-aws-marketplace-for-containers/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Private_Marketplace" class="lb-txt-none lb-h3 lb-title"> Private Marketplace</h3> 
+       <div class="lb-rtxt"> 
+        <p>Private Marketplace では、AWS Marketplace のサードパーティーソフトウェア製品のカスタムデジタルカタログを作成することができます。Private Marketplace により、管理者は AWS Marketplace の数千のリストから選択し、製品の一覧を作成し、ユーザーが AWS 上で実行したい製品を管理することができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/awsmarketplace-makes-it-easier-to-govern-software-procurement-with-privatemarketplace">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-marketplace-makes-it-easier-to-govern-software-procurement-with-private-marketplace/">日本語ブログを読む</a><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Marketplace_for_Machine_Learning" class="lb-txt-none lb-h3 lb-title"> AWS Marketplace for Machine Learning</h3> 
+       <div class="lb-rtxt"> 
+        <p>Private Marketplace では、AWS Marketplace のサードパーティーソフトウェア製品のカスタムデジタルカタログを作成することができます。Private Marketplace により、管理者は AWS Marketplace の数千のリストから選択し、製品の一覧を作成し、ユーザーが AWS 上で実行したい製品を管理することができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/awsmarketplace-makes-it-easier-to-build-machine-learning-applications-on-amazonsagemaker/">詳細はこちら &gt;&gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/aws/new-machine-learning-algorithms-and-model-packages-now-available-in-aws-marketplace/">ブログを読む</a><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Media_Services" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> メディアサービス</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Elemental_MediaConnect" class="lb-txt-none lb-h3 lb-title"> AWS Elemental MediaConnect</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Elemental MediaConnect は、信頼性のある、セキュアで、柔軟な高品質のライブ映像の転送サービスです。最新のクラウドベースの動画ワークフローを構築し、安全に映像を共有し、そして AWS のクラウドの内外の送信先に映像を送出します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-elemental-mediaconnect/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-elemental-mediaconnect-for-ingestion-and-distribution-of-video-in-the-cloud/">日本語ブログを読む</a><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Transfer_and_Migration" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> 移行とデータ転送</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6; padding-bottom:30px;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Transfer_for_SFTP" class="lb-txt-none lb-h3 lb-title"> AWS Transfer for SFTP</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Transfer for SFTP は、Amazon S3 と連携したフルマネージドで安全なファイル転送サービスであるため、SFTP インフラストラクチャを実行する必要はありません。必要に応じて、既存の Active Directory、または LDAP 認証システムと統合することで、パートナーやお客様のクライアントアプリケーションやプロセスを中断することなく、ファイル転送ワークフローをシームレスに AWS に移行できます。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-transfer-for-sftp-fully-managed-sftp-for-s3">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/">日本語ブログを読む</a> | <a href="https://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3">ウェビナーへ参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_DataSync" class="lb-txt-none lb-h3 lb-title"> AWS DataSync</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS DataSync を使用すると、オープンソースツールと比較して最大 10 倍高速に、 AWS にオンラインでデータを転送できます。DataSync は NFS 経由でオンプレミスのストレージに接続し、移行、データ処理、またはテータ保護用途における Amaszon S3、Amazon EFS へのデータ転送を自動化します。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-datasync-for-accelerated-online-data-transfer">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-datasync-automated-and-accelerated-data-transfer/">日本語ブログを読む</a>&nbsp;| <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1221-STG.html?&amp;trk=el_a131L000006VMgvQAG&amp;trkCampaign=December_1221-STG&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーへ参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Mobile" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> モバイル</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Amplify_Console" class="lb-txt-none lb-h3 lb-title"> AWS Amplify Console</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Amplify Console は、クラウドベースのモダン ウェブアプリケーションの継続的なデプロイメントとホスティングを提供します。 モダン ウェブアプリケーションは、ページのリロードをせずにフロントエンド、またはブラウザへのユーザーインターフェイスを提供することにより、ネイティブアプリのような体験を提供します。 フロントエンドは、地理的に分散したコンテンツ配信ネットワーク（CDN）上に静的コンテンツとしてホストされており、低レイテンシーでコンテンツをグローバルに配信できます。 バックエンドはサーバーレスであり、開発者はサーバーを管理せずにコードを書くことに専念できます。Amplify Console は、フロントエンドと（サーバーレスの）バックエンドアップデートを、'git push' ごとの単一ワークフローでデプロイするための簡素化されたワークフローを提供します。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-amplify-console">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-rtxt"> 
+        <p style="text-align: right;"><a href="https://aws.amazon.com/blogs/mobile/aws-mobile-gets-amplified/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Networking_and_Content_Delivery" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> ネットワークとコンテンツ配信</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Global_Accelerator" class="lb-txt-none lb-h3 lb-title"> AWS Global Accelerator</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Global Accelerator は、世界中に利用者がいるようなアプリケーションにおいて、可用性とパフォーマンスを向上するネットワークサービスです。アプリケーションエンドポイントの状態を継続的に監視し、AWS のグローバルネットワークを使って最も近い正常なネットワークのエンドポイントへ経路を変更します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-global-accelerator/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-monday-nightlive-aws-global-accelarator/">日本語ブログを読む</a><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_API_Gateway_support_for_WebSocket_APIs_" class="lb-txt-none lb-h3 lb-title"> Amazon API Gateway support for WebSocket APIs <sup> 近日リリース</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon API Gateway は WebSocket API をサポートし、リアルタイム双方向通信アプリケーションを構築できるようになりました。 お客様はサーバーレス API を使用して、ユーザーとバックエンドサービス間の接続やメッセージ転送を処理できるため、チャットアプリケーション、ストリーミングダッシュボードなどを簡単に構築してホストすることができます。<br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1211-SRV.html?&amp;trk=el_a131L000006VMgCQAW&amp;trkCampaign=December_1211-SRV&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加する</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Elastic_Fabric_Adapter" class="lb-txt-none lb-h3 lb-title"> Elastic Fabric Adapter<sup> 近日リリース</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Elastic Fabric Adapter (EFA) は、Amazon EC2 インスタンス のネットワークインターフェースです。数値流体力学、気象モデル、貯留層シミュレーションといった、高いレベルのノード間通信を必要とするハイパフォーマンスコンピューティング（HPC）アプリケーションの実行を可能にします。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-elastic-fabric-adapter/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Transit_Gateway" class="lb-txt-none lb-h3 lb-title"> AWS Transit Gateway</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Transit Gateway は、数千におよぶ Amazon VPC、AWS アカウント、オンプレミスのネットワークとの接続を容易に管理します。AWS Transit Gateway は管理をシンプルにし、オペレーションコストを削減します。それぞれのネットワークは、ただ AWS Transit Gateway に接続すればよく、その時点で他のネットワークからも利用できるようになります。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-transit-gateway/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-aws-transit-gateway/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1218-NET.html?&amp;trk=el_a131L000006VMggQAG&amp;trkCampaign=December_1218-NET&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーへ参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_App_Mesh" class="lb-txt-none lb-h3 lb-title"> AWS App Mesh<sup> ベータ版</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS App mesh を使用することにより、AWS 上のマイクロサービスを簡単に制御、監視することができます。App Mesh は、マイクロサービスのすべての通信を管理し、可視性、トラブルシューティングおよびデプロイを簡素化します。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-app-mesh---service-mesh-for-microservices-on-aws/">詳細はこちら &gt;</a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent2018-aws-app-mesh/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Cloud_Map" class="lb-txt-none lb-h3 lb-title"> AWS Cloud Map</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Cloud Map はお客様のクラウド上の地図です。Cloud Map を使用すると、アプリケーションリソースのカスタム名を定義し、これらの動的に変化するリソースが更新された場所を管理することができます。これにより、ウェブサービスは常にそのリソースの最新の場所を検出するため、アプリケーションの可用性が向上します。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/introducing-aws-cloud-map/">詳細はこちら &gt;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-application-integration-with-aws-cloud-map-for-service-discovery/">日本語ブログ 1 を読む</a> | <a href="https://aws.amazon.com/jp/blogs/news/new-application-integration-with-aws-cloud-map-for-service-discovery/">日本語ブログ 2 を読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#FFFFFF; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Robotics" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title"> ロボティクス</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#FFFFFF;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_RoboMaker" class="lb-txt-none lb-h3 lb-title"> AWS RoboMaker</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS RoboMaker はインテリジェントロボットアプリケーションの開発、テスト、およびデプロイを容易にするサービスです。 AWS RoboMaker には、インテリジェントなロボティクスアプリケーションをより使いやすくするためのツール、迅速かつ容易なテストのためのフルマネージド型のシミュレーションサービス、ライフサイクル管理のためのデプロイメントサービスがあります。AWS RoboMaker を使うことで、ロボティクス開発環境で生じる各ステップの作業を取り除くことができ、ロボットアプリケーション開発に集中できます。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-robomaker-a-new-cloud-robotics-service">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/aws-robomaker-develop-test-deploy-and-manage-intelligent-robotics-apps/">日本語ブログを読む</a> |&nbsp;<a href="https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-announces-aws-robomaker">プレスリリース</a>&nbsp;| <a href="https://www.youtube.com/watch?v=U1ukEpzKCYY">動画を見る</a>&nbsp;| <a href="https://www.youtube.com/watch?v=HAela66zov0" target="_blank">セミナーを見る</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1220-RBT.html?&amp;trk=el_a131L000006VMgqQAG&amp;trkCampaign=December_1220-RBT&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Satellite" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> 人工衛星</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Ground_Station" class="lb-txt-none lb-h3 lb-title"> AWS Ground Station<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Ground Station は、フルマネージド型の Ground Station-as-a-Service (GSaaS) です。このサービスは、衛星通信を制御したり、衛星データを地上局に送出したり、独自の地上局の建設や管理を気にすることなく、容易にコスト効率よく衛星の運用をスケールできます。AWS Ground Station なら、独自の地上局の建設や運用の代わりに、フルマネージド型の Ground Station-as-a-Service を利用することで、コストの80%を削減することができます。もはや長期の契約も不要で、アンテナを使用した分だけ料金を支払い、ビジネスのニーズに合わせてオンデマンドで衛星通信を使用でき、容易にコスト効率よく衛星の運用を素早くスケールします。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-ground-station-preview">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/aws-ground-station-ingest-and-process-data-from-orbiting-satellites/">日本語ブログを読む</a> | <a href="https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-announces-aws-ground-station">プレスリリース</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#ffffff; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Security.2C_Identity.2C_.26_Compliance" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> セキュリティ、アイデンティティ、コンプライアンス</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#ffffff;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Security_Hub" class="lb-txt-none lb-h3 lb-title"> AWS Security Hub<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Security Hub は、優先度の高いセキュリティアラートと AWS アカウントにおけるコンプライアンスの状況を、複数のAWSやパートナーのサービスから得たセキュリティの懸念点を集約し優先順位をつけることで可視化します。双方向型のダッシュボードを用いて、その環境における潜在的な問題また解決する為の初期対応を継続的に監視し、ベストプラクティスと業界標準に適合しているか、コンプラインアンスの確認を自動化することができます。<b><a href="https://aws.amazon.com/security-hub/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/reinvent-2018-andy-keynote-aws-security-hub/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1216-SID.html?&amp;trk=el_a131L000006VMgWQAW&amp;trkCampaign=December_1216-SID&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=jp&amp;sc_country=jp">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="KMS_Custom_Key_Store" class="lb-txt-none lb-h3 lb-title"> KMS Custom Key Store</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Key Management Service (KMS) は、CloudHSM クラスターを使用して専用のシングルテナントカスタムキーストアを作成するオプションを提供します。 これによりお客様は、CloudHSM が提供するコントロールと分離を、統合および AWS 全体の暗号化キーを管理するための KMS の使い易さとともに実現できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/announcing-aws-key-management-service-kms-custom-key-store/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/security/are-kms-custom-key-stores-right-for-you/">ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-grid" style="background-color:#f1f4f6; padding-top:10px; padding-bottom:20px; margin-top:30px; margin-bottom:0px;"> 
+     <div class="lb-row lb-row-max-large lb-snap"> 
+      <div class="lb-col lb-tiny-24 lb-mid-24"> 
+       <h1 id="Storage" class="lb-txt-light lb-txt-none lb-none-v-margin lb-h1 lb-title" style="margin-top:20px;"> ストレージ</h1> 
+       <hr class="lb-tiny-v-margin lb-divider" /> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_Elastic_File_System_Infrequent_Access" class="lb-txt-none lb-h3 lb-title"> Amazon Elastic File System Infrequent Access<sup> 近日リリース</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon Elastic File System Infrequent Access は新しいファイルシステムを作成し、ライフサイクル管理を有効にすることで、EFS IA の使用を開始することができます。ライフサイクル管理を有効にすると、EFS は、30日間アクセスされていないファイルを標準ストレージクラスから低頻度アクセスストレージクラスに自動的に移動し、最大 80% の EBS のコストを削減させることができます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/coming-soon-amazon-efs-infrequent-access-storage-class/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="S3_Object_Lock" class="lb-txt-none lb-h3 lb-title"> S3 Object Lock</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon S3 Object Lock は、ユーザーが定義した保持期間中にオブジェクトの削除を制御する新しい S3 の機能です。これにより、データ保護の追加レイヤーとして、または法令順守のために保持ポリシーを適用できます。Retain Until Date 前のオブジェクトをAmazon S3 から削除することを防止するため、オブジェクトに対して write-once-read-many (WORM) 保護を適用するバケットレベルのポリシーを書き込むことが可能です。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/s3-object-lock/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_S3_Glacier_Deep_Archive" class="lb-txt-none lb-h3 lb-title"> Amazon S3 Glacier Deep Archive<sup> 近日リリース</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon S3 Glacier Deep Archive は、新しい Amazon S3 ストレージクラスであり、AWS サービスの中でも最も低いコストで、長期間のデータ保持とデジタル保存のためのセキュアで耐久性のあるオブジェクトストレージを提供します。 S3 Glacier Deep Archive は、稀にしかアクセスする必要のないデータのアーカイブで耐久性のある複製を作成しようとするお客様にとって、理想的なストレージクラスです。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/s3-glacier-deep-archive/">詳細はこちら &gt;</a><br /> </p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Four_New_Amazon_S3_Features" class="lb-txt-none lb-h3 lb-title"> Amazon S3 の4つの新機能</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon S3 は、Glacier ストレージクラスを使用したアーカイブアプリケーションの構築をさらに容易にするため、別の AWS リージョンの S3 Glacier へのワンクリックデータレプリケーションを有効にすることで、ストレージコストを削減する４つの新機能をサポートしました。S3 PUT から Glacier へのクロスリージョンレプリケーション、 Glacier への S3 クロスリージョンレプリケーション、復元の通知、復元速度のアップグレード。これにより効率的に Glacier をご利用いただくことでコスト削減を実現できます。<b><a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/s3-glacier-api-simplification/">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/architecture/amazon-s3-amazon-s3-glacier-launch-announcements-for-archival-workloads/">ブログを読む</a>&nbsp;| <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1215-STG.html?&amp;trk=el_a131L000006VMgRQAW&amp;trkCampaign=December_1215-STG&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_FSx_for_Windows_File_Server" class="lb-txt-none lb-h3 lb-title"> Amazon FSx for Windows File Server</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon FSx for Windows File Server は、最大数千の計算インスタンスからアクセス可能なフルマネージド型のネイティブな Windows ファイルシステムを提供します。Windows Server および SSD ストレージ上に構築することで、Amazon FSx は、Windows ベースのアプリケーションに準拠した互換性、機能、およびパフォーマンスを持つ Windows 共有ファイルストレージを提供します。これにより、Windows ベースのアプリケーションを AWS に簡単に移行できます。<a href="https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-fsx-windows/">詳細はこちら &gt;&gt;</a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-amazon-fsx-for-windows-file-server-fast-fully-managed-and-secure/">日本語ブログを読む</a> | <a href="https://pages.awscloud.com/AWS-Online-Tech-Talks_2018_1207-STG.html?&amp;trk=el_a131L000006VMfsQAG&amp;trkCampaign=December_1207-STG&amp;sc_channel=el&amp;sc_campaign=pac_Q4-2018_exlinks_recap_OTT_12DGAB&amp;sc_outcome=Product_Adoption_Campaigns&amp;sc_geo=NAMER&amp;sc_country=US">ウェビナーに参加</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_FSx_for_Lustre" class="lb-txt-none lb-h3 lb-title"> Amazon FSx for Lustre</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon FSx for Lustre は、コンピューティング集約型ワークロード向けに最適化され、Amazon S3 と統合された、フルマネージド型のファイルシステムです。 ハイパフォーマンスコンピューティング（HPC）や機械学習などのコンピューティング集約型ワークロードの場合、Lustreでは、FSXのスケールとパフォーマンスを、ファイルベースのデータを最大数百ギガバイト/秒のスループット、数百万 IOPS、およびサブミリ秒の待ち時間でレバレッジできます。<a href="https://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-fsx-lustre/">詳細はこちら&gt;&gt;</a><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/blogs/aws/new-amazon-fsx-for-lustre">ブログを読む</a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="AWS_Snowball_Edge_Compute_Optimized" class="lb-txt-none lb-h3 lb-title"> AWS Snowball Edge Compute Optimized</h3> 
+       <div class="lb-rtxt"> 
+        <p>AWS Snowball Edge のコンピュート最適化インスタンスが米国東部（バージニア州）、米国西部（オレゴン州）、米国西部（カリフォルニア北部）、GovCloud（米国西部）、およびEU（アイルランド）で利用可能になりました。物理的に過酷な場所やオフラインの場所でコンピューティングを集中的に使用するアプリケーション用に、52の vCPU、208GB のメモリ、7.68TB の NVMe SSD、および 42TB の S3 互換ストレージを提供します。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/aws-snowball-edge-compute-optimized-is-available">詳細はこちら &gt;&gt;</a></b></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="S3_Batch_Operations" class="lb-txt-none lb-h3 lb-title"> S3 Batch Operations<sup> プレビュー</sup> </h3> 
+       <div class="lb-rtxt"> 
+        <p>S3 Batch Operations は Amazon S3 に格納されている数十億のオブジェクトを、単一の API リクエストまたは S3 管理コンソールで数回クリックするだけで簡単に管理できる新しい機能です。S3 オブジェクトの一括処理に必要な API アクションを実行するために、カスタムアプリケーションソフトウェアを作成するために必要な開発時間とリソースを最大 3 か月間節約できます。また、この機能を使用して、数十億（数十億）の S3 オブジェクトのカスタム AWS Lambda 機能を実行して、データの処理やイメージファイルのトランスコードなど、より複雑なタスクを実行することもできます。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/s3-batch-operations">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="lb-none-v-margin lb-grid" style="background-color:#f1f4f6;"> 
+     <div class="lb-row lb-row-max-large lb-snap lb-gutter-mid"> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="S3_Intelligent-Tiering_.28S3_INT.29" class="lb-txt-none lb-h3 lb-title"> S3 Intelligent-Tiering (S3 INT)</h3> 
+       <div class="lb-rtxt"> 
+        <p>S3 Intelligent-Tieringは、アクセス・パターンが変化したときに頻繁にアクセスされるアクセスと頻繁にアクセスされないアクセス・ティア間でデータを移動することで、アクセス・パターンが未知または変化するデータに理想的な自動コスト削減を提供します。頻繁にアクセスするために最適化された 1 つの層と、まれなアクセスに最適化された低コスト層の 2 つのアクセス層にオブジェクトを格納し、30 日間連続してアクセスされていないオブジェクトを低頻度のアクセス層に移動します。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/s3-intelligent-tiering">詳細はこちら &raquo;</a></b><br /> </p> 
+       </div> 
+       <div class="lb-tiny-align-right lb-rtxt"> 
+        <p><a href="https://aws.amazon.com/jp/blogs/news/new-automatic-cost-optimization-for-amazon-s3-via-intelligent-tiering/">日本語ブログを読む</a></p> 
+       </div> 
+      </div> 
+      <div class="lb-col lb-tiny-24 lb-mid-12"> 
+       <h3 id="Amazon_EBS_Doubles_Max_Performance_of_io1_Volumes" class="lb-txt-none lb-h3 lb-title"> Amazon EBS Doubles Max Performance of io1 Volumes</h3> 
+       <div class="lb-rtxt"> 
+        <p>Amazon EBS の Provisioned IOPS (io1) のピークパフォーマンスは、32,000 IOPSから64,000 IOPSに、また500Mbpsから1,000MB /秒のスループットを、Nitro システム EC2 インスタンスに接続すると、最大2倍の向上を実現できます。これらのパフォーマンス向上により、大規模なトランザクショナルデータベース、ビッグデータ分析、ログ処理アプリケーションなど、高性能ストレージを必要とするアプリケーションをより簡単に実行します。<b><a href="http://aws.amazon.com/jp/about-aws/whats-new/2018/11/amazon-elastic-block-store-announces-double-the-performance-of-provisioned-iops-volumes">詳細はこちら &raquo;</a></b></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </main> 
+  </div> 
+  <footer id="aws-page-footer" class="m-page-footer" role="contentinfo"> 
+   <div data-url="https://dc.ads.linkedin.com/collect/?pid=3038&amp;fmt=gif" data-lb-comp="tracking-pixel"></div> 
+   <div data-lb-comp="google-rlsa-pixel"></div> 
+   <div class="data-attr-wrapper lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;" data-da-type="so" data-da-so-type="viewport" data-da-so-language="jp" data-da-so-category="monitoring" data-da-so-name="footer" data-da-so-version="a"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1 lb-small-xb-3 lb-large-xb-5"> 
+     <div class="lb-xbcol"> 
+      <div class="data-attr-wrapper lb-small-hide lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="jp" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signin-mobile-default"> 
+       <a class="lb-btn-p-primary" href="https://console.aws.amazon.com/console/home?nc1=f_ct&amp;src=footer-signin-mobile" role="button"> <span> コンソールにサインイン</span> </a> 
+      </div> 
+      <h3 id="Learn_About_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> AWS について学ぶ</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/jp/what-is-aws/?nc1=f_cc" target="_blank">AWS とは</a></li> 
+       <li><a href="/jp/what-is-cloud-computing/?nc1=f_cc" target="_blank">クラウドコンピューティングとは</a></li> 
+       <li><a href="/jp/devops/what-is-devops/?nc1=f_cc" target="_blank">DevOps とは</a></li> 
+       <li><a href="/jp/containers/?nc1=f_cc" target="_blank">コンテナとは</a></li> 
+       <li><a href="/jp/big-data/datalakes-and-analytics/what-is-a-data-lake/?nc1=f_cc" target="_blank">データレイクとは</a></li> 
+       <li><a href="/jp/security/?nc1=f_cc" target="_blank">AWS クラウドセキュリティ</a></li> 
+       <li><a href="/jp/new/?nc1=f_cc" target="_blank">最新情報</a></li> 
+       <li><a href="/jp/blogs/news/?nc1=f_cc" target="_blank">ブログ</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Resources_for_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> AWS のリソース</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/jp/getting-started/?nc1=f_cc" target="_blank">開始方法</a></li> 
+       <li><a href="/jp/training/?nc1=f_cc" target="_blank">トレーニングと認定</a></li> 
+       <li><a href="/jp/solutions/?nc1=f_cc" target="_blank">AWS ソリューションポートフォリオ</a></li> 
+       <li><a href="/jp/architecture/?nc1=f_cc" target="_blank">アーキテクチャセンター</a></li> 
+       <li><a href="/jp/faqs/?nc1=f_dr" target="_blank">製品と技術上のよくある質問</a></li> 
+       <li><a href="/jp/resources/analyst-reports/?nc1=f_cc" target="_blank">アナリストレポート</a></li> 
+       <li><a href="/jp/partners/?nc1=f_dr" target="_blank">AWS パートナーネットワーク</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Developers_on_AWS" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> AWS を利用する開発者</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/jp/developer/?nc1=f_dr" target="_blank">開発者センター</a></li> 
+       <li><a href="/jp/developer/tools/?nc1=f_dr" target="_blank">SDK とツール</a></li> 
+       <li><a href="/jp/developer/language/python/?nc1=f_dr" target="_blank">AWS での Python</a></li> 
+       <li><a href="/jp/developer/language/java/?nc1=f_dr" target="_blank">AWS での Java</a></li> 
+       <li><a href="/jp/developer/language/php/?nc1=f_cc" target="_blank">AWS での PHP</a></li> 
+       <li><a href="/jp/developer/language/javascript/?nc1=f_dr" target="_blank">AWS での JavaScript</a></li> 
+      </ul> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <h3 id="Help" class="lb-txt-none lb-txt-p-chromium lb-tiny-v-margin lb-h3 lb-title"> ヘルプ</h3> 
+      <ul class="lb-txt-p-chromium lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-block" style="margin-bottom:0px;"> 
+       <li><a href="/jp/contact-us/?nc1=f_m" target="_blank">お問い合わせ</a></li> 
+       <li><a href="/jp/careers/?nc1=f_hi" target="_blank">AWS の採用情報</a></li> 
+       <li><a href="https://console.aws.amazon.com/support/home/?nc1=f_dr" target="_blank">サポートチケットを申請する</a></li> 
+       <li><a href="/jp/premiumsupport/knowledge-center/?nc1=f_dr" target="_blank">ナレッジセンター</a></li> 
+       <li><a href="/jp/premiumsupport/?nc1=f_dr" target="_blank">AWS サポートの概要</a></li> 
+       <li><a href="/jp/legal/?nc1=f_cc" target="_blank">法務関連</a></li> 
+      </ul> 
+      <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_footer-v3_addl-help" data-lb-comp-ignore="true"> 
+      </div> 
+     </div> 
+     <div class="lb-xbcol"> 
+      <div class="lb-mbox js-mbox" data-lb-comp="mbox" data-mbox="en_footer-v3_cta" data-lb-comp-ignore="true"> 
+       <div class="data-attr-wrapper lb-tiny-hide lb-small-show lb-btn" data-da-type="so" data-da-so-type="viewport" data-da-so-language="jp" data-da-so-category="monitoring" data-da-so-name="footer_buttons" data-da-so-url="all" data-da-so-version="footer_signup-default"> 
+        <a class="lb-btn-p-primary" href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc1=f_ct&amp;src=default" role="button"> <span> AWS アカウントを作成する</span> </a> 
+       </div> 
+      </div> 
+      <div class="lb-xb-grid-wrap" style="padding-left:0px; margin-top:20px;"> 
+       <div class="lb-xb-grid lb-row-max-large lb-xb-equal-height lb-snap lb-gutter-collapse lb-vgutter-collapse lb-tiny-xb-auto"> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="twitter" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-left:0px; padding-right:12px;" href="https://twitter.com/awscloud_jp" target="_blank" title="Twitter"> <i class="icon-twitter"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="facebook" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-none-v-margin lb-txt" style="padding-right:12px;" href="https://www.facebook.com/アマゾン-ウェブ-サービス-600986860012140" target="_blank" title="Facebook"> <i class="icon-facebook"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="twitch" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://www.twitch.tv/aws" target="_blank" title="Twitch"> <i class="icon-twitch"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="aws-podcast" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://aws.amazon.com/podcasts/aws-podcast/" target="_blank" title="Podcast"> <i class="icon-podcast"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="newsletter" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://pages.awscloud.com/communication-preferences?trk=homepage&amp;languages=japanese" target="_blank" title="Email"> <i class="icon-envelope-o"></i></a> 
+         </div> 
+        </div> 
+        <div class="lb-xbcol"> 
+         <div class="lb-data-attr-wrapper data-attr-wrapper" data-da-so-category="monitoring" data-da-so-url="all" data-da-so-version="press-releases" data-da-so-language="jp" data-da-so-name="footer-socials" data-da-type="so" data-da-so-type="viewport"> 
+          <a class="lb-txt-none lb-txt-p-chromium lb-none-pad lb-txt" style="padding-right:12px;" href="https://press.aboutamazon.com/press-releases/aws" target="_blank" title="Press Release"> <i class="icon-newspaper-o"></i></a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="lb-txt-normal lb-txt-white lb-txt-14 lb-rtxt" style="color:#eaeded; margin-top:0px;"> 
+       <div>
+         Amazon は機会均等法を順守しています。 
+        <i>少数民族の出身者、女性、障害者、兵役経験者、性同一性障害者、同性愛者も平等に採用しています。</i> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#242F3E;"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
+     <div class="lb-xbcol"> 
+      <ul class="lb-txt-p-chromium lb-tiny-iblock lb-none-v-margin lb-ul lb-list-style-none lb-li-micro-v-margin lb-tiny-ul-iblock"> 
+       <li class="lb-txt-bold">言語</li> 
+       <li data-language="ar"><a href="https://aws.amazon.com/ar/?nc1=h_ls">عربي</a></li> 
+       <li data-language="id"><a href="https://aws.amazon.com/id/?nc1=h_ls">Bahasa Indonesia</a></li> 
+       <li data-language="de"><a href="https://aws.amazon.com/de/?nc1=h_ls">Deutsch</a></li> 
+       <li data-language="en"><a href="https://aws.amazon.com/?nc1=h_ls">English</a></li> 
+       <li data-language="es"><a href="https://aws.amazon.com/es/?nc1=h_ls">Espa&ntilde;ol</a></li> 
+       <li data-language="fr"><a href="https://aws.amazon.com/fr/?nc1=h_ls">Fran&ccedil;ais</a></li> 
+       <li data-language="it"><a href="https://aws.amazon.com/it/?nc1=h_ls">Italiano</a></li> 
+       <li data-language="pt"><a href="https://aws.amazon.com/pt/?nc1=h_ls">Portugu&ecirc;s</a></li> 
+       <li data-language="vi"><a href="https://aws.amazon.com/vi/?nc1=f_ls">Tiếng Việt</a></li> 
+       <li data-language="tr"><a href="https://aws.amazon.com/tr/?nc1=h_ls">T&uuml;rk&ccedil;e</a></li> 
+       <li data-language="ru"><a href="https://aws.amazon.com/ru/?nc1=h_ls">Ρусский</a></li> 
+       <li data-language="th"><a href="https://aws.amazon.com/th/?nc1=f_ls">ไทย</a></li> 
+       <li data-language="jp"><a href="https://aws.amazon.com/jp/?nc1=h_ls">日本語</a></li> 
+       <li data-language="ko"><a href="https://aws.amazon.com/ko/?nc1=h_ls">한국어</a></li> 
+       <li data-language="cn"><a href="https://aws.amazon.com/cn/?nc1=h_ls">中文 (简体)</a></li> 
+       <li data-language="tw"><a href="https://aws.amazon.com/tw/?nc1=h_ls">中文 (繁體)</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="lb-none-pad lb-none-v-margin lb-xb-grid-wrap" style="background-color:#EAEDED; padding-top:5px;"> 
+    <div class="lb-xb-grid lb-row-max-large lb-snap lb-tiny-xb-1"> 
+     <div class="lb-xbcol"> 
+      <ul class="lb-txt-p-squid-ink lb-none-v-margin lb-ul lb-list-style-none lb-li-none-v-margin lb-tiny-ul-iblock"> 
+       <li><a href="https://aws.amazon.com/privacy/?nc1=f_pr">プライバシー</a></li> 
+       <li>|</li> 
+       <li><a href="https://aws.amazon.com/terms/?nc1=f_pr">サイト規約</a></li> 
+       <li>|</li> 
+       <li>&copy; 2019, Amazon Web Services, Inc. or its affiliates.All rights reserved.</li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <div id="aws-page-end"></div> 
+  <div id="lb-page-end"></div> 
+  <script src="https://a0.awsstatic.com/pre-offer/1.0.11/content/sitePriv/main.js" async=""></script> 
+  <script src="https://a0.awsstatic.com/da/js/1.0.38/aws-da.js"></script> 
+  <!-- SiteCatalyst code version: H.25.1. Copyright 1996-2012 Adobe, Inc. All Rights Reserved --> 
+  <script><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
+  <script><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script> 
+  <noscript> 
+   <img src="//amazonwebservices.d2.sc.omtrdc.net/b/ss/awsamazonalldev2/1/H.25.1--NS/0" height="1" width="1" border="0" alt="" /> 
+  </noscript> 
+  <!--/DO NOT REMOVE/--> 
+  <!-- End SiteCatalyst code version: H.25.1. --> 
+  <!--[if lte IE 9]>
+  <script>
+    jQuery = $ = undefined;
+  </script>
+  <p class="deprecated-browser-support-message">
+    <strong>古い</strong>ブラウザが使用されています。正常に表示するには、Internet Explorer 11 にアップグレードするか、別の最新のブラウザを使用してください。<img src="https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_:comp_DeprecatedBrowser@v=1:u=c?dataset=LIVE:PROD&instance=PUB&client=dsk&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567"
+           alt="deprecated-browser pixel tag" />
+      </p>
+<![endif]--> 
+  <script>
+  if (document.documentMode === 10) {
+    var msg = '<strong>古い</strong>ブラウザが使用されています。正常に表示するには、Internet Explorer 11 にアップグレードするか、別の最新のブラウザを使用してください。';
+    $('html').addClass('unsupported-version');
+    $(document.body).append('<p class="deprecated-browser-support-message">' + msg + '<img src="https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_:comp_DeprecatedBrowser@v=1:u=c?dataset=LIVE:PROD&instance=PUB&client=dsk&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567" alt="deprecated-browser pixel tag" /></p>');
+    jQuery = $ = undefined;
+  }
+</script> 
+  <!-- updated_at: 2019-11-25T20:32:08.549-0800 -->  
+ </body>
+</html>

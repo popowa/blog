@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'ayakomuro'
 SITENAME = 'popowa'
-SITEURL = 'http://blog.popowa.com'
+SITEURL = 'https://blog.popowa.com/'
 #SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
@@ -29,7 +29,7 @@ AUTHOR_FEED_RSS = None
 #SOCIAL = (('Twitter', 'https://twitter.com/ayakomuro'),
 #         ('popowa', 'http://www.popowa.com'),)
 
-MENUITEMS = (('TOP', 'http://blog.popowa.com'),
+MENUITEMS = (('TOP', 'https://blog.popowa.com'),
             ('About Aya', 'http://www.popowa.com'),
             ('Twitter', 'https://twitter.com/ayakomuro'),
             ('Github', 'https://github.com/popowa'))
